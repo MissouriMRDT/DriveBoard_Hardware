@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -160,10 +160,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="7.62" x2="124.44" y2="7.62" width="0" layer="20"/>
+<wire x1="15.24" y1="7.62" x2="124.44" y2="7.62" width="0" layer="20"/>
 <wire x1="124.44" y1="7.62" x2="124.44" y2="55.8675" width="0" layer="20"/>
-<wire x1="124.44" y1="55.8675" x2="0" y2="55.8675" width="0" layer="20"/>
-<wire x1="0" y1="55.8675" x2="0" y2="7.62" width="0" layer="20"/>
+<wire x1="124.44" y1="55.8675" x2="15.24" y2="55.8675" width="0" layer="20"/>
+<wire x1="15.24" y1="55.8675" x2="15.24" y2="7.62" width="0" layer="20"/>
 <hole x="82.55" y="52.07" drill="3.2"/>
 <hole x="21.59" y="16.51" drill="3.2"/>
 <circle x="82.55" y="52.07" radius="1.7145" width="3.429" layer="39"/>
