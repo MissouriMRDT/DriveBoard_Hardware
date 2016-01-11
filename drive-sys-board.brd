@@ -7239,7 +7239,7 @@ design rules under a new name.</description>
 <element name="U$6" library="MRDT-2014-All" package="RJ45-CAT5E" value="RJ45" x="24.13" y="21.717"/>
 <element name="H1" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="82.55" y="52.07"/>
 <element name="U$7" library="MRDT-2015-General" package="MLX-3-PIN-SOCKET" value="MLX-3-PIN" x="25.273" y="51.943" rot="R180"/>
-<element name="U$8" library="MRDT-2015-General" package="MRDT_LOGO" value="MRDT_LOGO" x="-38.989" y="-16.764"/>
+<element name="U$8" library="MRDT-2015-General" package="MRDT_LOGO" value="MRDT_LOGO" x="86.487" y="43.942"/>
 </elements>
 <signals>
 <signal name="GND">
