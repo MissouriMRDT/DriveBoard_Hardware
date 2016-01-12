@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -164,7 +164,7 @@
 <wire x1="124.44" y1="7.62" x2="124.44" y2="55.8675" width="0" layer="20"/>
 <wire x1="124.44" y1="55.8675" x2="15.24" y2="55.8675" width="0" layer="20"/>
 <wire x1="15.24" y1="55.8675" x2="15.24" y2="7.62" width="0" layer="20"/>
-<dimension x1="15.24" y1="7.62" x2="124.44" y2="7.62" x3="69.84" y3="-13.97" textsize="1.778" layer="47" unit="inch" precision="4"/>
+<dimension x1="15.24" y1="7.62" x2="124.44" y2="7.62" x3="69.84" y3="-16.891" textsize="1.778" layer="47" unit="inch" precision="4"/>
 <dimension x1="124.44" y1="7.62" x2="124.44" y2="55.8675" x3="138.938" y3="31.74375" textsize="1.778" layer="47" unit="inch" precision="4"/>
 <dimension x1="33.1089" y1="13.2715" x2="15.2781" y2="13.2715" x3="24.1935" y3="-9.652" textsize="1.778" layer="47" unit="inch" precision="6"/>
 <text x="70.8406" y="45.0723" size="1.778" layer="21" align="bottom-center">Mike Miles
