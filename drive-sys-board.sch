@@ -6950,6 +6950,115 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 <circle x="-1.905" y="-0.9525" radius="0.3175" width="0.127" layer="21"/>
 </package>
+<package name="PULSE-E5J88-00LJG2-L">
+<hole x="14.25" y="5.08" drill="3.2"/>
+<hole x="1.55" y="5.08" drill="3.2"/>
+<pad name="P$1" x="4.39" y="9.4" drill="0.9"/>
+<pad name="P$2" x="5.41" y="7.62" drill="0.9"/>
+<pad name="P$3" x="6.43" y="9.4" drill="0.9"/>
+<pad name="P$4" x="7.45" y="7.62" drill="0.9"/>
+<pad name="P$5" x="8.47" y="9.4" drill="0.9"/>
+<pad name="P$6" x="9.49" y="7.62" drill="0.9"/>
+<pad name="P$7" x="10.51" y="9.4" drill="0.9"/>
+<pad name="P$8" x="11.53" y="7.62" drill="0.9"/>
+<wire x1="0" y1="15" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="15.8" y2="0" width="0.127" layer="51"/>
+<wire x1="15.8" y1="0" x2="15.8" y2="15" width="0.127" layer="51"/>
+<wire x1="15.8" y1="15" x2="0" y2="15" width="0.127" layer="51"/>
+</package>
+<package name="RJ45-CAT5E">
+<pad name="1" x="-4.445" y="4.655" drill="1"/>
+<pad name="3" x="-1.905" y="4.655" drill="1"/>
+<pad name="5" x="0.635" y="4.655" drill="1"/>
+<pad name="7" x="3.175" y="4.655" drill="1"/>
+<pad name="2" x="-3.175" y="7.195" drill="1"/>
+<pad name="4" x="-0.635" y="7.195" drill="1"/>
+<pad name="6" x="1.905" y="7.195" drill="1"/>
+<pad name="8" x="4.445" y="7.195" drill="1"/>
+<hole x="5.715" y="-1.695" drill="3.2"/>
+<hole x="-5.715" y="-1.695" drill="3.2"/>
+<wire x1="-8.92" y1="8.195" x2="8.92" y2="8.195" width="0.127" layer="51"/>
+<wire x1="-8.92" y1="8.195" x2="-8.92" y2="-8.195" width="0.127" layer="51"/>
+<wire x1="8.92" y1="8.195" x2="8.92" y2="-8.195" width="0.127" layer="51"/>
+<wire x1="8.92" y1="-8.195" x2="-8.92" y2="-8.195" width="0.127" layer="51"/>
+<text x="10" y="5" size="1.27" layer="25">&gt;NAME</text>
+<text x="10" y="3" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+<package name="KEYSTONE-942">
+<pad name="P$1" x="3.799840625" y="2.2885375" drill="0.9"/>
+<pad name="P$2" x="4.815840625" y="4.8285375" drill="0.9"/>
+<pad name="P$3" x="5.831840625" y="2.2885375" drill="0.9"/>
+<pad name="P$4" x="6.847840625" y="4.8285375" drill="0.9"/>
+<pad name="P$5" x="7.863840625" y="2.2885375" drill="0.9"/>
+<pad name="P$6" x="8.879840625" y="4.8285375" drill="0.9"/>
+<pad name="P$7" x="9.895840625" y="2.2885375" drill="0.9"/>
+<pad name="P$8" x="10.911840625" y="4.8285375" drill="0.9"/>
+<hole x="-0.022859375" y="-0.0228625" drill="2.413"/>
+<hole x="14.759940625" y="-0.0228625" drill="2.413"/>
+<wire x1="-0.5969" y1="-5.9944" x2="15.4051" y2="-5.9944" width="0.127" layer="51"/>
+<wire x1="15.4051" y1="-5.9944" x2="15.4051" y2="8.001" width="0.127" layer="51"/>
+<wire x1="15.4051" y1="8.001" x2="-0.5969" y2="8.001" width="0.127" layer="51"/>
+<wire x1="-0.5969" y1="8.001" x2="-0.5969" y2="-5.9944" width="0.127" layer="51"/>
+</package>
+<package name="FCI-54602-908LF">
+<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="51"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="51"/>
+<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="51"/>
+<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="51"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
+<pad name="8" x="4.445" y="8.89" drill="1"/>
+<pad name="7" x="3.175" y="6.35" drill="1"/>
+<pad name="6" x="1.905" y="8.89" drill="1"/>
+<pad name="4" x="-0.635" y="8.89" drill="1"/>
+<pad name="2" x="-3.175" y="8.89" drill="1"/>
+<pad name="5" x="0.635" y="6.35" drill="1"/>
+<pad name="3" x="-1.905" y="6.35" drill="1"/>
+<pad name="1" x="-4.445" y="6.35" drill="1" shape="square"/>
+<hole x="-5.715" y="0" drill="3.2"/>
+<hole x="5.715" y="0" drill="3.2"/>
+<dimension x1="-7.62" y1="-3" x2="-5.715" y2="0" x3="-6.6675" y3="-13.97" textsize="0.8128" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="-4.445" y1="6.35" x2="-5.715" y2="0" x3="-5.08" y3="-16.51" textsize="0.8128" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="-4.445" y1="6.3373" x2="-3.175" y2="8.8773" x3="-3.81" y3="12.7" textsize="0.8128" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="-3.175" y1="8.89" x2="-4.445" y2="6.35" x3="-10.16" y3="7.62" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" x3="0" y3="-21.59" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="-7.62" y1="-3" x2="-7.62" y2="10" x3="-15.24" y3="3.5" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" x3="-15.24" y3="-6.9" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
+</package>
+<package name="KEYSTONE-949">
+<hole x="0" y="0" drill="3.2512"/>
+<hole x="11.43" y="0" drill="3.2512"/>
+<pad name="P$1" x="1.4605" y="6.35" drill="0.9"/>
+<pad name="P$2" x="2.7305" y="8.89" drill="0.9"/>
+<pad name="P$3" x="4.0005" y="6.35" drill="0.9"/>
+<pad name="P$4" x="5.2705" y="8.89" drill="0.9"/>
+<pad name="P$5" x="6.5405" y="6.35" drill="0.9"/>
+<pad name="P$6" x="7.8105" y="8.89" drill="0.9"/>
+<pad name="P$7" x="9.0805" y="6.35" drill="0.9"/>
+<pad name="P$8" x="10.3505" y="8.89" drill="0.9"/>
+<wire x1="-1.8923" y1="-6.35" x2="-1.8923" y2="10.2108" width="0.127" layer="51"/>
+<wire x1="-1.8923" y1="10.2108" x2="13.3477" y2="10.2108" width="0.127" layer="51"/>
+<wire x1="13.3477" y1="10.2108" x2="13.3477" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="13.3477" y1="-6.35" x2="-1.8923" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="49" style="shortdash"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="-2.54" width="0.127" layer="49" style="shortdash"/>
+<wire x1="3.81" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="-2.54" x2="0" y2="3.81" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="3.81" x2="11.43" y2="3.81" width="0.127" layer="49" style="shortdash"/>
+<wire x1="11.43" y1="3.81" x2="11.43" y2="-2.54" width="0.127" layer="49" style="shortdash"/>
+<wire x1="11.43" y1="-2.54" x2="7.62" y2="-2.54" width="0.127" layer="49" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-3.81" width="0.127" layer="49" style="shortdash"/>
+<dimension x1="13.3477" y1="-6.35" x2="11.43" y2="0" x3="17.78" y3="-3.175" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="8.89" y1="6.35" x2="17.78" y2="0" x3="17.78" y3="3.175" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="8.89" y1="6.35" x2="10.16" y2="8.89" x3="17.78" y3="7.62" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="13.3477" y1="10.2108" x2="10.16" y2="8.89" x3="21.59" y3="9.5504" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="-1.8923" y1="-6.35" x2="-1.8923" y2="10.2108" x3="-11.43" y3="1.9304" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="-1.8923" y1="10.2108" x2="13.3477" y2="10.2108" x3="5.7277" y3="16.51" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="-1.8923" y1="-6.35" x2="0" y2="0" x3="-0.94615" y3="-19.05" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4"/>
+<dimension x1="1.4605" y1="6.7691" x2="0" y2="-15.24" x3="0.73025" y3="-13.97" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="6"/>
+<dimension x1="2.7305" y1="8.89" x2="1.4605" y2="6.35" x3="2.0955" y3="-8.89" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="6"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TM4C1294">
@@ -7065,6 +7174,22 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pin name="Z" x="5.08" y="7.62" length="middle" rot="R180"/>
 <pin name="B" x="5.08" y="12.7" length="middle" rot="R180"/>
 <pin name="A" x="5.08" y="17.78" length="middle" rot="R180"/>
+</symbol>
+<symbol name="RJ45">
+<pin name="8-DC-" x="-5.08" y="0" length="middle"/>
+<pin name="7-DC--" x="-5.08" y="2.54" length="middle"/>
+<pin name="6-RECEIVE-" x="-5.08" y="5.08" length="middle"/>
+<pin name="5-DC++" x="-5.08" y="7.62" length="middle"/>
+<pin name="4-DC+" x="-5.08" y="10.16" length="middle"/>
+<pin name="3+RECEIVE+" x="-5.08" y="12.7" length="middle"/>
+<pin name="2-TRANS-" x="-5.08" y="15.24" length="middle"/>
+<pin name="1-TRANS+" x="-5.08" y="17.78" length="middle"/>
+<wire x1="-2.54" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<text x="0" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7201,6 +7326,88 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <connect gate="G$1" pin="VCC" pad="1"/>
 <connect gate="G$1" pin="Y" pad="5"/>
 <connect gate="G$1" pin="Z" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RJ45">
+<gates>
+<gate name="G$1" symbol="RJ45" x="-7.62" y="-7.62"/>
+</gates>
+<devices>
+<device name="RJ45" package="RJ45-CAT5E">
+<connects>
+<connect gate="G$1" pin="1-TRANS+" pad="1"/>
+<connect gate="G$1" pin="2-TRANS-" pad="2"/>
+<connect gate="G$1" pin="3+RECEIVE+" pad="3"/>
+<connect gate="G$1" pin="4-DC+" pad="4"/>
+<connect gate="G$1" pin="5-DC++" pad="5"/>
+<connect gate="G$1" pin="6-RECEIVE-" pad="6"/>
+<connect gate="G$1" pin="7-DC--" pad="7"/>
+<connect gate="G$1" pin="8-DC-" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PULSE-E5J88-00LJG2-L" package="PULSE-E5J88-00LJG2-L">
+<connects>
+<connect gate="G$1" pin="1-TRANS+" pad="P$8"/>
+<connect gate="G$1" pin="2-TRANS-" pad="P$7"/>
+<connect gate="G$1" pin="3+RECEIVE+" pad="P$6"/>
+<connect gate="G$1" pin="4-DC+" pad="P$5"/>
+<connect gate="G$1" pin="5-DC++" pad="P$4"/>
+<connect gate="G$1" pin="6-RECEIVE-" pad="P$3"/>
+<connect gate="G$1" pin="7-DC--" pad="P$2"/>
+<connect gate="G$1" pin="8-DC-" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KEYSTONE-942" package="KEYSTONE-942">
+<connects>
+<connect gate="G$1" pin="1-TRANS+" pad="P$8"/>
+<connect gate="G$1" pin="2-TRANS-" pad="P$7"/>
+<connect gate="G$1" pin="3+RECEIVE+" pad="P$6"/>
+<connect gate="G$1" pin="4-DC+" pad="P$5"/>
+<connect gate="G$1" pin="5-DC++" pad="P$4"/>
+<connect gate="G$1" pin="6-RECEIVE-" pad="P$3"/>
+<connect gate="G$1" pin="7-DC--" pad="P$2"/>
+<connect gate="G$1" pin="8-DC-" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FCI-54602-908LF" package="FCI-54602-908LF">
+<connects>
+<connect gate="G$1" pin="1-TRANS+" pad="1"/>
+<connect gate="G$1" pin="2-TRANS-" pad="2"/>
+<connect gate="G$1" pin="3+RECEIVE+" pad="3"/>
+<connect gate="G$1" pin="4-DC+" pad="4"/>
+<connect gate="G$1" pin="5-DC++" pad="5"/>
+<connect gate="G$1" pin="6-RECEIVE-" pad="6"/>
+<connect gate="G$1" pin="7-DC--" pad="7"/>
+<connect gate="G$1" pin="8-DC-" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KEYSTONE-949" package="KEYSTONE-949">
+<connects>
+<connect gate="G$1" pin="1-TRANS+" pad="P$1"/>
+<connect gate="G$1" pin="2-TRANS-" pad="P$2"/>
+<connect gate="G$1" pin="3+RECEIVE+" pad="P$3"/>
+<connect gate="G$1" pin="4-DC+" pad="P$4"/>
+<connect gate="G$1" pin="5-DC++" pad="P$5"/>
+<connect gate="G$1" pin="6-RECEIVE-" pad="P$6"/>
+<connect gate="G$1" pin="7-DC--" pad="P$7"/>
+<connect gate="G$1" pin="8-DC-" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7987,70 +8194,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
-<library name="MRDT-2014-All">
-<packages>
-<package name="RJ45-CAT5E">
-<pad name="1" x="-4.445" y="4.655" drill="1"/>
-<pad name="3" x="-1.905" y="4.655" drill="1"/>
-<pad name="5" x="0.635" y="4.655" drill="1"/>
-<pad name="7" x="3.175" y="4.655" drill="1"/>
-<pad name="2" x="-3.175" y="7.195" drill="1"/>
-<pad name="4" x="-0.635" y="7.195" drill="1"/>
-<pad name="6" x="1.905" y="7.195" drill="1"/>
-<pad name="8" x="4.445" y="7.195" drill="1"/>
-<hole x="5.715" y="-1.695" drill="3.2"/>
-<hole x="-5.715" y="-1.695" drill="3.2"/>
-<wire x1="-8.92" y1="8.195" x2="8.92" y2="8.195" width="0.127" layer="49"/>
-<wire x1="-8.92" y1="8.195" x2="-8.92" y2="-8.195" width="0.127" layer="49"/>
-<wire x1="8.92" y1="8.195" x2="8.92" y2="-8.195" width="0.127" layer="49"/>
-<wire x1="8.92" y1="-8.195" x2="-8.92" y2="-8.195" width="0.127" layer="49"/>
-<text x="10" y="5" size="1.27" layer="25">&gt;NAME</text>
-<text x="10" y="3" size="1.27" layer="25">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="RJ45">
-<pin name="8-DC-" x="-5.08" y="0" length="middle"/>
-<pin name="7-DC--" x="-5.08" y="2.54" length="middle"/>
-<pin name="6-RECEIVE-" x="-5.08" y="5.08" length="middle"/>
-<pin name="5-DC++" x="-5.08" y="7.62" length="middle"/>
-<pin name="4-DC+" x="-5.08" y="10.16" length="middle"/>
-<pin name="3+RECEIVE+" x="-5.08" y="12.7" length="middle"/>
-<pin name="2-TRANS-" x="-5.08" y="15.24" length="middle"/>
-<pin name="1-TRANS+" x="-5.08" y="17.78" length="middle"/>
-<wire x1="-2.54" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="20.32" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
-<text x="0" y="22.86" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RJ45">
-<gates>
-<gate name="G$1" symbol="RJ45" x="-7.62" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="RJ45-CAT5E">
-<connects>
-<connect gate="G$1" pin="1-TRANS+" pad="1"/>
-<connect gate="G$1" pin="2-TRANS-" pad="2"/>
-<connect gate="G$1" pin="3+RECEIVE+" pad="3"/>
-<connect gate="G$1" pin="4-DC+" pad="4"/>
-<connect gate="G$1" pin="5-DC++" pad="5"/>
-<connect gate="G$1" pin="6-RECEIVE-" pad="6"/>
-<connect gate="G$1" pin="7-DC--" pad="7"/>
-<connect gate="G$1" pin="8-DC-" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="holes">
 <description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -8299,7 +8442,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="MRDT-2014-All" deviceset="RJ45" device=""/>
+<part name="U$1" library="MRDT-2015-General" deviceset="RJ45" device="KEYSTONE-949" value="RJ45KEYSTONE-949"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
@@ -8312,7 +8455,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="U$2" library="MRDT-2014-All" deviceset="RJ45" device=""/>
+<part name="U$2" library="MRDT-2015-General" deviceset="RJ45" device="KEYSTONE-949"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
@@ -8321,7 +8464,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120"/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U$3" library="MRDT-2014-All" deviceset="RJ45" device=""/>
+<part name="U$3" library="MRDT-2015-General" deviceset="RJ45" device="KEYSTONE-949"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
@@ -8330,7 +8473,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="U$4" library="MRDT-2014-All" deviceset="RJ45" device=""/>
+<part name="U$4" library="MRDT-2015-General" deviceset="RJ45" device="KEYSTONE-949"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -8339,7 +8482,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="U$5" library="MRDT-2014-All" deviceset="RJ45" device=""/>
+<part name="U$5" library="MRDT-2015-General" deviceset="RJ45" device="KEYSTONE-949"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
@@ -8348,7 +8491,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="120"/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="U$6" library="MRDT-2014-All" deviceset="RJ45" device=""/>
+<part name="U$6" library="MRDT-2015-General" deviceset="RJ45" device="KEYSTONE-949"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
