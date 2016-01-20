@@ -1717,6 +1717,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="MRDT-LIB2014">
+<packages>
+<package name="SOIC16">
+<smd name="13" x="2.7" y="0.635" dx="1.5" dy="0.55" layer="1"/>
+<smd name="12" x="2.7" y="-0.635" dx="1.5" dy="0.55" layer="1"/>
+<smd name="4" x="-2.7" y="0.635" dx="1.5" dy="0.55" layer="1"/>
+<smd name="5" x="-2.7" y="-0.635" dx="1.5" dy="0.55" layer="1"/>
+<smd name="3" x="-2.7" y="1.905" dx="1.5" dy="0.55" layer="1"/>
+<smd name="2" x="-2.7" y="3.175" dx="1.5" dy="0.55" layer="1"/>
+<smd name="1" x="-2.7" y="4.445" dx="1.5" dy="0.55" layer="1"/>
+<smd name="16" x="2.7" y="4.445" dx="1.5" dy="0.55" layer="1"/>
+<smd name="15" x="2.7" y="3.175" dx="1.5" dy="0.55" layer="1"/>
+<smd name="14" x="2.7" y="1.905" dx="1.5" dy="0.55" layer="1"/>
+<smd name="6" x="-2.7" y="-1.905" dx="1.5" dy="0.55" layer="1"/>
+<smd name="7" x="-2.7" y="-3.175" dx="1.5" dy="0.55" layer="1"/>
+<smd name="8" x="-2.7" y="-4.445" dx="1.5" dy="0.55" layer="1"/>
+<smd name="11" x="2.7" y="-1.905" dx="1.5" dy="0.55" layer="1"/>
+<smd name="10" x="2.7" y="-3.175" dx="1.5" dy="0.55" layer="1"/>
+<smd name="9" x="2.7" y="-4.445" dx="1.5" dy="0.55" layer="1"/>
+<wire x1="-2" y1="5" x2="-2" y2="-5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-5" x2="2" y2="-5" width="0.127" layer="21"/>
+<wire x1="2" y1="-5" x2="2" y2="5" width="0.127" layer="21"/>
+<wire x1="2" y1="5" x2="-2" y2="5" width="0.127" layer="21"/>
+<circle x="-1.2" y="4.2" radius="0.282840625" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1939,6 +1966,12 @@ design rules under a new name.</description>
 <element name="MAX232_VNCAP_3" library="SparkFun-Capacitors" package="1206" value="0.1uF" x="21.9075" y="26.67" rot="MR0"/>
 <element name="MAX232_VPCAP_3" library="SparkFun-Capacitors" package="1206" value="0.1uF" x="31.4325" y="26.67" rot="MR180"/>
 <element name="MAX232_DECAP_3" library="SparkFun-Capacitors" package="1206" value="0.1uF" x="33.655" y="34.29" rot="R180"/>
+<element name="MAX232" library="MRDT-LIB2014" package="SOIC16" value="MAX3232" x="-18.415" y="-22.86"/>
+<element name="C7" library="SparkFun-Capacitors" package="1206" value=".047uF" x="-12.065" y="-19.05"/>
+<element name="C8" library="SparkFun-Capacitors" package="1206" value="0.33uF" x="-19.685" y="-29.845"/>
+<element name="C9" library="SparkFun-Capacitors" package="1206" value="0.33uF" x="-14.605" y="-29.845"/>
+<element name="C10" library="SparkFun-Capacitors" package="1206" value="0.33uF" x="-19.685" y="-33.655"/>
+<element name="C11" library="SparkFun-Capacitors" package="1206" value="0.33uF" x="-14.605" y="-33.655"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1992,9 +2025,57 @@ design rules under a new name.</description>
 <contactref element="MAX232_VNCAP_3" pad="2"/>
 <contactref element="MAX232_VPCAP_3" pad="2"/>
 <via x="34.925" y="34.29" extent="1-16" drill="0.381"/>
+<contactref element="C9" pad="2"/>
+<contactref element="C10" pad="2"/>
+<contactref element="MAX232" pad="15"/>
+<contactref element="C11" pad="2"/>
+<wire x1="101.095" y1="34.29" x2="105.41" y2="44.45" width="0" layer="19" extent="1-1"/>
 <wire x1="100.965" y1="34.29" x2="101.095" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="95.25" y1="34.55" x2="100.965" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="98.8725" y1="26.67" x2="100.965" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="97.3455" y1="22.86" x2="98.8725" y2="26.67" width="0" layer="19" extent="16-16"/>
+<wire x1="98.6155" y1="20.32" x2="97.3455" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="103.6955" y1="20.32" x2="98.6155" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="104.9655" y1="22.86" x2="103.6955" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="88.4555" y1="22.86" x2="97.3455" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="87.1855" y1="20.32" x2="88.4555" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="86.5475" y1="26.67" x2="88.4555" y2="22.86" width="0" layer="19" extent="16-16"/>
+<wire x1="82.1055" y1="20.32" x2="87.1855" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="80.8355" y1="22.86" x2="82.1055" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="71.9455" y1="22.86" x2="80.8355" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="70.6755" y1="20.32" x2="71.9455" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="65.5955" y1="20.32" x2="70.6755" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="64.3255" y1="22.86" x2="65.5955" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="65.8525" y1="26.67" x2="64.3255" y2="22.86" width="0" layer="19" extent="16-16"/>
+<wire x1="67.945" y1="34.29" x2="65.8525" y2="26.67" width="0" layer="19" extent="16-16"/>
 <wire x1="68.075" y1="34.29" x2="67.945" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="34.55" x2="67.945" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="55.4355" y1="22.86" x2="64.3255" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1655" y1="20.32" x2="55.4355" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="53.5275" y1="26.67" x2="55.4355" y2="22.86" width="0" layer="19" extent="16-16"/>
+<wire x1="49.0855" y1="20.32" x2="54.1655" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8155" y1="22.86" x2="49.0855" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="38.9255" y1="22.86" x2="47.8155" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="37.6555" y1="20.32" x2="38.9255" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="32.5755" y1="20.32" x2="37.6555" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="31.3055" y1="22.86" x2="32.5755" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="32.8325" y1="26.67" x2="31.3055" y2="22.86" width="0" layer="19" extent="16-16"/>
+<wire x1="34.925" y1="34.29" x2="32.8325" y2="26.67" width="0" layer="19" extent="16-16"/>
 <wire x1="35.055" y1="34.29" x2="34.925" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="34.55" x2="34.925" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="22.4155" y1="22.86" x2="31.3055" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="21.1455" y1="20.32" x2="22.4155" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="20.5075" y1="26.67" x2="22.4155" y2="22.86" width="0" layer="19" extent="16-16"/>
+<wire x1="16.0655" y1="20.32" x2="21.1455" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="14.7955" y1="22.86" x2="16.0655" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="44.45" x2="35.055" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="107.95" y1="1.27" x2="103.6955" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="1.27" x2="49.0855" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="11.684" y1="44.323" x2="20.5075" y2="26.67" width="0" layer="19" extent="16-16"/>
+<wire x1="-15.715" y1="-19.685" x2="16.0655" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.205" y1="-29.845" x2="-15.715" y2="-19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.205" y1="-33.655" x2="-13.205" y2="-29.845" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.285" y1="-33.655" x2="-13.205" y2="-33.655" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX_1">
 <contactref element="U$1" pad="PC5"/>
@@ -2457,6 +2538,53 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$3">
 <via x="32.385" y="34.29" extent="1-16" drill="0.381"/>
+</signal>
+<signal name="R_OUT1">
+<contactref element="MAX232" pad="12"/>
+</signal>
+<signal name="N$15">
+<contactref element="MAX232" pad="3"/>
+<contactref element="C7" pad="2"/>
+<wire x1="-10.665" y1="-19.05" x2="-21.115" y2="-20.955" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="MAX232" pad="1"/>
+<contactref element="C7" pad="1"/>
+<wire x1="-13.465" y1="-19.05" x2="-21.115" y2="-18.415" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="MAX232" pad="4"/>
+<contactref element="C8" pad="1"/>
+<wire x1="-21.115" y1="-22.225" x2="-21.085" y2="-29.845" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="MAX232" pad="5"/>
+<contactref element="C8" pad="2"/>
+<wire x1="-21.115" y1="-23.495" x2="-18.285" y2="-29.845" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="MAX232" pad="6"/>
+<contactref element="C10" pad="1"/>
+<wire x1="-21.115" y1="-24.765" x2="-21.085" y2="-33.655" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="MAX232" pad="2"/>
+<contactref element="C9" pad="1"/>
+<wire x1="-21.115" y1="-19.685" x2="-16.005" y2="-29.845" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC1">
+<contactref element="MAX232" pad="16"/>
+<contactref element="C11" pad="1"/>
+<wire x1="-15.715" y1="-18.415" x2="-16.005" y2="-33.655" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="T_OUT1">
+<contactref element="MAX232" pad="14"/>
+</signal>
+<signal name="J2_RS232TX">
+<contactref element="MAX232" pad="11"/>
+</signal>
+<signal name="J2_RS232RX">
+<contactref element="MAX232" pad="13"/>
 </signal>
 </signals>
 <errors>

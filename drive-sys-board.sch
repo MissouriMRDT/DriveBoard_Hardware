@@ -3187,6 +3187,120 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="MRDT-LIB2014">
+<packages>
+<package name="SOIC16">
+<smd name="13" x="2.7" y="0.635" dx="1.5" dy="0.55" layer="1"/>
+<smd name="12" x="2.7" y="-0.635" dx="1.5" dy="0.55" layer="1"/>
+<smd name="4" x="-2.7" y="0.635" dx="1.5" dy="0.55" layer="1"/>
+<smd name="5" x="-2.7" y="-0.635" dx="1.5" dy="0.55" layer="1"/>
+<smd name="3" x="-2.7" y="1.905" dx="1.5" dy="0.55" layer="1"/>
+<smd name="2" x="-2.7" y="3.175" dx="1.5" dy="0.55" layer="1"/>
+<smd name="1" x="-2.7" y="4.445" dx="1.5" dy="0.55" layer="1"/>
+<smd name="16" x="2.7" y="4.445" dx="1.5" dy="0.55" layer="1"/>
+<smd name="15" x="2.7" y="3.175" dx="1.5" dy="0.55" layer="1"/>
+<smd name="14" x="2.7" y="1.905" dx="1.5" dy="0.55" layer="1"/>
+<smd name="6" x="-2.7" y="-1.905" dx="1.5" dy="0.55" layer="1"/>
+<smd name="7" x="-2.7" y="-3.175" dx="1.5" dy="0.55" layer="1"/>
+<smd name="8" x="-2.7" y="-4.445" dx="1.5" dy="0.55" layer="1"/>
+<smd name="11" x="2.7" y="-1.905" dx="1.5" dy="0.55" layer="1"/>
+<smd name="10" x="2.7" y="-3.175" dx="1.5" dy="0.55" layer="1"/>
+<smd name="9" x="2.7" y="-4.445" dx="1.5" dy="0.55" layer="1"/>
+<wire x1="-2" y1="5" x2="-2" y2="-5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-5" x2="2" y2="-5" width="0.127" layer="21"/>
+<wire x1="2" y1="-5" x2="2" y2="5" width="0.127" layer="21"/>
+<wire x1="2" y1="5" x2="-2" y2="5" width="0.127" layer="21"/>
+<circle x="-1.2" y="4.2" radius="0.282840625" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MAX3232">
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="C1+" x="-15.24" y="7.62" length="middle"/>
+<pin name="V+" x="-15.24" y="5.08" length="middle"/>
+<pin name="C1-" x="-15.24" y="2.54" length="middle"/>
+<pin name="C2+" x="-15.24" y="0" length="middle"/>
+<pin name="C2-" x="-15.24" y="-2.54" length="middle"/>
+<pin name="V-" x="-15.24" y="-5.08" length="middle"/>
+<pin name="T_OUT2" x="-15.24" y="-7.62" length="middle"/>
+<pin name="R_IN2" x="-15.24" y="-10.16" length="middle"/>
+<pin name="R_OUT2" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="T_IN2" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="T_IN1" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="R_OUT1" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="R_IN1" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="T_OUT1" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX3232">
+<gates>
+<gate name="G$1" symbol="MAX3232" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC16">
+<connects>
+<connect gate="G$1" pin="C1+" pad="1"/>
+<connect gate="G$1" pin="C1-" pad="3"/>
+<connect gate="G$1" pin="C2+" pad="4"/>
+<connect gate="G$1" pin="C2-" pad="5"/>
+<connect gate="G$1" pin="GND" pad="15"/>
+<connect gate="G$1" pin="R_IN1" pad="13"/>
+<connect gate="G$1" pin="R_IN2" pad="8"/>
+<connect gate="G$1" pin="R_OUT1" pad="12"/>
+<connect gate="G$1" pin="R_OUT2" pad="9"/>
+<connect gate="G$1" pin="T_IN1" pad="11"/>
+<connect gate="G$1" pin="T_IN2" pad="10"/>
+<connect gate="G$1" pin="T_OUT1" pad="14"/>
+<connect gate="G$1" pin="T_OUT2" pad="7"/>
+<connect gate="G$1" pin="V+" pad="2"/>
+<connect gate="G$1" pin="V-" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3261,6 +3375,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
+<part name="MAX232" library="MRDT-LIB2014" deviceset="MAX3232" device=""/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value=".047uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3355,6 +3478,15 @@ PWM_     PF1            M0PWM1   C1-1</text>
 <instance part="GND26" gate="1" x="-73.66" y="76.2" rot="R270"/>
 <instance part="P+7" gate="1" x="-73.66" y="43.18" rot="R90"/>
 <instance part="P+8" gate="1" x="-73.66" y="71.12" rot="R90"/>
+<instance part="MAX232" gate="G$1" x="-121.92" y="248.92"/>
+<instance part="C7" gate="G$1" x="-152.4" y="256.54" rot="R270"/>
+<instance part="C8" gate="G$1" x="-152.4" y="248.92" rot="R270"/>
+<instance part="C9" gate="G$1" x="-144.78" y="231.14"/>
+<instance part="C10" gate="G$1" x="-139.7" y="231.14"/>
+<instance part="C11" gate="G$1" x="-99.06" y="256.54" rot="R90"/>
+<instance part="GND27" gate="1" x="-144.78" y="226.06"/>
+<instance part="GND28" gate="1" x="-139.7" y="226.06"/>
+<instance part="GND29" gate="1" x="-96.52" y="233.68"/>
 </instances>
 <busses>
 </busses>
@@ -3526,6 +3658,23 @@ PWM_     PF1            M0PWM1   C1-1</text>
 <wire x1="-68.58" y1="48.26" x2="-71.12" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-68.58" y="48.26"/>
 <pinref part="GND18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="MAX232" gate="G$1" pin="GND"/>
+<wire x1="-96.52" y1="254" x2="-106.68" y2="254" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="-96.52" y1="254" x2="-96.52" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="254" x2="-96.52" y2="236.22" width="0.1524" layer="91"/>
+<junction x="-96.52" y="254"/>
+<pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="TX_1" class="0">
@@ -4061,6 +4210,87 @@ PWM_     PF1            M0PWM1   C1-1</text>
 <pinref part="MAX232_3" gate="G$1" pin="R1OUT"/>
 <wire x1="-139.7" y1="48.26" x2="-144.78" y2="48.26" width="0.1524" layer="91"/>
 <label x="-144.78" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="R_OUT1" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="R_OUT1"/>
+<wire x1="-106.68" y1="246.38" x2="-63.5" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="C1-"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="-137.16" y1="251.46" x2="-154.94" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="-154.94" y1="251.46" x2="-154.94" y2="256.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="C1+"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="-137.16" y1="256.54" x2="-147.32" y2="256.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="C2+"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="-137.16" y1="248.92" x2="-147.32" y2="248.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="C2-"/>
+<wire x1="-137.16" y1="246.38" x2="-154.94" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="-154.94" y1="246.38" x2="-154.94" y2="248.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="V-"/>
+<wire x1="-137.16" y1="243.84" x2="-139.7" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="243.84" x2="-139.7" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="V+"/>
+<wire x1="-137.16" y1="254" x2="-144.78" y2="254" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="254" x2="-144.78" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="VCC1" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="VCC"/>
+<wire x1="-106.68" y1="256.54" x2="-104.14" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="T_OUT1" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="T_OUT1"/>
+<wire x1="-63.5" y1="248.92" x2="-91.44" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="251.46" x2="-91.44" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="251.46" x2="-91.44" y2="248.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="J2_RS232TX" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="T_IN1"/>
+<wire x1="-106.68" y1="243.84" x2="-104.14" y2="243.84" width="0.1524" layer="91"/>
+<label x="-104.14" y="243.84" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="J2_RS232RX" class="0">
+<segment>
+<pinref part="MAX232" gate="G$1" pin="R_IN1"/>
+<wire x1="-106.68" y1="248.92" x2="-104.14" y2="248.92" width="0.1524" layer="91"/>
+<label x="-104.14" y="248.92" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
