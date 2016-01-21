@@ -3058,10 +3058,10 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="MAX232_1" library="MRDT-Digital-ICs" deviceset="MAX3232" device="SO16"/>
-<part name="MAX232_C1_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_C2_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_VNCAP_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_VPCAP_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
+<part name="MAX232_C1_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value=".047uF"/>
+<part name="MAX232_C2_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="MAX232_VNCAP_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="MAX232_VPCAP_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
 <part name="MAX232_DECAP_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
@@ -3076,10 +3076,10 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <part name="U$7" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="5V_VERT"/>
 <part name="U$1" library="MRDT-2015-General" deviceset="TIVA-C-CONNECTED" device=""/>
 <part name="MAX232_2" library="MRDT-Digital-ICs" deviceset="MAX3232" device="SO16"/>
-<part name="MAX232_C1_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_C2_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_VNCAP_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_VPCAP_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
+<part name="MAX232_C1_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value=".047uF"/>
+<part name="MAX232_C2_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="MAX232_VNCAP_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="MAX232_VPCAP_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
 <part name="MAX232_DECAP_2" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -3092,10 +3092,10 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="MAX232_3" library="MRDT-Digital-ICs" deviceset="MAX3232" device="SO16"/>
-<part name="MAX232_C1_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_C2_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_VNCAP_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="MAX232_VPCAP_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
+<part name="MAX232_C1_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.047uF"/>
+<part name="MAX232_C2_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="MAX232_VNCAP_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="MAX232_VPCAP_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
 <part name="MAX232_DECAP_3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
