@@ -239,37 +239,37 @@
 <dimension x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" x3="-15.24" y3="-6.9" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
 </package>
 <package name="KEYSTONE-949">
-<hole x="1.905" y="6.35" drill="3.2512"/>
-<hole x="13.335" y="6.35" drill="3.2512"/>
-<pad name="P$1" x="3.3655" y="12.7" drill="0.9"/>
-<pad name="P$2" x="4.6355" y="15.24" drill="0.9"/>
-<pad name="P$3" x="5.9055" y="12.7" drill="0.9"/>
-<pad name="P$4" x="7.1755" y="15.24" drill="0.9"/>
-<pad name="P$5" x="8.4455" y="12.7" drill="0.9"/>
-<pad name="P$6" x="9.7155" y="15.24" drill="0.9"/>
-<pad name="P$7" x="10.9855" y="12.7" drill="0.9"/>
-<pad name="P$8" x="12.2555" y="15.24" drill="0.9"/>
-<wire x1="0.0127" y1="0" x2="0.0127" y2="16.5608" width="0.127" layer="51"/>
-<wire x1="0.0127" y1="16.5608" x2="15.2527" y2="16.5608" width="0.127" layer="51"/>
-<wire x1="15.2527" y1="16.5608" x2="15.2527" y2="0" width="0.127" layer="51"/>
-<wire x1="15.2527" y1="0" x2="0.0127" y2="0" width="0.127" layer="51"/>
-<wire x1="9.525" y1="2.54" x2="5.715" y2="2.54" width="0.127" layer="49" style="shortdash"/>
-<wire x1="5.715" y1="2.54" x2="5.715" y2="3.81" width="0.127" layer="49" style="shortdash"/>
-<wire x1="5.715" y1="3.81" x2="1.905" y2="3.81" width="0.127" layer="49" style="shortdash"/>
-<wire x1="1.905" y1="3.81" x2="1.905" y2="10.16" width="0.127" layer="49" style="shortdash"/>
-<wire x1="1.905" y1="10.16" x2="13.335" y2="10.16" width="0.127" layer="49" style="shortdash"/>
-<wire x1="13.335" y1="10.16" x2="13.335" y2="3.81" width="0.127" layer="49" style="shortdash"/>
-<wire x1="13.335" y1="3.81" x2="9.525" y2="3.81" width="0.127" layer="49" style="shortdash"/>
-<wire x1="9.525" y1="3.81" x2="9.525" y2="2.54" width="0.127" layer="49" style="shortdash"/>
-<dimension x1="15.2527" y1="0" x2="13.335" y2="6.35" x3="19.685" y3="3.175" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="10.795" y1="12.7" x2="19.685" y2="6.35" x3="19.685" y3="9.525" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="10.795" y1="12.7" x2="12.065" y2="15.24" x3="19.685" y3="13.97" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="15.2527" y1="16.5608" x2="12.065" y2="15.24" x3="23.495" y3="15.9004" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
-<dimension x1="0.0127" y1="0" x2="0.0127" y2="16.5608" x3="-9.525" y3="8.2804" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
-<dimension x1="0.0127" y1="16.5608" x2="15.2527" y2="16.5608" x3="7.6327" y3="22.86" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
-<dimension x1="0.0127" y1="0" x2="1.905" y2="6.35" x3="0.95885" y3="-12.7" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4"/>
-<dimension x1="3.3655" y1="13.1191" x2="1.905" y2="-8.89" x3="2.63525" y3="-7.62" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="6"/>
-<dimension x1="4.6355" y1="15.24" x2="3.3655" y2="12.7" x3="4.0005" y3="-2.54" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="6"/>
+<hole x="0" y="0" drill="3.2512"/>
+<hole x="11.43" y="0" drill="3.2512"/>
+<pad name="P$1" x="1.4605" y="6.35" drill="0.9"/>
+<pad name="P$2" x="2.7305" y="8.89" drill="0.9"/>
+<pad name="P$3" x="4.0005" y="6.35" drill="0.9"/>
+<pad name="P$4" x="5.2705" y="8.89" drill="0.9"/>
+<pad name="P$5" x="6.5405" y="6.35" drill="0.9"/>
+<pad name="P$6" x="7.8105" y="8.89" drill="0.9"/>
+<pad name="P$7" x="9.0805" y="6.35" drill="0.9"/>
+<pad name="P$8" x="10.3505" y="8.89" drill="0.9"/>
+<wire x1="-1.8923" y1="-6.35" x2="-1.8923" y2="10.2108" width="0.127" layer="51"/>
+<wire x1="-1.8923" y1="10.2108" x2="13.3477" y2="10.2108" width="0.127" layer="51"/>
+<wire x1="13.3477" y1="10.2108" x2="13.3477" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="13.3477" y1="-6.35" x2="-1.8923" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="49" style="shortdash"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="-2.54" width="0.127" layer="49" style="shortdash"/>
+<wire x1="3.81" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="-2.54" x2="0" y2="3.81" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="3.81" x2="11.43" y2="3.81" width="0.127" layer="49" style="shortdash"/>
+<wire x1="11.43" y1="3.81" x2="11.43" y2="-2.54" width="0.127" layer="49" style="shortdash"/>
+<wire x1="11.43" y1="-2.54" x2="7.62" y2="-2.54" width="0.127" layer="49" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-3.81" width="0.127" layer="49" style="shortdash"/>
+<dimension x1="13.3477" y1="-6.35" x2="11.43" y2="0" x3="17.78" y3="-3.175" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="8.89" y1="6.35" x2="17.78" y2="0" x3="17.78" y3="3.175" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="8.89" y1="6.35" x2="10.16" y2="8.89" x3="17.78" y3="7.62" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="13.3477" y1="10.2108" x2="10.16" y2="8.89" x3="21.59" y3="9.5504" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="-1.8923" y1="-6.35" x2="-1.8923" y2="10.2108" x3="-11.43" y3="1.9304" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="-1.8923" y1="10.2108" x2="13.3477" y2="10.2108" x3="5.7277" y3="16.51" textsize="1.27" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="-1.8923" y1="-6.35" x2="0" y2="0" x3="-0.94615" y3="-19.05" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4"/>
+<dimension x1="1.4605" y1="6.7691" x2="0" y2="-15.24" x3="0.73025" y3="-13.97" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="6"/>
+<dimension x1="2.7305" y1="8.89" x2="1.4605" y2="6.35" x3="2.0955" y3="-8.89" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="6"/>
 </package>
 <package name="TIVA-C-CONNECTED">
 <description>Package for Tiva C Connected development board
@@ -2640,7 +2640,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="7.874" y1="15.748" x2="7.874" y2="7.874" width="0.127" layer="51"/>
 <wire x1="0" y1="7.874" x2="0" y2="15.748" width="0.127" layer="51"/>
 <wire x1="0" y1="15.748" x2="7.874" y2="15.748" width="0.127" layer="51"/>
-<pad name="VCC" x="3.937" y="12.573" drill="4.064" rot="R180" thermals="no"/>
+<pad name="5V" x="3.937" y="12.573" drill="4.064" rot="R180" thermals="no"/>
 <wire x1="7.874" y1="11.176" x2="7.112" y2="11.176" width="0.127" layer="49" style="shortdash"/>
 <wire x1="7.112" y1="11.176" x2="7.112" y2="8.636" width="0.127" layer="49" style="shortdash"/>
 <wire x1="7.112" y1="8.636" x2="0.762" y2="8.636" width="0.127" layer="49" style="shortdash"/>
@@ -2858,9 +2858,87 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="8.382" y1="14.097" x2="8.382" y2="9.525" width="0.127" layer="49" style="shortdash"/>
 <wire x1="8.382" y1="9.525" x2="7.874" y2="9.525" width="0.127" layer="49" style="shortdash"/>
 </package>
+<package name="APP45_12V_HORIZ_CONFIG">
+<pad name="GND" x="28.194" y="11.811" drill="4.064" thermals="no"/>
+<wire x1="11.176" y1="15.748" x2="8.89" y2="15.748" width="0.127" layer="51" curve="-180"/>
+<wire x1="8.89" y1="7.874" x2="11.176" y2="7.874" width="0.127" layer="51" curve="-180"/>
+<dimension x1="24.638" y1="7.874" x2="0" y2="7.874" x3="12.319" y3="-11.8491" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="0" y1="7.874" x2="10.033" y2="7.874" x3="5.0165" y3="-7.6454" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="0" y1="7.874" x2="8.001" y2="0" x3="4.0005" y3="-3.4417" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="0" y1="7.874" x2="28.194" y2="11.811" x3="14.097" y3="-15.4178" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="24.638" y1="15.748" x2="24.638" y2="7.874" x3="32.766" y3="11.811" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="11.176" y1="15.748" x2="8.89" y2="15.748" x3="10.033" y3="17.272" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="3" visible="yes"/>
+<wire x1="0" y1="7.874" x2="0" y2="15.748" width="0.127" layer="51"/>
+<wire x1="0" y1="15.748" x2="8.001" y2="15.748" width="0.127" layer="51"/>
+<wire x1="8.001" y1="15.748" x2="8.89" y2="15.748" width="0.127" layer="51"/>
+<wire x1="11.176" y1="15.748" x2="24.638" y2="15.748" width="0.127" layer="51"/>
+<wire x1="24.638" y1="15.748" x2="24.638" y2="7.874" width="0.127" layer="51"/>
+<wire x1="8.001" y1="7.874" x2="8.001" y2="15.748" width="0.127" layer="51" style="shortdash"/>
+<wire x1="11.176" y1="15.748" x2="8.89" y2="15.748" width="0.127" layer="51" curve="-180"/>
+<wire x1="8.89" y1="7.874" x2="11.176" y2="7.874" width="0.127" layer="51" curve="-180"/>
+<wire x1="24.638" y1="15.748" x2="24.638" y2="15.24" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="15.24" x2="12.319" y2="15.24" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="15.24" x2="12.319" y2="15.748" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="10.16" x2="12.319" y2="10.16" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="10.16" x2="12.319" y2="13.462" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="13.462" x2="24.638" y2="13.462" width="0.127" layer="49" style="shortdash"/>
+<pad name="12V" x="28.194" y="3.937" drill="4.064" thermals="no"/>
+<wire x1="0" y1="0" x2="0" y2="7.874" width="0.127" layer="51"/>
+<wire x1="0" y1="7.874" x2="8.001" y2="7.874" width="0.127" layer="51"/>
+<wire x1="8.001" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51"/>
+<wire x1="11.176" y1="7.874" x2="24.638" y2="7.874" width="0.127" layer="51"/>
+<wire x1="24.638" y1="7.874" x2="24.638" y2="0" width="0.127" layer="51"/>
+<wire x1="24.638" y1="0" x2="11.176" y2="0" width="0.127" layer="51"/>
+<wire x1="8.89" y1="0" x2="8.001" y2="0" width="0.127" layer="51"/>
+<wire x1="8.001" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="8.001" y1="0" x2="8.001" y2="7.874" width="0.127" layer="51" style="shortdash"/>
+<wire x1="11.176" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51" curve="-180"/>
+<wire x1="8.89" y1="0" x2="11.176" y2="0" width="0.127" layer="51" curve="-180"/>
+<wire x1="24.638" y1="0" x2="24.638" y2="-0.508" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="-0.508" x2="12.319" y2="-0.508" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="-0.508" x2="12.319" y2="0" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="7.874" x2="24.638" y2="7.366" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="7.366" x2="12.319" y2="7.366" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="7.366" x2="12.319" y2="7.874" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="2.286" x2="12.319" y2="2.286" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="2.286" x2="12.319" y2="5.588" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="5.588" x2="24.638" y2="5.588" width="0.127" layer="49" style="shortdash"/>
+<text x="3.81" y="10.922" size="0.8128" layer="21">GND</text>
+<text x="4.318" y="4.318" size="0.8128" layer="21">12V</text>
+</package>
+<package name="APP45_5V_HORIZ_CONFIG">
+<pad name="GND" x="28.194" y="3.937" drill="4.064" thermals="no"/>
+<wire x1="11.176" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51" curve="-180"/>
+<wire x1="8.89" y1="0" x2="11.176" y2="0" width="0.127" layer="51" curve="-180"/>
+<dimension x1="24.638" y1="0" x2="0" y2="0" x3="12.319" y3="-11.8491" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="0" y1="0" x2="10.033" y2="0" x3="5.0165" y3="-7.6454" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="0" y1="0" x2="8.001" y2="0" x3="4.0005" y3="-3.4417" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="0" y1="0" x2="28.194" y2="3.937" x3="14.097" y3="-15.4178" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="24.638" y1="7.874" x2="24.638" y2="0" x3="34.798" y3="3.937" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="3" visible="yes"/>
+<dimension x1="11.176" y1="7.874" x2="8.89" y2="7.874" x3="10.033" y3="9.398" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="3" visible="yes"/>
+<wire x1="0" y1="0" x2="0" y2="7.874" width="0.127" layer="51"/>
+<wire x1="0" y1="7.874" x2="8.001" y2="7.874" width="0.127" layer="51"/>
+<wire x1="8.001" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51"/>
+<wire x1="11.176" y1="7.874" x2="24.638" y2="7.874" width="0.127" layer="51"/>
+<wire x1="24.638" y1="7.874" x2="24.638" y2="0" width="0.127" layer="51"/>
+<wire x1="8.001" y1="0" x2="8.001" y2="7.874" width="0.127" layer="51" style="shortdash"/>
+<pad name="5V" x="36.068" y="3.937" drill="4.064" thermals="no"/>
+<wire x1="11.176" y1="7.874" x2="8.89" y2="7.874" width="0.127" layer="51" curve="-180"/>
+<wire x1="24.638" y1="7.874" x2="24.638" y2="7.366" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="7.366" x2="12.319" y2="7.366" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="7.366" x2="12.319" y2="7.874" width="0.127" layer="49" style="shortdash"/>
+<wire x1="24.638" y1="2.286" x2="12.319" y2="2.286" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="2.286" x2="12.319" y2="5.588" width="0.127" layer="49" style="shortdash"/>
+<wire x1="12.319" y1="5.588" x2="24.638" y2="5.588" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="0" x2="8.001" y2="0" width="0.127" layer="51"/>
+<wire x1="8.001" y1="0" x2="8.89" y2="0" width="0.127" layer="51"/>
+<wire x1="11.176" y1="0" x2="24.638" y2="0" width="0.127" layer="51"/>
+<dimension x1="36.068" y1="3.9497" x2="0" y2="0" x3="18.034" y3="-20.1422" textsize="1.27" layer="47" dtype="horizontal" unit="inch" precision="4" visible="yes"/>
+<text x="3.556" y="3.81" size="0.8128" layer="21">5V(top), GND(bot)</text>
+</package>
 </packages>
 <symbols>
-<symbol name="ANDERSON_POWERPOLE">
+<symbol name="APP">
 <pin name="P$1" x="-7.62" y="0" length="middle"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
@@ -2874,8 +2952,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <devicesets>
 <deviceset name="APP_2POS_CONFIG">
 <gates>
-<gate name="GND" symbol="ANDERSON_POWERPOLE" x="0" y="0"/>
-<gate name="VCC" symbol="ANDERSON_POWERPOLE" x="0" y="5.08"/>
+<gate name="GND" symbol="APP" x="0" y="0"/>
+<gate name="VCC" symbol="APP" x="0" y="5.08"/>
 </gates>
 <devices>
 <device name="12V_VERT" package="APP45_12V_VERT_CONFIG">
@@ -2893,7 +2971,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <device name="5V_VERT" package="APP45_5V_VERT_CONFIG">
 <connects>
 <connect gate="GND" pin="P$1" pad="GND"/>
-<connect gate="VCC" pin="P$1" pad="VCC"/>
+<connect gate="VCC" pin="P$1" pad="5V"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2922,6 +3000,30 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <technologies>
 <technology name="">
 <attribute name="COLOR1" value="" constant="no"/>
+<attribute name="COLOR2" value="BLACK"/>
+</technology>
+</technologies>
+</device>
+<device name="12V_HORIZ" package="APP45_12V_HORIZ_CONFIG">
+<connects>
+<connect gate="GND" pin="P$1" pad="GND"/>
+<connect gate="VCC" pin="P$1" pad="12V"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR1" value="YELLOW"/>
+<attribute name="COLOR2" value="BLACK"/>
+</technology>
+</technologies>
+</device>
+<device name="5V_HORIZ" package="APP45_5V_HORIZ_CONFIG">
+<connects>
+<connect gate="GND" pin="P$1" pad="GND"/>
+<connect gate="VCC" pin="P$1" pad="5V"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR1" value="RED"/>
 <attribute name="COLOR2" value="BLACK"/>
 </technology>
 </technologies>
