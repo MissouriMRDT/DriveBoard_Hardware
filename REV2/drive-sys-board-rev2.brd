@@ -11,9 +11,9 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -40,12 +40,12 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -160,13 +160,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="109.2" y2="0" width="0" layer="20"/>
-<wire x1="109.2" y1="0" x2="109.2" y2="48.311" width="0" layer="20"/>
-<wire x1="109.2" y1="48.311" x2="0" y2="48.311" width="0" layer="20"/>
-<wire x1="0" y1="48.311" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="109.22" y2="0" width="0" layer="20"/>
+<wire x1="109.22" y1="0" x2="109.22" y2="48.26" width="0" layer="20"/>
+<wire x1="109.22" y1="48.26" x2="0" y2="48.26" width="0" layer="20"/>
+<wire x1="0" y1="48.26" x2="0" y2="0" width="0" layer="20"/>
 <text x="74.295" y="34.925" size="1.016" layer="21" align="bottom-center">Missouri S&amp;T Mars Rover Design Team
 Drive Control Board Rev 2
 Mike Miles | 2016</text>
+<dimension x1="0" y1="0" x2="109.22" y2="0" x3="54.61" y3="-12.065" textsize="1.778" layer="47" dtype="horizontal" unit="inch" precision="6" visible="yes"/>
+<dimension x1="109.22" y1="0" x2="109.22" y2="48.26" x3="124.46" y3="24.13" textsize="1.778" layer="47" dtype="horizontal" unit="inch" precision="6" visible="yes"/>
 </plain>
 <libraries>
 <library name="holes">
