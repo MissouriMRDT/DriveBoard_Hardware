@@ -3072,10 +3072,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="120"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="MRDT-ICs" deviceset="OKI-78SR-*/1.5-W36?C" device="H" technology="5"/>
-<part name="J1" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="12V_VERT"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
+<part name="J2" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="12V_HORIZ"/>
 </parts>
 <sheets>
 <sheet>
@@ -3137,11 +3137,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R6" gate="G$1" x="-58.42" y="27.94"/>
 <instance part="GND1" gate="1" x="-149.86" y="-2.54"/>
 <instance part="U1" gate="G$1" x="73.66" y="86.36"/>
-<instance part="J1" gate="GND" x="71.12" y="104.14"/>
-<instance part="J1" gate="VCC" x="71.12" y="109.22"/>
 <instance part="+3V1" gate="G$1" x="48.26" y="119.38"/>
 <instance part="+3V2" gate="G$1" x="-154.94" y="127"/>
 <instance part="P+1" gate="1" x="40.64" y="119.38"/>
+<instance part="J2" gate="GND" x="71.12" y="104.14"/>
+<instance part="J2" gate="VCC" x="71.12" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -3162,7 +3162,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="55.88" y1="76.2" x2="55.88" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 <junction x="60.96" y="104.14"/>
-<pinref part="J1" gate="GND" pin="P$1"/>
+<pinref part="J2" gate="GND" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="CONN_3" gate="G$1" pin="3"/>
@@ -3589,7 +3589,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="53.34" y1="109.22" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VI"/>
 <wire x1="53.34" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="J1" gate="VCC" pin="P$1"/>
+<pinref part="J2" gate="VCC" pin="P$1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
