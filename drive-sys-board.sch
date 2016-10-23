@@ -1706,12 +1706,6 @@
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="VCC">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="+3V3">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -1737,19 +1731,6 @@
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3092,9 +3073,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="MRDT-ICs" deviceset="OKI-78SR-*/1.5-W36?C" device="H" technology="5"/>
 <part name="J1" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="12V_VERT"/>
-<part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="P+1" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3158,9 +3139,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="U1" gate="G$1" x="73.66" y="86.36"/>
 <instance part="J1" gate="GND" x="71.12" y="104.14"/>
 <instance part="J1" gate="VCC" x="71.12" y="109.22"/>
-<instance part="P+1" gate="VCC" x="40.64" y="119.38"/>
 <instance part="+3V1" gate="G$1" x="48.26" y="119.38"/>
 <instance part="+3V2" gate="G$1" x="-154.94" y="127"/>
+<instance part="P+1" gate="1" x="40.64" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -3281,6 +3262,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="P+14" gate="1" pin="+5V"/>
 <wire x1="93.98" y1="91.44" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="114.3" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="+5V"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="PWM_6" class="0">
@@ -3603,14 +3590,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U1" gate="G$1" pin="VI"/>
 <wire x1="53.34" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="J1" gate="VCC" pin="P$1"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<wire x1="30.48" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="114.3" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="+5V"/>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
