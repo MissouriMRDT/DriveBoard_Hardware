@@ -3223,42 +3223,32 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="-71.12" y1="-78.74" x2="-73.66" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-73.66" y="-78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="PM0"/>
-<wire x1="-5.08" y1="38.1" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
-<label x="-10.16" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="RX_1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PA6"/>
-<wire x1="-5.08" y1="104.14" x2="-10.16" y2="104.14" width="0.1524" layer="91"/>
-<label x="-10.16" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="R1OUT"/>
 <wire x1="-152.4" y1="78.74" x2="-154.94" y2="78.74" width="0.1524" layer="91"/>
 <label x="-154.94" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA4"/>
+<wire x1="-5.08" y1="109.22" x2="-10.16" y2="109.22" width="0.1524" layer="91"/>
+<label x="-10.16" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="TX_1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PA7"/>
-<wire x1="-5.08" y1="101.6" x2="-10.16" y2="101.6" width="0.1524" layer="91"/>
-<label x="-10.16" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="T1IN"/>
 <wire x1="-152.4" y1="88.9" x2="-154.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="-154.94" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA5"/>
+<wire x1="-5.08" y1="106.68" x2="-10.16" y2="106.68" width="0.1524" layer="91"/>
+<label x="-10.16" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PF1"/>
-<wire x1="-5.08" y1="83.82" x2="-10.16" y2="83.82" width="0.1524" layer="91"/>
-<label x="-10.16" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="MC1" gate="G$1" pin="1"/>
 <wire x1="-71.12" y1="114.3" x2="-73.66" y2="114.3" width="0.1524" layer="91"/>
@@ -3266,11 +3256,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 </net>
 <net name="PWM_2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PM7"/>
-<wire x1="-5.08" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
-<label x="-10.16" y="20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="MC2" gate="G$1" pin="1"/>
 <wire x1="-71.12" y1="86.36" x2="-73.66" y2="86.36" width="0.1524" layer="91"/>
@@ -3283,22 +3268,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="-71.12" y1="2.54" x2="-73.66" y2="2.54" width="0.1524" layer="91"/>
 <label x="-73.66" y="2.54" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="PF2"/>
-<wire x1="-5.08" y1="81.28" x2="-10.16" y2="81.28" width="0.1524" layer="91"/>
-<label x="-10.16" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="PWM_4" class="0">
 <segment>
 <pinref part="MC4" gate="G$1" pin="1"/>
 <wire x1="-71.12" y1="30.48" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
 <label x="-73.66" y="30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="-5.08" y1="50.8" x2="-10.16" y2="50.8" width="0.1524" layer="91"/>
-<label x="-10.16" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="PK4"/>
 </segment>
 </net>
 <net name="PWM_5" class="0">
@@ -3307,106 +3282,101 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="-71.12" y1="-50.8" x2="-73.66" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-73.66" y="-50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<wire x1="-5.08" y1="48.26" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
-<label x="-10.16" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="PK5"/>
-</segment>
 </net>
 <net name="RX_5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PP0"/>
-<wire x1="-5.08" y1="15.24" x2="-10.16" y2="15.24" width="0.1524" layer="91"/>
-<label x="-10.16" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="R1OUT"/>
 <wire x1="-152.4" y1="-86.36" x2="-154.94" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-154.94" y="-86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="TX_5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PP1"/>
-<wire x1="-5.08" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
-<label x="-10.16" y="12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="T1IN"/>
-<wire x1="-152.4" y1="-76.2" x2="-154.94" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-154.94" y="-76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="RX_3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PK0"/>
-<wire x1="-5.08" y1="60.96" x2="-10.16" y2="60.96" width="0.1524" layer="91"/>
-<label x="-10.16" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="R1OUT"/>
-<wire x1="-152.4" y1="-5.08" x2="-154.94" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-154.94" y="-5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="TX_3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PK1"/>
-<wire x1="-5.08" y1="58.42" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
-<label x="-10.16" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="T1IN"/>
-<wire x1="-152.4" y1="5.08" x2="-154.94" y2="5.08" width="0.1524" layer="91"/>
-<label x="-154.94" y="5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="RX_2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PA4"/>
-<wire x1="-5.08" y1="109.22" x2="-10.16" y2="109.22" width="0.1524" layer="91"/>
-<label x="-10.16" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="R2OUT"/>
-<wire x1="-152.4" y1="73.66" x2="-154.94" y2="73.66" width="0.1524" layer="91"/>
-<label x="-154.94" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="TX_2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PA5"/>
-<wire x1="-5.08" y1="106.68" x2="-10.16" y2="106.68" width="0.1524" layer="91"/>
-<label x="-10.16" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="T2IN"/>
-<wire x1="-152.4" y1="83.82" x2="-154.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="-154.94" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="TX_4" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PC7"/>
-<wire x1="-5.08" y1="88.9" x2="-10.16" y2="88.9" width="0.1524" layer="91"/>
-<label x="-10.16" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="T2IN"/>
-<wire x1="-152.4" y1="0" x2="-154.94" y2="0" width="0.1524" layer="91"/>
-<label x="-154.94" y="0" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="RX_4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PC6"/>
 <wire x1="-5.08" y1="91.44" x2="-10.16" y2="91.44" width="0.1524" layer="91"/>
 <label x="-10.16" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="TX_5" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="T1IN"/>
+<wire x1="-152.4" y1="-76.2" x2="-154.94" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-154.94" y="-76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PC7"/>
+<wire x1="-5.08" y1="88.9" x2="-10.16" y2="88.9" width="0.1524" layer="91"/>
+<label x="-10.16" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="RX_3" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="R1OUT"/>
+<wire x1="-152.4" y1="-5.08" x2="-154.94" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-154.94" y="-5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PP0"/>
+<wire x1="-5.08" y1="15.24" x2="-10.16" y2="15.24" width="0.1524" layer="91"/>
+<label x="-10.16" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="TX_3" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="T1IN"/>
+<wire x1="-152.4" y1="5.08" x2="-154.94" y2="5.08" width="0.1524" layer="91"/>
+<label x="-154.94" y="5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PP1"/>
+<wire x1="-5.08" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
+<label x="-10.16" y="12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="RX_2" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="R2OUT"/>
+<wire x1="-152.4" y1="73.66" x2="-154.94" y2="73.66" width="0.1524" layer="91"/>
+<label x="-154.94" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PK0"/>
+<wire x1="-5.08" y1="60.96" x2="-10.16" y2="60.96" width="0.1524" layer="91"/>
+<label x="-10.16" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="TX_2" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="T2IN"/>
+<wire x1="-152.4" y1="83.82" x2="-154.94" y2="83.82" width="0.1524" layer="91"/>
+<label x="-154.94" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PK1"/>
+<wire x1="-5.08" y1="58.42" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
+<label x="-10.16" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="TX_4" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="T2IN"/>
+<wire x1="-152.4" y1="0" x2="-154.94" y2="0" width="0.1524" layer="91"/>
+<label x="-154.94" y="0" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA7"/>
+<wire x1="-5.08" y1="101.6" x2="-10.16" y2="101.6" width="0.1524" layer="91"/>
+<label x="-10.16" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="RX_4" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="R2OUT"/>
 <wire x1="-152.4" y1="-10.16" x2="-154.94" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-154.94" y="-10.16" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA6"/>
+<wire x1="-5.08" y1="104.14" x2="-10.16" y2="104.14" width="0.1524" layer="91"/>
+<label x="-10.16" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3694,6 +3664,48 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="U2" gate="G$1" pin="VS-"/>
 <pinref part="C4_1" gate="G$1" pin="2"/>
 <wire x1="-124.46" y1="101.6" x2="-121.92" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF1"/>
+<wire x1="-5.08" y1="83.82" x2="-10.16" y2="83.82" width="0.1524" layer="91"/>
+<label x="-10.16" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF2"/>
+<wire x1="-5.08" y1="81.28" x2="-10.16" y2="81.28" width="0.1524" layer="91"/>
+<label x="-10.16" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM4" class="0">
+<segment>
+<wire x1="-5.08" y1="50.8" x2="-10.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="-10.16" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PK4"/>
+</segment>
+</net>
+<net name="PWM5" class="0">
+<segment>
+<wire x1="-5.08" y1="48.26" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
+<label x="-10.16" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PK5"/>
+</segment>
+</net>
+<net name="PWM2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PM7"/>
+<wire x1="-5.08" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
+<label x="-10.16" y="20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PM0"/>
+<wire x1="-5.08" y1="38.1" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="-10.16" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
