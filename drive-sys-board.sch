@@ -3244,7 +3244,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="5V_DECAP" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="12V_DECAP" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -3260,55 +3259,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="POWER" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="GREEN"/>
 <part name="DEBUG" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="0.22OHM-1/4W-1%(0805)" device="" value="?"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="0.22OHM-1/4W-1%(0805)" device="" value="?"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="0.22OHM-1/4W-1%(0805)" device="" value="330"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="0.22OHM-1/4W-1%(0805)" device="" value="330"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-57.404" y="113.792" size="1.778" layer="91">PWM</text>
-<text x="-57.404" y="108.712" size="1.778" layer="91">5V</text>
-<text x="-57.404" y="103.632" size="1.778" layer="91">GND</text>
-<text x="-57.404" y="98.552" size="1.778" layer="91">TX</text>
-<text x="-57.404" y="93.472" size="1.778" layer="91">RX</text>
-<text x="-57.404" y="85.852" size="1.778" layer="91">PWM</text>
-<text x="-57.404" y="80.772" size="1.778" layer="91">5V</text>
-<text x="-57.404" y="75.692" size="1.778" layer="91">GND</text>
-<text x="-57.404" y="70.612" size="1.778" layer="91">TX</text>
-<text x="-57.404" y="65.532" size="1.778" layer="91">RX</text>
-<text x="-57.404" y="29.972" size="1.778" layer="91">PWM</text>
-<text x="-57.404" y="24.892" size="1.778" layer="91">5V</text>
-<text x="-57.404" y="19.812" size="1.778" layer="91">GND</text>
-<text x="-57.404" y="14.732" size="1.778" layer="91">TX</text>
-<text x="-57.404" y="9.652" size="1.778" layer="91">RX</text>
-<text x="-57.404" y="2.032" size="1.778" layer="91">PWM</text>
-<text x="-57.404" y="-3.048" size="1.778" layer="91">5V</text>
-<text x="-57.404" y="-8.128" size="1.778" layer="91">GND</text>
-<text x="-57.404" y="-13.208" size="1.778" layer="91">TX</text>
-<text x="-57.404" y="-18.288" size="1.778" layer="91">RX</text>
-<text x="-57.404" y="-51.308" size="1.778" layer="91">PWM</text>
-<text x="-57.404" y="-56.388" size="1.778" layer="91">5V</text>
-<text x="-57.404" y="-61.468" size="1.778" layer="91">GND</text>
-<text x="-57.404" y="-66.548" size="1.778" layer="91">TX</text>
-<text x="-57.404" y="-71.628" size="1.778" layer="91">RX</text>
-<text x="-57.404" y="-79.248" size="1.778" layer="91">PWM</text>
-<text x="-57.404" y="-84.328" size="1.778" layer="91">5V</text>
-<text x="-57.404" y="-89.408" size="1.778" layer="91">GND</text>
-<text x="-57.404" y="-94.488" size="1.778" layer="91">TX</text>
+<text x="-57.404" y="113.792" size="1.778" layer="97">PWM</text>
+<text x="-57.404" y="103.632" size="1.778" layer="97">GND</text>
+<text x="-57.404" y="98.552" size="1.778" layer="97">TX</text>
+<text x="-57.404" y="93.472" size="1.778" layer="97">RX</text>
+<text x="-57.404" y="85.852" size="1.778" layer="97">PWM</text>
+<text x="-57.404" y="75.692" size="1.778" layer="97">GND</text>
+<text x="-57.404" y="70.612" size="1.778" layer="97">TX</text>
+<text x="-57.404" y="65.532" size="1.778" layer="97">RX</text>
+<text x="-57.404" y="29.972" size="1.778" layer="97">PWM</text>
+<text x="-57.404" y="19.812" size="1.778" layer="97">GND</text>
+<text x="-57.404" y="14.732" size="1.778" layer="97">TX</text>
+<text x="-57.404" y="9.652" size="1.778" layer="97">RX</text>
+<text x="-57.404" y="2.032" size="1.778" layer="97">PWM</text>
+<text x="-57.404" y="-8.128" size="1.778" layer="97">GND</text>
+<text x="-57.404" y="-13.208" size="1.778" layer="97">TX</text>
+<text x="-57.404" y="-18.288" size="1.778" layer="97">RX</text>
+<text x="-57.404" y="-51.308" size="1.778" layer="97">PWM</text>
+<text x="-57.404" y="-61.468" size="1.778" layer="97">GND</text>
+<text x="-57.404" y="-66.548" size="1.778" layer="97">TX</text>
+<text x="-57.404" y="-71.628" size="1.778" layer="97">RX</text>
+<text x="-57.404" y="-79.248" size="1.778" layer="97">PWM</text>
+<text x="-57.404" y="-89.408" size="1.778" layer="97">GND</text>
+<text x="-57.404" y="-94.488" size="1.778" layer="97">TX</text>
 <text x="-57.404" y="-99.568" size="1.778" layer="91">RX</text>
-<text x="-27.94" y="101.6" size="1.778" layer="91">Serial2</text>
-<text x="-27.94" y="106.68" size="1.778" layer="91">Serial3</text>
-<text x="-27.94" y="93.98" size="1.778" layer="91">Serial7</text>
-<text x="-27.94" y="88.9" size="1.778" layer="91">Serial5</text>
-<text x="-27.94" y="58.42" size="1.778" layer="91">Serial4</text>
-<text x="-27.94" y="12.7" size="1.778" layer="91">Serial6</text>
-<text x="-50.8" y="96.52" size="2.54" layer="91">Serial3</text>
-<text x="-50.8" y="-15.24" size="2.54" layer="91">Serial2</text>
-<text x="-50.8" y="-96.52" size="2.54" layer="91">Serial7</text>
-<text x="-50.8" y="-68.58" size="2.54" layer="91">Serial5</text>
-<text x="-50.8" y="68.58" size="2.54" layer="91">Serial4</text>
-<text x="-50.8" y="12.7" size="2.54" layer="91">Serial6</text>
-<text x="38.1" y="50.8" size="1.778" layer="91">Serial Channel        Motor Label
+<text x="-27.94" y="101.6" size="1.778" layer="97">Serial2</text>
+<text x="-27.94" y="106.68" size="1.778" layer="97">Serial3</text>
+<text x="-27.94" y="93.98" size="1.778" layer="97">Serial7</text>
+<text x="-27.94" y="88.9" size="1.778" layer="97">Serial5</text>
+<text x="-27.94" y="58.42" size="1.778" layer="97">Serial4</text>
+<text x="-27.94" y="12.7" size="1.778" layer="97">Serial6</text>
+<text x="-50.8" y="96.52" size="2.54" layer="97">Serial3</text>
+<text x="-50.8" y="-15.24" size="2.54" layer="97">Serial2</text>
+<text x="-50.8" y="-96.52" size="2.54" layer="97">Serial7</text>
+<text x="-50.8" y="-68.58" size="2.54" layer="97">Serial5</text>
+<text x="-50.8" y="68.58" size="2.54" layer="97">Serial4</text>
+<text x="-50.8" y="12.7" size="2.54" layer="97">Serial6</text>
+<text x="38.1" y="50.8" size="1.778" layer="97">Serial Channel        Motor Label
      Serial2                   RR
      Serial3                   FR
      Serial4                   MR
@@ -3354,7 +3347,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND2" gate="1" x="-91.44" y="-116.84"/>
 <instance part="5V_DECAP" gate="G$1" x="17.78" y="-55.88" rot="R90"/>
 <instance part="P+3" gate="1" x="-137.16" y="139.7"/>
-<instance part="P+2" gate="1" x="-86.36" y="139.7"/>
 <instance part="12V_DECAP" gate="G$1" x="-30.48" y="-50.8"/>
 <instance part="GND3" gate="1" x="-137.16" y="-27.94"/>
 <instance part="GND4" gate="1" x="-137.16" y="55.88"/>
@@ -3503,32 +3495,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.94" y1="-45.72" x2="27.94" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="-45.72" x2="27.94" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="27.94" y="-45.72"/>
-</segment>
-<segment>
-<wire x1="-86.36" y1="137.16" x2="-86.36" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="MC6" gate="G$1" pin="2"/>
-<wire x1="-86.36" y1="109.22" x2="-86.36" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="81.28" x2="-86.36" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="25.4" x2="-86.36" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="-2.54" x2="-86.36" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="-55.88" x2="-86.36" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="-83.82" x2="-71.12" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="MC5" gate="G$1" pin="2"/>
-<wire x1="-71.12" y1="-55.88" x2="-86.36" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="-86.36" y="-55.88"/>
-<pinref part="MC3" gate="G$1" pin="2"/>
-<wire x1="-71.12" y1="-2.54" x2="-86.36" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-86.36" y="-2.54"/>
-<pinref part="MC4" gate="G$1" pin="2"/>
-<wire x1="-71.12" y1="25.4" x2="-86.36" y2="25.4" width="0.1524" layer="91"/>
-<junction x="-86.36" y="25.4"/>
-<pinref part="MC2" gate="G$1" pin="2"/>
-<wire x1="-71.12" y1="81.28" x2="-86.36" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-86.36" y="81.28"/>
-<pinref part="MC1" gate="G$1" pin="2"/>
-<wire x1="-71.12" y1="109.22" x2="-86.36" y2="109.22" width="0.1524" layer="91"/>
-<junction x="-86.36" y="109.22"/>
-<pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
