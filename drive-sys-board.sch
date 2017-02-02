@@ -3301,13 +3301,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-50.8" y="-68.58" size="2.54" layer="97">Serial5</text>
 <text x="-50.8" y="68.58" size="2.54" layer="97">Serial4</text>
 <text x="-50.8" y="12.7" size="2.54" layer="97">Serial6</text>
-<text x="38.1" y="50.8" size="1.778" layer="97">Serial Channel        Motor Label
-     Serial2                   RR
-     Serial3                   FR
-     Serial4                   MR
-     Serial5                   ML
-     Serial6                   FL
-     Serial7                   RL</text>
 </plain>
 <instances>
 <instance part="GND19" gate="1" x="35.56" y="106.68"/>
