@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -754,10 +754,10 @@ Murata</description>
 <hole x="-6.35" y="8.636" drill="3.4544"/>
 <hole x="6.35" y="8.636" drill="3.4544"/>
 <pad name="3" x="0" y="0" drill="1.1684"/>
-<pad name="2" x="-2.54" y="0" drill="1.1684"/>
-<pad name="1" x="-5.08" y="0" drill="1.1684" shape="square"/>
-<pad name="4" x="2.54" y="0" drill="1.1684"/>
-<pad name="5" x="5.08" y="0" drill="1.1684"/>
+<pad name="2" x="2.54" y="0" drill="1.1684"/>
+<pad name="1" x="5.08" y="0" drill="1.1684"/>
+<pad name="4" x="-2.54" y="0" drill="1.1684"/>
+<pad name="5" x="-5.08" y="0" drill="1.1684"/>
 <wire x1="-8.255" y1="13.208" x2="-3.81" y2="13.208" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="13.208" x2="3.81" y2="13.208" width="0.127" layer="21"/>
 <wire x1="3.81" y1="13.208" x2="8.255" y2="13.208" width="0.127" layer="21"/>
@@ -3235,12 +3235,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C3_3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
 <part name="C4_3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
 <part name="C5_3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
-<part name="MC1" library="MRDT-Connectors" deviceset="SL05" device="VERT"/>
-<part name="MC2" library="MRDT-Connectors" deviceset="SL05" device="VERT"/>
-<part name="MC4" library="MRDT-Connectors" deviceset="SL05" device="VERT"/>
-<part name="MC3" library="MRDT-Connectors" deviceset="SL05" device="VERT"/>
-<part name="MC5" library="MRDT-Connectors" deviceset="SL05" device="VERT"/>
-<part name="MC6" library="MRDT-Connectors" deviceset="SL05" device="VERT"/>
+<part name="MC1" library="MRDT-Connectors" deviceset="SL05" device="" value="SL05"/>
+<part name="MC2" library="MRDT-Connectors" deviceset="SL05" device="" value="SL05"/>
+<part name="MC4" library="MRDT-Connectors" deviceset="SL05" device="" value="SL05"/>
+<part name="MC3" library="MRDT-Connectors" deviceset="SL05" device="" value="SL05"/>
+<part name="MC5" library="MRDT-Connectors" deviceset="SL05" device="" value="SL05"/>
+<part name="MC6" library="MRDT-Connectors" deviceset="SL05" device="" value="SL05"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="5V_DECAP" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
