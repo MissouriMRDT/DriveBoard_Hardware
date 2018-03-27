@@ -836,7 +836,7 @@ LEFT MIDDLE MOTOR
 Text Notes 4850 8250 0    60   ~ 0
 LEFT BACK MOTOR
 Wire Notes Line
-	500  3650 11000 3650
+	500  3650 13300 3650
 Text Notes 2800 3800 0    60   ~ 12
 DRIVE SERIAL
 $Comp
@@ -896,7 +896,7 @@ Text GLabel 7800 3400 2    60   Output ~ 0
 DRIVE_TX_LB
 Text GLabel 9850 1400 2    60   Output ~ 0
 DRIVE_PWM_RB
-Text GLabel 9850 1900 2    60   Output ~ 0
+Text GLabel 9850 2000 2    60   Output ~ 0
 DRIVE_PWM_RF
 Text GLabel 9850 1500 2    60   Output ~ 0
 DRIVE_PWM_RM
@@ -934,4 +934,277 @@ Wire Notes Line
 	6050 550  6050 8700
 Wire Notes Line
 	6050 8700 550  8700
+$Comp
+L Molex_SL_3 U?
+U 1 1 5ABAC403
+P 12550 1400
+F 0 "U?" H 12600 1350 60  0001 C CNN
+F 1 "Molex_SL_3" H 12600 1750 60  0000 C CNN
+F 2 "" H 12550 1400 60  0001 C CNN
+F 3 "" H 12550 1400 60  0001 C CNN
+	1    12550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Molex_SL_3 U?
+U 1 1 5ABAC466
+P 12550 1850
+F 0 "U?" H 12600 1800 60  0001 C CNN
+F 1 "Molex_SL_3" H 12600 2200 60  0000 C CNN
+F 2 "" H 12550 1850 60  0001 C CNN
+F 3 "" H 12550 1850 60  0001 C CNN
+	1    12550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Molex_SL_3 U?
+U 1 1 5ABAC4C2
+P 12550 2350
+F 0 "U?" H 12600 2300 60  0001 C CNN
+F 1 "Molex_SL_3" H 12600 2700 60  0000 C CNN
+F 2 "" H 12550 2350 60  0001 C CNN
+F 3 "" H 12550 2350 60  0001 C CNN
+	1    12550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Molex_SL_3 U?
+U 1 1 5ABAC51E
+P 12550 2850
+F 0 "U?" H 12600 2800 60  0001 C CNN
+F 1 "Molex_SL_3" H 12600 3200 60  0000 C CNN
+F 2 "" H 12550 2850 60  0001 C CNN
+F 3 "" H 12550 2850 60  0001 C CNN
+	1    12550 2850
+	1    0    0    -1  
+$EndComp
+Text Notes 12650 1200 0    60   ~ 0
+GND
+Text Notes 12650 1300 0    60   ~ 0
+VCC\n
+Text Notes 12650 1400 0    60   ~ 0
+SIG
+Text Notes 12650 2150 0    60   ~ 0
+GND
+Text Notes 12650 2250 0    60   ~ 0
+VCC\n
+Text Notes 12650 2350 0    60   ~ 0
+SIG
+Text Notes 12650 1650 0    60   ~ 0
+GND
+Text Notes 12650 1750 0    60   ~ 0
+VCC\n
+Text Notes 12650 1850 0    60   ~ 0
+SIG
+Text Notes 12650 2650 0    60   ~ 0
+GND
+Text Notes 12650 2750 0    60   ~ 0
+VCC\n
+Text Notes 12650 2850 0    60   ~ 0
+SIG
+Text GLabel 11400 3000 0    60   UnSpc ~ 0
+GND
+Text GLabel 11650 1000 1    60   Input ~ 0
++5V
+Wire Wire Line
+	11650 1000 11650 2700
+Wire Wire Line
+	11650 2700 12350 2700
+Wire Wire Line
+	12350 2200 11650 2200
+Connection ~ 11650 2200
+Wire Wire Line
+	12350 1250 11650 1250
+Connection ~ 11650 1250
+Wire Wire Line
+	12350 1700 11650 1700
+Connection ~ 11650 1700
+Wire Wire Line
+	12350 1150 11550 1150
+Wire Wire Line
+	11550 1150 11550 3000
+Wire Wire Line
+	11550 3000 11400 3000
+Wire Wire Line
+	12350 2600 11550 2600
+Connection ~ 11550 2600
+Wire Wire Line
+	12350 2100 11550 2100
+Connection ~ 11550 2100
+Text GLabel 12350 1350 0    60   Input ~ 0
+SERVO_1
+Text GLabel 12350 1800 0    60   Input ~ 0
+SERVO_2
+Text GLabel 12350 2300 0    60   Input ~ 0
+SERVO_3
+Text GLabel 12350 2800 0    60   Input ~ 0
+SERVO_4
+Wire Wire Line
+	12350 1600 11550 1600
+Connection ~ 11550 1600
+Text Notes 11900 650  0    60   ~ 12
+SERVOS
+Wire Notes Line
+	13300 3650 13300 500 
+Text GLabel 9850 1300 2    60   Output ~ 0
+SERVO_1
+Text GLabel 9850 2700 2    60   Output ~ 0
+SERVO_4
+Text GLabel 9850 2600 2    60   Output ~ 0
+SERVO_3
+Text GLabel 9850 1900 2    60   Output ~ 0
+SERVO_2
+$Comp
+L IRF7821PbF U?
+U 1 1 5ABB21DE
+P 7400 4650
+F 0 "U?" H 7550 4600 60  0000 C CNN
+F 1 "IRF7821PbF" H 7750 5100 60  0000 C CNN
+F 2 "" H 7400 4650 60  0001 C CNN
+F 3 "" H 7400 4650 60  0001 C CNN
+	1    7400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF7821PbF U?
+U 1 1 5ABB229B
+P 7400 5300
+F 0 "U?" H 7550 5250 60  0000 C CNN
+F 1 "IRF7821PbF" H 7750 5750 60  0000 C CNN
+F 2 "" H 7400 5300 60  0001 C CNN
+F 3 "" H 7400 5300 60  0001 C CNN
+	1    7400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF7821PbF U?
+U 1 1 5ABB2322
+P 7400 5950
+F 0 "U?" H 7550 5900 60  0000 C CNN
+F 1 "IRF7821PbF" H 7750 6400 60  0000 C CNN
+F 2 "" H 7400 5950 60  0001 C CNN
+F 3 "" H 7400 5950 60  0001 C CNN
+	1    7400 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8400 4450 2    60   Output ~ 0
+RED
+Text GLabel 8400 5100 2    60   Output ~ 0
+GREEN
+Text GLabel 8400 5750 2    60   Output ~ 0
+BLUE
+Text GLabel 6950 6150 0    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	7100 6150 6950 6150
+Wire Wire Line
+	8300 4300 8300 4600
+Wire Wire Line
+	8300 4950 8300 5250
+Wire Wire Line
+	8300 5600 8300 5900
+Connection ~ 8300 5800
+Connection ~ 8300 5700
+Connection ~ 8300 5150
+Connection ~ 8300 5050
+Connection ~ 8300 4500
+Connection ~ 8300 4400
+Wire Wire Line
+	8400 4450 8300 4450
+Connection ~ 8300 4450
+Wire Wire Line
+	8400 5100 8300 5100
+Connection ~ 8300 5100
+Wire Wire Line
+	8400 5750 8300 5750
+Connection ~ 8300 5750
+Wire Wire Line
+	7200 4400 7100 4400
+Wire Wire Line
+	7100 4400 7100 6150
+Wire Wire Line
+	7200 4500 7100 4500
+Connection ~ 7100 4500
+Wire Wire Line
+	7200 4600 7100 4600
+Connection ~ 7100 4600
+Wire Wire Line
+	7200 5050 7100 5050
+Connection ~ 7100 5050
+Wire Wire Line
+	7200 5150 7100 5150
+Connection ~ 7100 5150
+Wire Wire Line
+	7200 5250 7100 5250
+Connection ~ 7100 5250
+Wire Wire Line
+	7200 5700 7100 5700
+Connection ~ 7100 5700
+Wire Wire Line
+	7100 5800 7200 5800
+Connection ~ 7100 5800
+Wire Wire Line
+	7100 5900 7200 5900
+Connection ~ 7100 5900
+Text GLabel 7200 4300 0    60   Input ~ 0
+RED_SIG
+Text GLabel 7200 4950 0    60   Input ~ 0
+GREEN_SIG
+Text GLabel 7200 5600 0    60   Input ~ 0
+BLUE_SIG
+Text GLabel 8950 2800 0    60   Input ~ 0
+RED_SIG
+Text GLabel 8950 2900 0    51   Input ~ 0
+GREEN_SIG
+Text GLabel 8950 3000 0    60   Input ~ 0
+BLUE_SIG
+$Comp
+L Molex_SL_4 U?
+U 1 1 5ABB5C29
+P 9900 5250
+F 0 "U?" H 9950 5200 60  0001 C CNN
+F 1 "Molex_SL_4" H 9950 5700 60  0000 C CNN
+F 2 "" H 9900 5250 60  0001 C CNN
+F 3 "" H 9900 5250 60  0001 C CNN
+	1    9900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Molex_SL_4 U?
+U 1 1 5ABB5C95
+P 9900 5850
+F 0 "U?" H 9950 5800 60  0001 C CNN
+F 1 "Molex_SL_4" H 9950 6300 60  0000 C CNN
+F 2 "" H 9900 5850 60  0001 C CNN
+F 3 "" H 9900 5850 60  0001 C CNN
+	1    9900 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 5100 0    60   Input ~ 0
+RED
+Text GLabel 9700 5700 0    60   Input ~ 0
+RED
+Text GLabel 9700 5000 0    60   Input ~ 0
+GREEN
+Text GLabel 9700 5600 0    60   Input ~ 0
+GREEN
+Text GLabel 9700 5500 0    60   Input ~ 0
+BLUE
+Text GLabel 9700 4900 0    60   Input ~ 0
+BLUE
+Wire Wire Line
+	9200 5800 9700 5800
+Wire Wire Line
+	9200 4700 9200 5800
+Wire Wire Line
+	9700 5200 9200 5200
+Connection ~ 9200 5200
+Text GLabel 9200 4700 1    60   Input ~ 0
++12V
+Text Notes 8250 3900 0    60   ~ 12
+LED STRIPS
+Wire Notes Line
+	10500 3650 10500 6350
+Wire Notes Line
+	10500 6350 6050 6350
 $EndSCHEMATC
