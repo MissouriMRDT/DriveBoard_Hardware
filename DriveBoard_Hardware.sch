@@ -971,7 +971,7 @@ Text Notes 12650 2850 0    60   ~ 0
 SIG
 Text GLabel 11400 3000 0    60   UnSpc ~ 0
 GND
-Text GLabel 11650 1000 1    60   Input ~ 0
+Text GLabel 11400 900  0    60   Input ~ 0
 +5V
 Wire Wire Line
 	11650 1000 11650 2700
@@ -987,16 +987,14 @@ Wire Wire Line
 	12350 1700 11650 1700
 Connection ~ 11650 1700
 Wire Wire Line
-	12350 1150 11550 1150
-Wire Wire Line
-	11550 1150 11550 3000
+	11550 1150 12350 1150
 Wire Wire Line
 	11550 3000 11400 3000
 Wire Wire Line
-	12350 2600 11550 2600
+	11550 2600 12350 2600
 Connection ~ 11550 2600
 Wire Wire Line
-	12350 2100 11550 2100
+	11550 2100 12350 2100
 Connection ~ 11550 2100
 Text GLabel 12350 1350 0    60   Input ~ 0
 SERVO_1
@@ -1352,4 +1350,20 @@ Text Notes 13650 1600 0    60   ~ 12
 LED HEADLIGHT POWER SOURCE SELECT
 Text GLabel 3050 1550 0    60   Input ~ 0
 12V_Log
+$Comp
+L Jumper_NC_Dual JP1
+U 1 1 5AD452BD
+P 11650 900
+F 0 "JP1" H 11700 800 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 11650 1000 50  0000 C BNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 11650 900 50  0001 C CNN
+F 3 "" H 11650 900 50  0001 C CNN
+	1    11650 900 
+	1    0    0    -1  
+$EndComp
+Connection ~ 11550 1150
+Wire Wire Line
+	11550 1150 11550 3000
+Text GLabel 11900 900  2    60   Input ~ 0
++12V
 $EndSCHEMATC

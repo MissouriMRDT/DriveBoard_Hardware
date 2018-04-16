@@ -1,4 +1,4 @@
-update=3/26/2018 2:20:42 PM
+update=4/15/2018 9:14:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -71,3 +69,5 @@ LibName39=C:/KiCad-Libraries-Hardware/Device/MRDT_Passives
 LibName40=C:/KiCad-Libraries-Hardware/Device/MRDT_Shields
 LibName41=C:/KiCad-Libraries-Hardware/Device/MRDT_Silkscreens
 LibName42=C:/KiCad-Libraries-Hardware/Device/MRDT_Switches
+[general]
+version=1
