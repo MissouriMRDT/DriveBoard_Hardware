@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 17)
     (tracks 0)
     (zones 0)
     (modules 20)
@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -236,8 +236,8 @@
     (add_net TX_3_SL)
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EAD6)
-    (at 202.273001 92.657001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7FE4F)
+    (at 126.125 76.454)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC76CA1)
@@ -273,7 +273,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EAE7)
-    (at 124.103001 161.557001)
+    (at 126.125 81.534)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC7EBF4)
@@ -309,7 +309,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EAF8)
-    (at 130.803001 161.557001)
+    (at 129.681 73.66)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC69DF3)
@@ -344,8 +344,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB09)
-    (at 124.103001 163.067001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7FA27)
+    (at 129.681 78.994)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC69E47)
@@ -380,8 +380,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB1A)
-    (at 127.453001 163.067001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD80161)
+    (at 142.24 91.186)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC7EBC0)
@@ -416,8 +416,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB2B)
-    (at 130.803001 163.067001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD80131)
+    (at 142.099 96.012)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC7EBC7)
@@ -452,8 +452,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB3C)
-    (at 124.103001 164.577001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7FC97)
+    (at 161.657 81.534)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC69222)
@@ -489,7 +489,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB4D)
-    (at 127.453001 164.577001)
+    (at 161.657 90.424)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC69286)
@@ -524,8 +524,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB5E)
-    (at 124.103001 166.087001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD80101)
+    (at 145.796 88.138)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC69D37)
@@ -560,8 +560,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB6F)
-    (at 127.453001 166.087001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD800D1)
+    (at 145.909 93.726)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC69D97)
@@ -596,8 +596,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB80)
-    (at 127.453001 161.557001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7FBA8)
+    (at 158.863 87.376)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC7EBB2)
@@ -633,7 +633,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5BD7EB91)
-    (at 218.933001 78.037001)
+    (at 142.381 72.898)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BC7EBB9)
@@ -668,13 +668,13 @@
     )
   )
 
-  (module MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side (layer F.Cu) (tedit 5AAD70FE) (tstamp 5BD7EBAF)
-    (at 208.651001 76.275001)
+  (module MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side (layer F.Cu) (tedit 5AAD70FE) (tstamp 5BD7F2A2)
+    (at 167.132 53.34 180)
     (path /5BC68926)
-    (fp_text reference Conn1 (at -1.8796 0.762) (layer F.SilkS) hide
+    (fp_text reference Conn1 (at -1.8796 0.762 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value AndersonPP (at -12.8651 -16.764) (layer F.Fab)
+    (fp_text value AndersonPP (at -12.8651 -16.764 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start -14.5796 0) (end -14.5796 -1.1176) (angle 90) (layer F.SilkS) (width 0.15))
@@ -701,14 +701,14 @@
     (fp_line (start -16.8656 0) (end -24.6126 0) (layer F.SilkS) (width 0.15))
     (fp_line (start -24.6126 -15.748) (end -16.8656 -15.748) (layer F.SilkS) (width 0.15))
     (fp_line (start -12.2936 -15.748) (end 0 -15.748) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 3.5814 -4.063) (size 5.08 5.08) (drill 4.06) (layers *.Cu *.Mask F.Paste)
+    (pad 1 thru_hole circle (at 3.5814 -4.063 180) (size 5.08 5.08) (drill 4.06) (layers *.Cu *.Mask F.Paste)
       (net 1 GND))
-    (pad 2 thru_hole circle (at 3.5814 -12.064) (size 5.08 5.08) (drill 4.06) (layers *.Cu *.Mask F.Paste)
+    (pad 2 thru_hole circle (at 3.5814 -12.064 180) (size 5.08 5.08) (drill 4.06) (layers *.Cu *.Mask F.Paste)
       (net 7 "Net-(C7-Pad1)"))
   )
 
   (module MRDT_Connectors:MOLEX_SL_05_Horizontal (layer F.Cu) (tedit 5AB80068) (tstamp 5BD7EBCD)
-    (at 208.928001 90.565001)
+    (at 131.318 49.022)
     (path /5BC7224D)
     (fp_text reference Conn2 (at -3.81 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -750,7 +750,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_05_Horizontal (layer F.Cu) (tedit 5AB80068) (tstamp 5BD7EBEB)
-    (at 192.268001 104.425001)
+    (at 148.59 49.022)
     (path /5BC722B9)
     (fp_text reference Conn3 (at -3.81 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -791,8 +791,8 @@
     (pad "" np_thru_hole circle (at 6.35 -8.636) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
   )
 
-  (module MRDT_Connectors:MOLEX_SL_05_Horizontal (layer F.Cu) (tedit 5AB80068) (tstamp 5BD7EC09)
-    (at 192.268001 89.805001)
+  (module MRDT_Connectors:MOLEX_SL_05_Horizontal (layer F.Cu) (tedit 5AB80068) (tstamp 5BD7F5C7)
+    (at 165.862 49.022)
     (path /5BC7231D)
     (fp_text reference Conn4 (at -3.81 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -833,8 +833,8 @@
       (net 27 "Net-(Conn4-Pad1)"))
   )
 
-  (module Package_SO:SOIC-16_3.9x9.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5BD7EC2E)
-    (at 228.973001 65.727001)
+  (module Package_SO:SOIC-16_3.9x9.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5BD7F81F)
+    (at 136.144 78.486)
     (descr "16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BC69B52)
@@ -903,8 +903,8 @@
     )
   )
 
-  (module Package_SO:SOIC-16_3.9x9.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5BD7EC53)
-    (at 187.663001 111.037001)
+  (module Package_SO:SOIC-16_3.9x9.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5BD80079)
+    (at 152.146 92.964)
     (descr "16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BC7EB9F)
@@ -974,13 +974,13 @@
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5A7F91F8) (tstamp 5BD7EC66)
-    (at 215.018 60.702)
+    (at 165.608 84.074 90)
     (tags OKI)
     (path /5BC688B7)
-    (fp_text reference U3 (at 2.54 -1.27) (layer F.SilkS) hide
+    (fp_text reference U3 (at 2.54 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value OKI (at 6.35 -1.27) (layer F.SilkS)
+    (fp_text value OKI (at 6.35 -1.27 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 7.62 3.81) (end 10.16 6.35) (layer F.SilkS) (width 0.15))
@@ -995,16 +995,16 @@
     (fp_line (start 0 0) (end 10.16 0) (layer F.SilkS) (width 0.15))
     (fp_line (start 10.16 0) (end 10.16 16.51) (layer F.SilkS) (width 0.15))
     (fp_line (start 0 16.51) (end 0 0) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 2.54 1.27) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 2.54 1.27 90) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask)
       (net 7 "Net-(C7-Pad1)"))
-    (pad 2 thru_hole circle (at 5.08 1.27) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 5.08 1.27 90) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask)
       (net 1 GND))
-    (pad 3 thru_hole circle (at 7.62 1.27) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask)
+    (pad 3 thru_hole circle (at 7.62 1.27 90) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask)
       (net 2 +5V))
   )
 
-  (module MRDT_Shields:TM4C129E_Launchpad_X7_Bottom_SMD (layer F.Cu) (tedit 5B7ECCBB) (tstamp 5BD7ECDE)
-    (at 122.707001 135.127001)
+  (module MRDT_Shields:TM4C129E_Launchpad_X7_Bottom_SMD (layer F.Cu) (tedit 5B7ECCBB) (tstamp 5BD7F3CB)
+    (at 122.428 109.728)
     (path /5BC86EE3)
     (fp_text reference U4 (at 57.404 -0.762 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1199,5 +1199,23 @@
     (pad PP5 smd rect (at 6.35 -48.6664 180) (size 0.9906 1.778) (layers B.Cu B.Paste B.Mask)
       (net 68 "Net-(U4-PadPP5)"))
   )
+
+  (gr_arc (start 181.356 87.376) (end 181.356 89.408) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 181.356 112.268) (end 183.388 112.268) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 183.388 122.428) (end 183.388 120.396) (angle -180) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 183.388 124.46) (end 183.388 133.096) (layer Edge.Cuts) (width 0.15) (tstamp 5BD7F258))
+  (gr_arc (start 181.356 133.096) (end 181.356 135.128) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 181.356 135.128) (end 130.81 135.128) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 183.388 112.268) (end 183.388 120.396) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 165.608 110.236) (end 181.356 110.236) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 165.608 89.408) (end 165.608 110.236) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 181.356 89.408) (end 165.608 89.408) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 183.388 35.306) (end 183.388 87.376) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 122.428 35.306) (end 183.388 35.306) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 122.428 122.428) (end 122.428 124.46) (angle -180) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 124.968 132.588) (end 122.428 132.588) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 124.968 135.128) (end 130.81 135.128) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 122.428 124.46) (end 122.428 132.588) (layer Edge.Cuts) (width 0.15) (tstamp 5BD7F1E7))
+  (gr_line (start 122.428 35.306) (end 122.428 120.396) (layer Edge.Cuts) (width 0.15))
 
 )
