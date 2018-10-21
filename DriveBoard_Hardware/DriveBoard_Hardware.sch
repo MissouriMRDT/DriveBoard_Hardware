@@ -675,4 +675,6 @@ Text Notes 7900 4650 0    59   ~ 0
 Serial 3
 Text Notes 6300 4050 0    59   ~ 0
 Serial 6
+Text Label 3550 2000 0    50   ~ 0
++12V
 $EndSCHEMATC
