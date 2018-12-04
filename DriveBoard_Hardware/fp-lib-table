@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name DriveBoard_Hardware)(type KiCad)(uri ${KIPRJMOD}/DriveBoard_Hardware.pretty)(options "")(descr ""))
+)
