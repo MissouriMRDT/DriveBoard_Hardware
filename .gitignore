@@ -1,4 +1,7 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
+# MRDT Custom .gitignore
+# 11/16/18
 
 # Temporary files
 *.000
@@ -8,6 +11,9 @@
 *~
 _autosave-*
 *.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -18,4 +24,3 @@ _autosave-*
 
 # Exported BOM files
 *.xml
-*.csv
