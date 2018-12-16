@@ -1,21 +1,21 @@
-Replace .gitignore 
-Move documentation folder to upper directory 
-Remove lead from 1B
-AP1509 should output 5V to power Max 3232's 
-Rotate 3232 capacitors horizontal 
-Two capacitors connected to Gnd on 3232's should be 10uF 
-Use cap_small capacitors on 3232's
-Move ground to bottom of 3232 schematic
-Move Tiva references in schematic closer to the Tiva headers 
-Move Rx and Tx connector flags one-click out from molex connectors 
-Split up LED references and "LED" labels 
-Change LED supply voltage to 5V 
-Change LED "green-yellow" net labels to actual text in schematic 
-Move 500 ohm field value on LED indicators below resistors
-Make a LED indicator connecting to a digital pin (not a power pin) on one of the Tiva pins
-**Make Bus indicate it's for the WatchDog_IND**
-**Lspeed_IND, Rspeed_IND** route to purple analog pins 
-Flush polygon outline with board 
+Replace .gitignore **Done**
+Move documentation folder to upper directory  **Done**
+Remove lead from 1B  **Done**
+AP1509 should output 5V to power Max 3232's **Done**
+Rotate 3232 capacitors horizontal **Done**
+Two capacitors connected to Gnd on 3232's should be 10uF **Done**
+Use cap_small capacitors on 3232's  **Done**
+Move ground to bottom of 3232 schematic  **Done**
+Move Tiva references in schematic closer to the Tiva headers **Done**
+Move Rx and Tx connector flags one-click out from molex connectors **Done**
+Split up LED references and "LED" labels **Done**
+Change LED supply voltage to 5V **Done**
+Change LED "green-yellow" net labels to actual text in schematic **Done**
+Move 500 ohm field value on LED indicators below resistors **Done**
+Make a LED indicator connecting to a digital pin (not a power pin) on one of the Tiva pins  **Done**
+**Make Bus indicate it's for the WatchDog_IND**  **Done**
+**Lspeed_IND, Rspeed_IND** route to purple analog pins   **Done**
+Flush polygon outline with board    **Done**
 Set Default Pad Connection on polygons to solid 
 Retrace Tiva header isolating ground around and through Anderson PP
 Retrace Tiva header traces through upper Tiva header straight to Molex 
