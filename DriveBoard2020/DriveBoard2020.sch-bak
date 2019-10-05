@@ -25,7 +25,7 @@ F 3 "" H 600 1000 60  0001 C CNN
 	1    750  1550
 	1    0    0    -1  
 $EndComp
-Text Notes 750  600  0    79   ~ 0
+Text Notes 750  600  0    79   ~ 16
 Limit voltage
 Wire Wire Line
 	1150 1000 1400 1000
@@ -54,11 +54,11 @@ F 3 "" H 3000 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5D990CA8
 P 1400 1200
-F 0 "C?" H 1515 1246 50  0000 L CNN
-F 1 "C" H 1515 1155 50  0000 L CNN
+F 0 "C1" H 1515 1246 50  0000 L CNN
+F 1 "10uF" H 1515 1155 50  0000 L CNN
 F 2 "" H 1438 1050 50  0001 C CNN
 F 3 "~" H 1400 1200 50  0001 C CNN
 	1    1400 1200
@@ -78,11 +78,11 @@ $EndComp
 Wire Wire Line
 	1150 1450 1400 1450
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5D994283
 P 1800 1200
-F 0 "C?" H 1915 1246 50  0000 L CNN
-F 1 "C" H 1915 1155 50  0000 L CNN
+F 0 "C2" H 1915 1246 50  0000 L CNN
+F 1 "10uF" H 1915 1155 50  0000 L CNN
 F 2 "" H 1838 1050 50  0001 C CNN
 F 3 "~" H 1800 1200 50  0001 C CNN
 	1    1800 1200
@@ -164,9 +164,9 @@ F 3 "" H 4900 6150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4450 6150 4900 6150
-Text Notes 3400 5350 0    98   ~ 0
+Text Notes 3400 5350 0    98   ~ 20
 Tiva Pins
-Text Notes 2200 2050 0    98   ~ 0
+Text Notes 2200 2050 0    98   ~ 20
 Level Shifters
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
@@ -532,7 +532,7 @@ Wire Wire Line
 	9800 1250 9350 1250
 Text GLabel 9800 1050 0    51   Input ~ 0
 Tx6
-Text Notes 9750 750  0    98   ~ 0
+Text Notes 9750 750  0    98   ~ 20
 Connectors
 $Comp
 L MRDT_Connectors:Molex_SL_05 Conn?
@@ -545,4 +545,310 @@ F 3 "" H 10000 1500 60  0001 C CNN
 	1    10000 1500
 	1    0    0    -1  
 $EndComp
+Text GLabel 5250 1200 1    59   Input ~ 0
+Tx6
+Text Notes 6600 650  2    98   ~ 20
+LED's
+Wire Wire Line
+	5250 1200 5250 1350
+$Comp
+L Device:R R1
+U 1 1 5DAABB9E
+P 5250 1500
+F 0 "R1" H 5320 1546 50  0000 L CNN
+F 1 "R" H 5320 1455 50  0000 L CNN
+F 2 "" V 5180 1500 50  0001 C CNN
+F 3 "~" H 5250 1500 50  0001 C CNN
+	1    5250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1650 5250 1900
+$Comp
+L Device:LED D?
+U 1 1 5DAADC37
+P 5250 2050
+F 0 "D?" V 5289 1933 50  0000 R CNN
+F 1 "LED" V 5198 1933 50  0000 R CNN
+F 2 "" H 5250 2050 50  0001 C CNN
+F 3 "~" H 5250 2050 50  0001 C CNN
+	1    5250 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAAEB8C
+P 5250 2300
+F 0 "#PWR?" H 5250 2050 50  0001 C CNN
+F 1 "GND" H 5255 2127 50  0000 C CNN
+F 2 "" H 5250 2300 50  0001 C CNN
+F 3 "" H 5250 2300 50  0001 C CNN
+	1    5250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2200 5250 2300
+Text GLabel 5700 1200 1    59   Input ~ 0
+Rx6
+$Comp
+L Device:R R2
+U 1 1 5DAB0492
+P 5700 1500
+F 0 "R2" H 5770 1546 50  0000 L CNN
+F 1 "R" H 5770 1455 50  0000 L CNN
+F 2 "" V 5630 1500 50  0001 C CNN
+F 3 "~" H 5700 1500 50  0001 C CNN
+	1    5700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DAB09C5
+P 5700 2050
+F 0 "D?" V 5739 1933 50  0000 R CNN
+F 1 "LED" V 5648 1933 50  0000 R CNN
+F 2 "" H 5700 2050 50  0001 C CNN
+F 3 "~" H 5700 2050 50  0001 C CNN
+	1    5700 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAB0F8F
+P 5700 2300
+F 0 "#PWR?" H 5700 2050 50  0001 C CNN
+F 1 "GND" H 5705 2127 50  0000 C CNN
+F 2 "" H 5700 2300 50  0001 C CNN
+F 3 "" H 5700 2300 50  0001 C CNN
+	1    5700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1200 5700 1350
+Wire Wire Line
+	5700 1650 5700 1900
+Wire Wire Line
+	5700 2200 5700 2300
+Text GLabel 6250 1200 1    59   Input ~ 0
+Tx4
+Wire Wire Line
+	6250 1200 6250 1350
+$Comp
+L Device:R R3
+U 1 1 5DABA27C
+P 6250 1500
+F 0 "R3" H 6320 1546 50  0000 L CNN
+F 1 "R" H 6320 1455 50  0000 L CNN
+F 2 "" V 6180 1500 50  0001 C CNN
+F 3 "~" H 6250 1500 50  0001 C CNN
+	1    6250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1650 6250 1900
+$Comp
+L Device:LED D?
+U 1 1 5DABA283
+P 6250 2050
+F 0 "D?" V 6289 1933 50  0000 R CNN
+F 1 "LED" V 6198 1933 50  0000 R CNN
+F 2 "" H 6250 2050 50  0001 C CNN
+F 3 "~" H 6250 2050 50  0001 C CNN
+	1    6250 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DABA289
+P 6250 2300
+F 0 "#PWR?" H 6250 2050 50  0001 C CNN
+F 1 "GND" H 6255 2127 50  0000 C CNN
+F 2 "" H 6250 2300 50  0001 C CNN
+F 3 "" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2200 6250 2300
+Text GLabel 6700 1200 1    59   Input ~ 0
+Rx4
+$Comp
+L Device:R R4
+U 1 1 5DABA291
+P 6700 1500
+F 0 "R4" H 6770 1546 50  0000 L CNN
+F 1 "R" H 6770 1455 50  0000 L CNN
+F 2 "" V 6630 1500 50  0001 C CNN
+F 3 "~" H 6700 1500 50  0001 C CNN
+	1    6700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DABA297
+P 6700 2050
+F 0 "D?" V 6739 1933 50  0000 R CNN
+F 1 "LED" V 6648 1933 50  0000 R CNN
+F 2 "" H 6700 2050 50  0001 C CNN
+F 3 "~" H 6700 2050 50  0001 C CNN
+	1    6700 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DABA29D
+P 6700 2300
+F 0 "#PWR?" H 6700 2050 50  0001 C CNN
+F 1 "GND" H 6705 2127 50  0000 C CNN
+F 2 "" H 6700 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1200 6700 1350
+Wire Wire Line
+	6700 1650 6700 1900
+Wire Wire Line
+	6700 2200 6700 2300
+Text Notes 5650 900  2    59   ~ 0
+Serial 6
+Text Notes 6650 900  2    59   ~ 0
+Serial 4
+Text GLabel 7200 1200 1    59   Input ~ 0
+Tx3
+Wire Wire Line
+	7200 1200 7200 1350
+$Comp
+L Device:R R5
+U 1 1 5DABE19D
+P 7200 1500
+F 0 "R5" H 7270 1546 50  0000 L CNN
+F 1 "R" H 7270 1455 50  0000 L CNN
+F 2 "" V 7130 1500 50  0001 C CNN
+F 3 "~" H 7200 1500 50  0001 C CNN
+	1    7200 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1650 7200 1900
+$Comp
+L Device:LED D?
+U 1 1 5DABE1A4
+P 7200 2050
+F 0 "D?" V 7239 1933 50  0000 R CNN
+F 1 "LED" V 7148 1933 50  0000 R CNN
+F 2 "" H 7200 2050 50  0001 C CNN
+F 3 "~" H 7200 2050 50  0001 C CNN
+	1    7200 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DABE1AA
+P 7200 2300
+F 0 "#PWR?" H 7200 2050 50  0001 C CNN
+F 1 "GND" H 7205 2127 50  0000 C CNN
+F 2 "" H 7200 2300 50  0001 C CNN
+F 3 "" H 7200 2300 50  0001 C CNN
+	1    7200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2200 7200 2300
+Text GLabel 7650 1200 1    59   Input ~ 0
+Rx3
+$Comp
+L Device:R R6
+U 1 1 5DABE1B2
+P 7650 1500
+F 0 "R6" H 7720 1546 50  0000 L CNN
+F 1 "R" H 7720 1455 50  0000 L CNN
+F 2 "" V 7580 1500 50  0001 C CNN
+F 3 "~" H 7650 1500 50  0001 C CNN
+	1    7650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DABE1B8
+P 7650 2050
+F 0 "D?" V 7689 1933 50  0000 R CNN
+F 1 "LED" V 7598 1933 50  0000 R CNN
+F 2 "" H 7650 2050 50  0001 C CNN
+F 3 "~" H 7650 2050 50  0001 C CNN
+	1    7650 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DABE1BE
+P 7650 2300
+F 0 "#PWR?" H 7650 2050 50  0001 C CNN
+F 1 "GND" H 7655 2127 50  0000 C CNN
+F 2 "" H 7650 2300 50  0001 C CNN
+F 3 "" H 7650 2300 50  0001 C CNN
+	1    7650 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1200 7650 1350
+Wire Wire Line
+	7650 1650 7650 1900
+Wire Wire Line
+	7650 2200 7650 2300
+Text Notes 7600 900  2    59   ~ 0
+Serial 3
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DABEE46
+P 8200 1200
+F 0 "#PWR?" H 8200 1050 50  0001 C CNN
+F 1 "+3.3V" H 8215 1373 50  0000 C CNN
+F 2 "" H 8200 1200 50  0001 C CNN
+F 3 "" H 8200 1200 50  0001 C CNN
+	1    8200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5DAC01AD
+P 8200 1450
+F 0 "R7" H 8270 1496 50  0000 L CNN
+F 1 "R" H 8270 1405 50  0000 L CNN
+F 2 "" V 8130 1450 50  0001 C CNN
+F 3 "~" H 8200 1450 50  0001 C CNN
+	1    8200 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1200 8200 1300
+$Comp
+L Device:LED D?
+U 1 1 5DAC1A9F
+P 8200 1850
+F 0 "D?" V 8239 1733 50  0000 R CNN
+F 1 "LED" V 8148 1733 50  0000 R CNN
+F 2 "" H 8200 1850 50  0001 C CNN
+F 3 "~" H 8200 1850 50  0001 C CNN
+	1    8200 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 1600 8200 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5DAC3638
+P 8200 2100
+F 0 "#PWR?" H 8200 1850 50  0001 C CNN
+F 1 "GND" H 8205 1927 50  0000 C CNN
+F 2 "" H 8200 2100 50  0001 C CNN
+F 3 "" H 8200 2100 50  0001 C CNN
+	1    8200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2000 8200 2100
+Text Notes 8350 900  2    59   ~ 0
+Power
 $EndSCHEMATC

@@ -851,4 +851,524 @@ Wire Wire Line
 	8200 2000 8200 2100
 Text Notes 8350 900  2    59   ~ 0
 Power
+Text Notes 6700 3050 2    98   ~ 20
+Switches
+$Comp
+L Switch:SW_DPST_x2 SW?
+U 1 1 5DAF057E
+P 6350 3400
+F 0 "SW?" H 6350 3635 50  0000 C CNN
+F 1 "SW_DPST_x2" H 6350 3544 50  0000 C CNN
+F 2 "" H 6350 3400 50  0001 C CNN
+F 3 "~" H 6350 3400 50  0001 C CNN
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DAF226A
+P 5700 3400
+F 0 "#PWR?" H 5700 3250 50  0001 C CNN
+F 1 "+3.3V" H 5715 3573 50  0000 C CNN
+F 2 "" H 5700 3400 50  0001 C CNN
+F 3 "" H 5700 3400 50  0001 C CNN
+	1    5700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3400 6150 3400
+Wire Wire Line
+	6550 3400 6700 3400
+Text GLabel 6800 3400 2    39   Output ~ 0
+switch_direction
+$Comp
+L Switch:SW_Push_Dual_x2 SW?
+U 1 1 5DAFC00F
+P 6350 3800
+F 0 "SW?" H 6350 4085 50  0000 C CNN
+F 1 "SW_Push_Dual_x2" H 6350 3994 50  0000 C CNN
+F 2 "" H 6350 4000 50  0001 C CNN
+F 3 "~" H 6350 4000 50  0001 C CNN
+	1    6350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DAFEC33
+P 5700 3800
+F 0 "#PWR?" H 5700 3650 50  0001 C CNN
+F 1 "+3.3V" H 5715 3973 50  0000 C CNN
+F 2 "" H 5700 3800 50  0001 C CNN
+F 3 "" H 5700 3800 50  0001 C CNN
+	1    5700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3800 6150 3800
+Wire Wire Line
+	6550 3800 6700 3800
+Text GLabel 6800 3800 2    39   Output ~ 0
+FL_Motor
+$Comp
+L Switch:SW_Push_Dual_x2 SW?
+U 1 1 5DB041AC
+P 6350 4150
+F 0 "SW?" H 6350 4435 50  0000 C CNN
+F 1 "SW_Push_Dual_x2" H 6350 4344 50  0000 C CNN
+F 2 "" H 6350 4350 50  0001 C CNN
+F 3 "~" H 6350 4350 50  0001 C CNN
+	1    6350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB041B2
+P 5700 4150
+F 0 "#PWR?" H 5700 4000 50  0001 C CNN
+F 1 "+3.3V" H 5715 4323 50  0000 C CNN
+F 2 "" H 5700 4150 50  0001 C CNN
+F 3 "" H 5700 4150 50  0001 C CNN
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4150 6150 4150
+Wire Wire Line
+	6550 4150 6700 4150
+Text GLabel 6800 4150 2    39   Output ~ 0
+FR_Motor
+$Comp
+L Switch:SW_Push_Dual_x2 SW?
+U 1 1 5DB05D3A
+P 6350 4500
+F 0 "SW?" H 6350 4785 50  0000 C CNN
+F 1 "SW_Push_Dual_x2" H 6350 4694 50  0000 C CNN
+F 2 "" H 6350 4700 50  0001 C CNN
+F 3 "~" H 6350 4700 50  0001 C CNN
+	1    6350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB05D40
+P 5700 4500
+F 0 "#PWR?" H 5700 4350 50  0001 C CNN
+F 1 "+3.3V" H 5715 4673 50  0000 C CNN
+F 2 "" H 5700 4500 50  0001 C CNN
+F 3 "" H 5700 4500 50  0001 C CNN
+	1    5700 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4500 6150 4500
+Wire Wire Line
+	6550 4500 6700 4500
+Text GLabel 6800 4500 2    39   Output ~ 0
+ML_Motor
+$Comp
+L Switch:SW_Push_Dual_x2 SW?
+U 1 1 5DB07B8A
+P 6350 4900
+F 0 "SW?" H 6350 5185 50  0000 C CNN
+F 1 "SW_Push_Dual_x2" H 6350 5094 50  0000 C CNN
+F 2 "" H 6350 5100 50  0001 C CNN
+F 3 "~" H 6350 5100 50  0001 C CNN
+	1    6350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB07B90
+P 5700 4900
+F 0 "#PWR?" H 5700 4750 50  0001 C CNN
+F 1 "+3.3V" H 5715 5073 50  0000 C CNN
+F 2 "" H 5700 4900 50  0001 C CNN
+F 3 "" H 5700 4900 50  0001 C CNN
+	1    5700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4900 6150 4900
+Wire Wire Line
+	6550 4900 6700 4900
+Text GLabel 6800 4900 2    39   Output ~ 0
+MR_Motor
+$Comp
+L Switch:SW_Push_Dual_x2 SW?
+U 1 1 5DB0989B
+P 6350 5250
+F 0 "SW?" H 6350 5535 50  0000 C CNN
+F 1 "SW_Push_Dual_x2" H 6350 5444 50  0000 C CNN
+F 2 "" H 6350 5450 50  0001 C CNN
+F 3 "~" H 6350 5450 50  0001 C CNN
+	1    6350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB098A1
+P 5700 5250
+F 0 "#PWR?" H 5700 5100 50  0001 C CNN
+F 1 "+3.3V" H 5715 5423 50  0000 C CNN
+F 2 "" H 5700 5250 50  0001 C CNN
+F 3 "" H 5700 5250 50  0001 C CNN
+	1    5700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5250 6150 5250
+Wire Wire Line
+	6550 5250 6700 5250
+Text GLabel 6800 5250 2    39   Output ~ 0
+RL_Motor
+$Comp
+L Switch:SW_Push_Dual_x2 SW?
+U 1 1 5DB0B480
+P 6350 5650
+F 0 "SW?" H 6350 5935 50  0000 C CNN
+F 1 "SW_Push_Dual_x2" H 6350 5844 50  0000 C CNN
+F 2 "" H 6350 5850 50  0001 C CNN
+F 3 "~" H 6350 5850 50  0001 C CNN
+	1    6350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB0B486
+P 5700 5650
+F 0 "#PWR?" H 5700 5500 50  0001 C CNN
+F 1 "+3.3V" H 5715 5823 50  0000 C CNN
+F 2 "" H 5700 5650 50  0001 C CNN
+F 3 "" H 5700 5650 50  0001 C CNN
+	1    5700 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5650 6150 5650
+Wire Wire Line
+	6550 5650 6700 5650
+Text GLabel 6800 5650 2    39   Output ~ 0
+RR_Motor
+Wire Wire Line
+	6700 3400 6700 3600
+Wire Wire Line
+	6700 3600 6950 3600
+Connection ~ 6700 3400
+Wire Wire Line
+	6700 3400 6800 3400
+$Comp
+L Device:LED D?
+U 1 1 5DB0DCCD
+P 7700 3600
+F 0 "D?" H 7900 3550 50  0000 C CNN
+F 1 "LED" H 7750 3500 50  0000 C CNN
+F 2 "" H 7700 3600 50  0001 C CNN
+F 3 "~" H 7700 3600 50  0001 C CNN
+	1    7700 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DB0FB7A
+P 7100 3600
+F 0 "R?" V 7000 3750 50  0000 C CNN
+F 1 "R" V 6984 3600 50  0000 C CNN
+F 2 "" V 7030 3600 50  0001 C CNN
+F 3 "~" H 7100 3600 50  0001 C CNN
+	1    7100 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 3600 7550 3600
+Wire Wire Line
+	6700 3800 6700 4000
+Connection ~ 6700 3800
+Wire Wire Line
+	6700 3800 6800 3800
+$Comp
+L Device:R R?
+U 1 1 5DB14CA8
+P 7100 4000
+F 0 "R?" V 7050 3850 50  0000 C CNN
+F 1 "R" V 6984 4000 50  0000 C CNN
+F 2 "" V 7030 4000 50  0001 C CNN
+F 3 "~" H 7100 4000 50  0001 C CNN
+	1    7100 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4000 6950 4000
+Wire Wire Line
+	7250 4000 7550 4000
+$Comp
+L Device:LED D?
+U 1 1 5DB1AFB8
+P 7700 4000
+F 0 "D?" H 7900 3950 50  0000 C CNN
+F 1 "LED" H 7750 3900 50  0000 C CNN
+F 2 "" H 7700 4000 50  0001 C CNN
+F 3 "~" H 7700 4000 50  0001 C CNN
+	1    7700 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 4150 6700 4350
+Wire Wire Line
+	6700 4350 6950 4350
+Connection ~ 6700 4150
+Wire Wire Line
+	6700 4150 6800 4150
+$Comp
+L Device:R R?
+U 1 1 5DB1F255
+P 7100 4350
+F 0 "R?" V 7050 4200 50  0000 C CNN
+F 1 "R" V 6984 4350 50  0000 C CNN
+F 2 "" V 7030 4350 50  0001 C CNN
+F 3 "~" H 7100 4350 50  0001 C CNN
+	1    7100 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4350 7550 4350
+$Comp
+L Device:LED D?
+U 1 1 5DB21877
+P 7700 4350
+F 0 "D?" H 7900 4300 50  0000 C CNN
+F 1 "LED" H 7750 4250 50  0000 C CNN
+F 2 "" H 7700 4350 50  0001 C CNN
+F 3 "~" H 7700 4350 50  0001 C CNN
+	1    7700 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 4500 6700 4700
+Wire Wire Line
+	6700 4700 6950 4700
+Connection ~ 6700 4500
+Wire Wire Line
+	6700 4500 6800 4500
+$Comp
+L Device:R R?
+U 1 1 5DB2408E
+P 7100 4700
+F 0 "R?" V 7050 4550 50  0000 C CNN
+F 1 "R" V 6984 4700 50  0000 C CNN
+F 2 "" V 7030 4700 50  0001 C CNN
+F 3 "~" H 7100 4700 50  0001 C CNN
+	1    7100 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4700 7550 4700
+$Comp
+L Device:LED D?
+U 1 1 5DB26770
+P 7700 4700
+F 0 "D?" H 7900 4650 50  0000 C CNN
+F 1 "LED" H 7750 4600 50  0000 C CNN
+F 2 "" H 7700 4700 50  0001 C CNN
+F 3 "~" H 7700 4700 50  0001 C CNN
+	1    7700 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 4900 6700 5050
+Wire Wire Line
+	6700 5050 6950 5050
+Connection ~ 6700 4900
+Wire Wire Line
+	6700 4900 6800 4900
+$Comp
+L Device:R R?
+U 1 1 5DB29413
+P 7100 5050
+F 0 "R?" V 7050 4900 50  0000 C CNN
+F 1 "R" V 6984 5050 50  0000 C CNN
+F 2 "" V 7030 5050 50  0001 C CNN
+F 3 "~" H 7100 5050 50  0001 C CNN
+	1    7100 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 5050 7550 5050
+$Comp
+L Device:LED D?
+U 1 1 5DB2BE6F
+P 7700 5050
+F 0 "D?" H 7900 5000 50  0000 C CNN
+F 1 "LED" H 7750 4950 50  0000 C CNN
+F 2 "" H 7700 5050 50  0001 C CNN
+F 3 "~" H 7700 5050 50  0001 C CNN
+	1    7700 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 5250 6700 5450
+Wire Wire Line
+	6700 5450 6950 5450
+Connection ~ 6700 5250
+Wire Wire Line
+	6700 5250 6800 5250
+$Comp
+L Device:R R?
+U 1 1 5DB2EE1B
+P 7100 5450
+F 0 "R?" V 7050 5300 50  0000 C CNN
+F 1 "R" V 6984 5450 50  0000 C CNN
+F 2 "" V 7030 5450 50  0001 C CNN
+F 3 "~" H 7100 5450 50  0001 C CNN
+	1    7100 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 5450 7550 5450
+$Comp
+L Device:LED D?
+U 1 1 5DB31B65
+P 7700 5450
+F 0 "D?" H 7900 5400 50  0000 C CNN
+F 1 "LED" H 7750 5350 50  0000 C CNN
+F 2 "" H 7700 5450 50  0001 C CNN
+F 3 "~" H 7700 5450 50  0001 C CNN
+	1    7700 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 5650 6700 5850
+Wire Wire Line
+	6700 5850 6950 5850
+Connection ~ 6700 5650
+Wire Wire Line
+	6700 5650 6800 5650
+$Comp
+L Device:R R?
+U 1 1 5DB353D4
+P 7100 5850
+F 0 "R?" V 7050 5700 50  0000 C CNN
+F 1 "R" V 6984 5850 50  0000 C CNN
+F 2 "" V 7030 5850 50  0001 C CNN
+F 3 "~" H 7100 5850 50  0001 C CNN
+	1    7100 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 5850 7550 5850
+$Comp
+L Device:LED D?
+U 1 1 5DB38360
+P 7700 5850
+F 0 "D?" H 7900 5800 50  0000 C CNN
+F 1 "LED" H 7750 5750 50  0000 C CNN
+F 2 "" H 7700 5850 50  0001 C CNN
+F 3 "~" H 7700 5850 50  0001 C CNN
+	1    7700 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 5450 7950 5450
+Wire Wire Line
+	7950 5850 7850 5850
+Wire Wire Line
+	7850 5050 7950 5050
+Wire Wire Line
+	7850 4700 7950 4700
+Wire Wire Line
+	7850 4350 7950 4350
+Wire Wire Line
+	7850 4000 7950 4000
+Wire Wire Line
+	7850 3600 7950 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5DB4C796
+P 7950 3600
+F 0 "#PWR?" H 7950 3350 50  0001 C CNN
+F 1 "GND" H 7955 3427 50  0000 C CNN
+F 2 "" H 7950 3600 50  0001 C CNN
+F 3 "" H 7950 3600 50  0001 C CNN
+	1    7950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB4D8D9
+P 7950 4000
+F 0 "#PWR?" H 7950 3750 50  0001 C CNN
+F 1 "GND" H 7955 3827 50  0000 C CNN
+F 2 "" H 7950 4000 50  0001 C CNN
+F 3 "" H 7950 4000 50  0001 C CNN
+	1    7950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB50DFA
+P 7950 4350
+F 0 "#PWR?" H 7950 4100 50  0001 C CNN
+F 1 "GND" H 7955 4177 50  0000 C CNN
+F 2 "" H 7950 4350 50  0001 C CNN
+F 3 "" H 7950 4350 50  0001 C CNN
+	1    7950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB514BF
+P 7950 4700
+F 0 "#PWR?" H 7950 4450 50  0001 C CNN
+F 1 "GND" H 7955 4527 50  0000 C CNN
+F 2 "" H 7950 4700 50  0001 C CNN
+F 3 "" H 7950 4700 50  0001 C CNN
+	1    7950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB51C67
+P 7950 5050
+F 0 "#PWR?" H 7950 4800 50  0001 C CNN
+F 1 "GND" H 7955 4877 50  0000 C CNN
+F 2 "" H 7950 5050 50  0001 C CNN
+F 3 "" H 7950 5050 50  0001 C CNN
+	1    7950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB522DE
+P 7950 5450
+F 0 "#PWR?" H 7950 5200 50  0001 C CNN
+F 1 "GND" H 7955 5277 50  0000 C CNN
+F 2 "" H 7950 5450 50  0001 C CNN
+F 3 "" H 7950 5450 50  0001 C CNN
+	1    7950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB52A73
+P 7950 5850
+F 0 "#PWR?" H 7950 5600 50  0001 C CNN
+F 1 "GND" H 7955 5677 50  0000 C CNN
+F 2 "" H 7950 5850 50  0001 C CNN
+F 3 "" H 7950 5850 50  0001 C CNN
+	1    7950 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 6650 2    39   Input ~ 0
+switch_direction
+Text GLabel 3450 6450 0    39   Input ~ 0
+FL_Motor
+Text GLabel 3450 6550 0    39   Input ~ 0
+FR_Motor
+Text GLabel 3450 6650 0    39   Input ~ 0
+ML_Motor
+Text GLabel 3450 6750 0    39   Input ~ 0
+MR_Motor
+Text GLabel 3450 6850 0    39   Input ~ 0
+RL_Motor
+Text GLabel 3450 6950 0    39   Input ~ 0
+RR_Motor
 $EndSCHEMATC
