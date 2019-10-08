@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors Conn1
 U 1 1 5D9156E9
 P 750 1550
 F 0 "Conn1" H 958 1937 60  0000 C CNN
@@ -65,7 +65,7 @@ F 3 "~" H 1400 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:OKI U3
+L DriveBoard2020-rescue:OKI-MRDT_Devices U3
 U 1 1 5D91F370
 P 2250 1100
 F 0 "U3" H 2300 1050 60  0001 C CNN
@@ -116,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 1450 3000 1450
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U4
+L DriveBoard2020-rescue:TM4C129E_Launchpad-MRDT_Shields U4
 U 5 1 5D99E152
 P 3650 7000
 F 0 "U4" H 3300 8200 60  0000 L CNN
@@ -127,7 +127,7 @@ F 3 "" H 3650 7000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U4
+L DriveBoard2020-rescue:TM4C129E_Launchpad-MRDT_Shields U4
 U 6 1 5D9A42ED
 P 4250 7000
 F 0 "U4" H 4250 6700 60  0000 C CNN
@@ -167,7 +167,7 @@ Tiva Pins
 Text Notes 2200 2050 0    98   ~ 20
 Level Shifters
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors Conn1
 U 2 1 5D9F5218
 P 750 1100
 F 0 "Conn1" H 958 1487 60  0000 C CNN
@@ -380,23 +380,23 @@ F 3 "" H 10900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn3
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn3
 U 1 1 5D9F0837
 P 10000 2350
 F 0 "Conn3" H 9550 2950 60  0000 L CNN
 F 1 "Molex_SL_05" H 9550 3050 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10000 2350 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10000 2350 60  0001 C CNN
 F 3 "" H 10000 2350 60  0001 C CNN
 	1    10000 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn4
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn4
 U 1 1 5D9F0E09
 P 10000 3250
 F 0 "Conn4" H 9400 2850 60  0000 L CNN
 F 1 "Molex_SL_05" H 9400 2950 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10000 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10000 3250 60  0001 C CNN
 F 3 "" H 10000 3250 60  0001 C CNN
 	1    10000 3250
 	1    0    0    -1  
@@ -423,34 +423,34 @@ T3_Out
 Text GLabel 9800 2300 0    39   Output ~ 0
 R3_In
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn6
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn6
 U 1 1 5DA4491F
 P 10200 2350
 F 0 "Conn6" H 10200 2300 60  0000 C CNN
 F 1 "Molex_SL_05" H 10300 2200 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10200 2350 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10200 2350 60  0001 C CNN
 F 3 "" H 10200 2350 60  0001 C CNN
 	1    10200 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn7
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn7
 U 1 1 5DA45098
 P 10200 3250
 F 0 "Conn7" H 9800 3000 60  0000 C CNN
 F 1 "Molex_SL_05" H 9950 3100 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10200 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10200 3250 60  0001 C CNN
 F 3 "" H 10200 3250 60  0001 C CNN
 	1    10200 3250
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn5
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn5
 U 1 1 5DA43D44
 P 10200 1500
 F 0 "Conn5" H 9750 2050 60  0000 C CNN
 F 1 "Molex_SL_05" H 9800 2150 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10200 1500 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10200 1500 60  0001 C CNN
 F 3 "" H 10200 1500 60  0001 C CNN
 	1    10200 1500
 	-1   0    0    -1  
@@ -500,12 +500,12 @@ Tx6
 Text Notes 9650 700  0    98   ~ 20
 Connectors
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn2
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn2
 U 1 1 5D9EFF87
 P 10000 1500
 F 0 "Conn2" H 9250 2050 60  0000 L CNN
 F 1 "Molex_SL_05" H 9250 2150 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10000 1500 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10000 1500 60  0001 C CNN
 F 3 "" H 10000 1500 60  0001 C CNN
 	1    10000 1500
 	1    0    0    -1  
@@ -813,17 +813,6 @@ Power
 Text Notes 7450 3000 2    98   ~ 20
 Switches/Buttons
 $Comp
-L Switch:SW_DPST_x2 SW1
-U 1 1 5DAF057E
-P 6350 3400
-F 0 "SW1" H 6350 3635 50  0000 C CNN
-F 1 "SW_DPST_x2" H 6350 3544 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 6350 3400 50  0001 C CNN
-F 3 "~" H 6350 3400 50  0001 C CNN
-	1    6350 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0125
 U 1 1 5DAF226A
 P 5700 3400
@@ -834,23 +823,8 @@ F 3 "" H 5700 3400 50  0001 C CNN
 	1    5700 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 3400 6150 3400
-Wire Wire Line
-	6550 3400 6700 3400
 Text GLabel 6800 3400 2    39   Output ~ 0
 switch_direction
-$Comp
-L Switch:SW_Push_Dual_x2 SW2
-U 1 1 5DAFC00F
-P 6350 3800
-F 0 "SW2" H 6350 4085 50  0000 C CNN
-F 1 "SW_Push_Dual_x2" H 6350 3994 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 4000 50  0001 C CNN
-F 3 "~" H 6350 4000 50  0001 C CNN
-	1    6350 3800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR0126
 U 1 1 5DAFEC33
@@ -862,23 +836,8 @@ F 3 "" H 5700 3800 50  0001 C CNN
 	1    5700 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 3800 6150 3800
-Wire Wire Line
-	6550 3800 6700 3800
 Text GLabel 6800 3800 2    39   Output ~ 0
 FL_Motor
-$Comp
-L Switch:SW_Push_Dual_x2 SW2
-U 2 1 5DB041AC
-P 6350 4150
-F 0 "SW2" H 6350 4435 50  0000 C CNN
-F 1 "SW_Push_Dual_x2" H 6350 4344 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 4350 50  0001 C CNN
-F 3 "~" H 6350 4350 50  0001 C CNN
-	2    6350 4150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR0127
 U 1 1 5DB041B2
@@ -897,17 +856,6 @@ Wire Wire Line
 Text GLabel 6800 4150 2    39   Output ~ 0
 FR_Motor
 $Comp
-L Switch:SW_Push_Dual_x2 SW3
-U 1 1 5DB05D3A
-P 6350 4500
-F 0 "SW3" H 6350 4785 50  0000 C CNN
-F 1 "SW_Push_Dual_x2" H 6350 4694 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 4700 50  0001 C CNN
-F 3 "~" H 6350 4700 50  0001 C CNN
-	1    6350 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0128
 U 1 1 5DB05D40
 P 5700 4500
@@ -924,17 +872,6 @@ Wire Wire Line
 	6550 4500 6700 4500
 Text GLabel 6800 4500 2    39   Output ~ 0
 ML_Motor
-$Comp
-L Switch:SW_Push_Dual_x2 SW3
-U 2 1 5DB07B8A
-P 6350 4900
-F 0 "SW3" H 6350 5185 50  0000 C CNN
-F 1 "SW_Push_Dual_x2" H 6350 5094 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 5100 50  0001 C CNN
-F 3 "~" H 6350 5100 50  0001 C CNN
-	2    6350 4900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR0129
 U 1 1 5DB07B90
@@ -953,17 +890,6 @@ Wire Wire Line
 Text GLabel 6800 4900 2    39   Output ~ 0
 MR_Motor
 $Comp
-L Switch:SW_Push_Dual_x2 SW4
-U 1 1 5DB0989B
-P 6350 5250
-F 0 "SW4" H 6350 5535 50  0000 C CNN
-F 1 "SW_Push_Dual_x2" H 6350 5444 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 5450 50  0001 C CNN
-F 3 "~" H 6350 5450 50  0001 C CNN
-	1    6350 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0130
 U 1 1 5DB098A1
 P 5700 5250
@@ -980,17 +906,6 @@ Wire Wire Line
 	6550 5250 6700 5250
 Text GLabel 6800 5250 2    39   Output ~ 0
 RL_Motor
-$Comp
-L Switch:SW_Push_Dual_x2 SW4
-U 2 1 5DB0B480
-P 6350 5650
-F 0 "SW4" H 6350 5935 50  0000 C CNN
-F 1 "SW_Push_Dual_x2" H 6350 5844 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 5850 50  0001 C CNN
-F 3 "~" H 6350 5850 50  0001 C CNN
-	2    6350 5650
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR0131
 U 1 1 5DB0B486
@@ -1385,7 +1300,7 @@ $EndComp
 Wire Wire Line
 	3400 1000 3800 1000
 $Comp
-L MRDT_Devices:OKI U6
+L DriveBoard2020-rescue:OKI-MRDT_Devices U6
 U 1 1 5DA04040
 P 4000 1100
 F 0 "U6" H 4050 1050 60  0001 C CNN
@@ -1553,4 +1468,89 @@ Wire Wire Line
 	800  2650 650  2650
 Wire Wire Line
 	650  2950 800  2950
+Wire Wire Line
+	6550 3400 6700 3400
+Wire Wire Line
+	5700 3400 6150 3400
+Wire Wire Line
+	6550 3800 6700 3800
+Wire Wire Line
+	5700 3800 6150 3800
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DA53EB7
+P 6350 3800
+F 0 "SW1" H 6350 4085 50  0000 C CNN
+F 1 "SW_Push" H 6350 3994 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 4000 50  0001 C CNN
+F 3 "~" H 6350 4000 50  0001 C CNN
+	1    6350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5DA5B695
+P 6350 4150
+F 0 "SW2" H 6350 4435 50  0000 C CNN
+F 1 "SW_Push" H 6350 4344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 4350 50  0001 C CNN
+F 3 "~" H 6350 4350 50  0001 C CNN
+	1    6350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5DA5B9FD
+P 6350 4500
+F 0 "SW3" H 6350 4785 50  0000 C CNN
+F 1 "SW_Push" H 6350 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 4700 50  0001 C CNN
+F 3 "~" H 6350 4700 50  0001 C CNN
+	1    6350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5DA5BE4A
+P 6350 4900
+F 0 "SW4" H 6350 5185 50  0000 C CNN
+F 1 "SW_Push" H 6350 5094 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 5100 50  0001 C CNN
+F 3 "~" H 6350 5100 50  0001 C CNN
+	1    6350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5DA5C536
+P 6350 5250
+F 0 "SW5" H 6350 5535 50  0000 C CNN
+F 1 "SW_Push" H 6350 5444 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 5450 50  0001 C CNN
+F 3 "~" H 6350 5450 50  0001 C CNN
+	1    6350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5DA5C839
+P 6350 5650
+F 0 "SW6" H 6350 5935 50  0000 C CNN
+F 1 "SW_Push" H 6350 5844 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 6350 5850 50  0001 C CNN
+F 3 "~" H 6350 5850 50  0001 C CNN
+	1    6350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW0
+U 1 1 5DA66B86
+P 6350 3400
+F 0 "SW0" H 6350 3635 50  0000 C CNN
+F 1 "SW_SPST" H 6350 3544 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 6350 3400 50  0001 C CNN
+F 3 "~" H 6350 3400 50  0001 C CNN
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

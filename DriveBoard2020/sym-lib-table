@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DriveBoard2020-rescue)(type Legacy)(uri ${KIPRJMOD}/DriveBoard2020-rescue.lib)(options "")(descr ""))
+)
