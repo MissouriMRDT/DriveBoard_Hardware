@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors Conn1
+L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors-DriveBoard2020-rescue Conn1
 U 1 1 5D9156E9
 P 750 1550
 F 0 "Conn1" H 958 1937 60  0000 C CNN
@@ -65,7 +65,7 @@ F 3 "~" H 1400 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard2020-rescue:OKI-MRDT_Devices U3
+L DriveBoard2020-rescue:OKI-MRDT_Devices-DriveBoard2020-rescue U3
 U 1 1 5D91F370
 P 2250 1100
 F 0 "U3" H 2300 1050 60  0001 C CNN
@@ -116,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 1450 3000 1450
 $Comp
-L DriveBoard2020-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L DriveBoard2020-rescue:TM4C129E_Launchpad-MRDT_Shields-DriveBoard2020-rescue U4
 U 5 1 5D99E152
 P 3650 7000
 F 0 "U4" H 3300 8200 60  0000 L CNN
@@ -127,7 +127,7 @@ F 3 "" H 3650 7000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard2020-rescue:TM4C129E_Launchpad-MRDT_Shields U4
+L DriveBoard2020-rescue:TM4C129E_Launchpad-MRDT_Shields-DriveBoard2020-rescue U4
 U 6 1 5D9A42ED
 P 4250 7000
 F 0 "U4" H 4250 6700 60  0000 C CNN
@@ -167,7 +167,7 @@ Tiva Pins
 Text Notes 2200 2050 0    98   ~ 20
 Level Shifters
 $Comp
-L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors Conn1
+L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors-DriveBoard2020-rescue Conn1
 U 2 1 5D9F5218
 P 750 1100
 F 0 "Conn1" H 958 1487 60  0000 C CNN
@@ -380,23 +380,23 @@ F 3 "" H 10900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn3
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn3
 U 1 1 5D9F0837
 P 10000 2350
 F 0 "Conn3" H 9550 2950 60  0000 L CNN
 F 1 "Molex_SL_05" H 9550 3050 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10000 2350 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10000 2350 60  0001 C CNN
 F 3 "" H 10000 2350 60  0001 C CNN
 	1    10000 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn4
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn4
 U 1 1 5D9F0E09
 P 10000 3250
 F 0 "Conn4" H 9400 2850 60  0000 L CNN
 F 1 "Molex_SL_05" H 9400 2950 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10000 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10000 3250 60  0001 C CNN
 F 3 "" H 10000 3250 60  0001 C CNN
 	1    10000 3250
 	1    0    0    -1  
@@ -423,34 +423,34 @@ T3_Out
 Text GLabel 9800 2300 0    39   Output ~ 0
 R3_In
 $Comp
-L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn6
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn6
 U 1 1 5DA4491F
 P 10200 2350
 F 0 "Conn6" H 10200 2300 60  0000 C CNN
 F 1 "Molex_SL_05" H 10300 2200 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10200 2350 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10200 2350 60  0001 C CNN
 F 3 "" H 10200 2350 60  0001 C CNN
 	1    10200 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn7
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn7
 U 1 1 5DA45098
 P 10200 3250
 F 0 "Conn7" H 9800 3000 60  0000 C CNN
 F 1 "Molex_SL_05" H 9950 3100 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10200 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10200 3250 60  0001 C CNN
 F 3 "" H 10200 3250 60  0001 C CNN
 	1    10200 3250
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn5
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn5
 U 1 1 5DA43D44
 P 10200 1500
 F 0 "Conn5" H 9750 2050 60  0000 C CNN
 F 1 "Molex_SL_05" H 9800 2150 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10200 1500 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10200 1500 60  0001 C CNN
 F 3 "" H 10200 1500 60  0001 C CNN
 	1    10200 1500
 	-1   0    0    -1  
@@ -500,12 +500,12 @@ Tx6
 Text Notes 9650 700  0    98   ~ 20
 Connectors
 $Comp
-L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors Conn2
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn2
 U 1 1 5D9EFF87
 P 10000 1500
 F 0 "Conn2" H 9250 2050 60  0000 L CNN
 F 1 "Molex_SL_05" H 9250 2150 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 10000 1500 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10000 1500 60  0001 C CNN
 F 3 "" H 10000 1500 60  0001 C CNN
 	1    10000 1500
 	1    0    0    -1  
@@ -1300,7 +1300,7 @@ $EndComp
 Wire Wire Line
 	3400 1000 3800 1000
 $Comp
-L DriveBoard2020-rescue:OKI-MRDT_Devices U6
+L DriveBoard2020-rescue:OKI-MRDT_Devices-DriveBoard2020-rescue U6
 U 1 1 5DA04040
 P 4000 1100
 F 0 "U6" H 4050 1050 60  0001 C CNN
