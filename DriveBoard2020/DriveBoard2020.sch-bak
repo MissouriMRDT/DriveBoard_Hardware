@@ -213,17 +213,6 @@ Text GLabel 2150 3600 2    51   Output ~ 0
 T1_Out
 Text GLabel 2150 3500 2    51   Input ~ 0
 R1_In
-$Comp
-L power:GND #PWR0108
-U 1 1 5DA3D7A7
-P 1550 7600
-F 0 "#PWR0108" H 1550 7350 50  0001 C CNN
-F 1 "GND" H 1555 7427 50  0000 C CNN
-F 2 "" H 1550 7600 50  0001 C CNN
-F 3 "" H 1550 7600 50  0001 C CNN
-	1    1550 7600
-	1    0    0    -1  
-$EndComp
 Text GLabel 2100 5150 2    50   Output ~ 0
 T2_Out
 Text GLabel 2100 5050 2    50   Input ~ 0
@@ -1531,28 +1520,6 @@ Wire Wire Line
 	2150 2750 2150 2850
 Wire Wire Line
 	2150 3050 2250 3050
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U7
-U 7 1 5DCF061F
-P 3750 7300
-F 0 "U7" H 3700 8550 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 3050 8450 60  0000 L CNN
-F 2 "" H 3750 7300 60  0001 C CNN
-F 3 "" H 3750 7300 60  0001 C CNN
-	7    3750 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U7
-U 8 1 5DCF3223
-P 4350 7300
-F 0 "U7" H 4500 7200 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 4100 7050 60  0000 C CNN
-F 2 "" H 4350 7300 60  0001 C CNN
-F 3 "" H 4350 7300 60  0001 C CNN
-	8    4350 7300
-	-1   0    0    -1  
-$EndComp
 Text GLabel 10400 1450 2    39   Output ~ 0
 R1_In
 $Comp
@@ -1614,19 +1581,4 @@ Wire Wire Line
 	700  4400 1000 4400
 Wire Notes Line style solid
 	5050 5700 500  5700
-Wire Wire Line
-	4800 6350 4800 6400
-Wire Wire Line
-	4550 6350 4800 6350
-$Comp
-L power:GND #PWR0144
-U 1 1 5DE83384
-P 4800 6400
-F 0 "#PWR0144" H 4800 6150 50  0001 C CNN
-F 1 "GND" H 4805 6227 50  0000 C CNN
-F 2 "" H 4800 6400 50  0001 C CNN
-F 3 "" H 4800 6400 50  0001 C CNN
-	1    4800 6400
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
