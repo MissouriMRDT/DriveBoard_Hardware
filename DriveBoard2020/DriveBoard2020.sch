@@ -118,51 +118,51 @@ Wire Wire Line
 $Comp
 L DriveBoard2020-rescue:TM4C129E_Launchpad-MRDT_Shields-DriveBoard2020-rescue U4
 U 5 1 5D99E152
-P 3650 7000
-F 0 "U4" H 3300 8200 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 2950 8350 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7_THT_BOTTOM" H 3650 7000 60  0001 C CNN
-F 3 "" H 3650 7000 60  0001 C CNN
-	5    3650 7000
+P 1500 7300
+F 0 "U4" H 1150 8500 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 800 8650 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 1500 7300 60  0001 C CNN
+F 3 "" H 1500 7300 60  0001 C CNN
+	5    1500 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L DriveBoard2020-rescue:TM4C129E_Launchpad-MRDT_Shields-DriveBoard2020-rescue U4
 U 6 1 5D9A42ED
-P 4250 7000
-F 0 "U4" H 4250 6700 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 4250 6850 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7_THT_BOTTOM" H 4250 7000 60  0001 C CNN
-F 3 "" H 4250 7000 60  0001 C CNN
-	6    4250 7000
+P 2100 7300
+F 0 "U4" H 2100 7000 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 2100 7150 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 2100 7300 60  0001 C CNN
+F 3 "" H 2100 7300 60  0001 C CNN
+	6    2100 7300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3450 6250 0    50   Input ~ 0
+Text GLabel 1300 6550 0    50   Input ~ 0
 Rx6
-Text GLabel 3450 6350 0    50   Output ~ 0
+Text GLabel 1300 6650 0    50   Output ~ 0
 Tx6
-Text GLabel 4450 6450 2    50   Input ~ 0
+Text GLabel 2300 6750 2    50   Input ~ 0
 Rx4
-Text GLabel 4450 6550 2    50   Output ~ 0
+Text GLabel 2300 6850 2    50   Output ~ 0
 Tx4
-Text GLabel 4450 6850 2    50   Input ~ 0
+Text GLabel 2300 7150 2    50   Input ~ 0
 Rx3
-Text GLabel 4450 6950 2    50   Output ~ 0
+Text GLabel 2300 7250 2    50   Output ~ 0
 Tx3
 $Comp
 L power:GND #PWR0103
 U 1 1 5D9BD975
-P 4900 6150
-F 0 "#PWR0103" H 4900 5900 50  0001 C CNN
-F 1 "GND" H 4905 5977 50  0000 C CNN
-F 2 "" H 4900 6150 50  0001 C CNN
-F 3 "" H 4900 6150 50  0001 C CNN
-	1    4900 6150
+P 2750 6450
+F 0 "#PWR0103" H 2750 6200 50  0001 C CNN
+F 1 "GND" H 2755 6277 50  0000 C CNN
+F 2 "" H 2750 6450 50  0001 C CNN
+F 3 "" H 2750 6450 50  0001 C CNN
+	1    2750 6450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 6150 4900 6150
-Text Notes 3400 5350 0    98   ~ 20
+	2300 6450 2750 6450
+Text Notes 2550 5950 0    98   ~ 20
 Tiva Pins
 Text Notes 2200 2050 0    98   ~ 20
 Level Shifters
@@ -178,121 +178,82 @@ F 3 "" H 600 550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 6050 3200 6050
+	1300 6350 1050 6350
 $Comp
 L power:+3.3V #PWR0104
 U 1 1 5D9F6F1D
-P 3200 6050
-F 0 "#PWR0104" H 3200 5900 50  0001 C CNN
-F 1 "+3.3V" H 3215 6223 50  0000 C CNN
-F 2 "" H 3200 6050 50  0001 C CNN
-F 3 "" H 3200 6050 50  0001 C CNN
-	1    3200 6050
+P 1050 6350
+F 0 "#PWR0104" H 1050 6200 50  0001 C CNN
+F 1 "+3.3V" H 1065 6523 50  0000 C CNN
+F 2 "" H 1050 6350 50  0001 C CNN
+F 3 "" H 1050 6350 50  0001 C CNN
+	1    1050 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5DA1C787
-P 1600 4750
-F 0 "#PWR0106" H 1600 4500 50  0001 C CNN
-F 1 "GND" H 1605 4577 50  0000 C CNN
-F 2 "" H 1600 4750 50  0001 C CNN
-F 3 "" H 1600 4750 50  0001 C CNN
-	1    1600 4750
+P 700 4650
+F 0 "#PWR0106" H 700 4400 50  0001 C CNN
+F 1 "GND" H 705 4477 50  0000 C CNN
+F 2 "" H 700 4650 50  0001 C CNN
+F 3 "" H 700 4650 50  0001 C CNN
+	1    700  4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 800  3650 0    51   Input ~ 0
+Text GLabel 1050 3600 0    51   Input ~ 0
 Tx6
-Text GLabel 800  4050 0    50   Output ~ 0
+Text GLabel 1050 3500 0    50   Output ~ 0
 Rx6
-Text GLabel 750  6500 0    51   Input ~ 0
+Text GLabel 1000 5150 0    51   Input ~ 0
 Tx4
-Text GLabel 750  6900 0    50   Output ~ 0
+Text GLabel 1000 5050 0    50   Output ~ 0
 Rx4
-Text GLabel 2400 3650 2    51   Output ~ 0
+Text GLabel 2150 3600 2    51   Output ~ 0
 T1_Out
-Text GLabel 2400 3850 2    51   Output ~ 0
-T2_Out
-Text GLabel 2400 4050 2    51   Input ~ 0
+Text GLabel 2150 3500 2    51   Input ~ 0
 R1_In
-Text GLabel 2400 4250 2    51   Input ~ 0
+Text GLabel 2100 5150 2    50   Output ~ 0
+T2_Out
+Text GLabel 2100 5050 2    50   Input ~ 0
 R2_In
-$Comp
-L power:GND #PWR0108
-U 1 1 5DA3D7A7
-P 1550 7600
-F 0 "#PWR0108" H 1550 7350 50  0001 C CNN
-F 1 "GND" H 1555 7427 50  0000 C CNN
-F 2 "" H 1550 7600 50  0001 C CNN
-F 3 "" H 1550 7600 50  0001 C CNN
-	1    1550 7600
-	1    0    0    -1  
-$EndComp
-Text GLabel 3050 3850 0    50   Input ~ 0
+Text GLabel 2950 3650 0    50   Input ~ 0
 Tx3
-Text GLabel 3050 4250 0    50   Output ~ 0
+Text GLabel 2950 3550 0    50   Output ~ 0
 Rx3
-Text GLabel 2350 6500 2    50   Output ~ 0
+Text GLabel 4050 3650 2    51   Output ~ 0
 T3_Out
-Text GLabel 2350 6900 2    50   Input ~ 0
+Text GLabel 4050 3550 2    51   Input ~ 0
 R3_In
-Text GLabel 800  3850 0    51   Input ~ 0
-Tx6
-Text GLabel 800  4250 0    50   Output ~ 0
-Rx6
-Text GLabel 750  6700 0    51   Input ~ 0
-Tx4
-Text GLabel 750  7100 0    50   Output ~ 0
-Rx4
-Text GLabel 2350 6700 2    50   Output ~ 0
-T4_Out
-Text GLabel 2350 7100 2    50   Input ~ 0
-R4_In
-Text GLabel 3050 3650 0    50   Input ~ 0
-Tx3
-Text GLabel 3050 4050 0    50   Output ~ 0
-Rx3
-Text GLabel 4650 3650 2    51   Output ~ 0
-T5_Out
-Text GLabel 4650 4050 2    51   Input ~ 0
-R5_In
-Text GLabel 4650 3850 2    51   Output ~ 0
-T6_Out
-Text GLabel 4650 4250 2    51   Input ~ 0
-R6_In
 $Comp
 L power:GND #PWR0110
 U 1 1 5DA6275E
-P 3850 4750
-F 0 "#PWR0110" H 3850 4500 50  0001 C CNN
-F 1 "GND" H 3855 4577 50  0000 C CNN
-F 2 "" H 3850 4750 50  0001 C CNN
-F 3 "" H 3850 4750 50  0001 C CNN
-	1    3850 4750
+P 2850 3200
+F 0 "#PWR0110" H 2850 2950 50  0001 C CNN
+F 1 "GND" H 2855 3027 50  0000 C CNN
+F 2 "" H 2850 3200 50  0001 C CNN
+F 3 "" H 2850 3200 50  0001 C CNN
+	1    2850 3200
 	1    0    0    -1  
 $EndComp
 Text Notes 950  2450 2    79   ~ 0
 Front
-Text Notes 950  5350 2    79   ~ 0
+Text Notes 900  4050 2    79   ~ 0
 Middle
-Text Notes 3200 2450 2    79   ~ 0
+Text Notes 2800 2500 2    79   ~ 0
 Rear
 Text GLabel 10400 3200 2    39   Output ~ 0
-R6_In
+R3_In
 Text GLabel 10400 3100 2    39   Input ~ 0
-T6_Out
+T3_Out
 Text GLabel 10400 2800 2    50   Input ~ 0
 Tx3
 Text GLabel 10400 2300 2    39   Output ~ 0
-R4_In
+R2_In
 Text GLabel 10400 2200 2    39   Input ~ 0
-T4_Out
+T2_Out
 Text GLabel 10400 1900 2    50   Input ~ 0
 Tx4
-Text GLabel 10400 1450 2    39   Output ~ 0
-R2_In
-Text GLabel 10400 1350 2    39   Input ~ 0
-T2_Out
 Text GLabel 10400 1050 2    51   Input ~ 0
 Tx6
 Text Notes 9100 3150 2    79   ~ 0
@@ -386,9 +347,9 @@ $EndComp
 Text GLabel 9800 1900 0    50   Input ~ 0
 Tx4
 Text GLabel 9800 2200 0    39   Input ~ 0
-T3_Out
+T2_Out
 Text GLabel 9800 2300 0    39   Output ~ 0
-R3_In
+R2_In
 $Comp
 L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn6
 U 1 1 5DA4491F
@@ -411,21 +372,10 @@ F 3 "" H 10200 3250 60  0001 C CNN
 	1    10200 3250
 	-1   0    0    -1  
 $EndComp
-$Comp
-L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn5
-U 1 1 5DA43D44
-P 10200 1500
-F 0 "Conn5" H 9750 2050 60  0000 C CNN
-F 1 "Molex_SL_05" H 9800 2150 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10200 1500 60  0001 C CNN
-F 3 "" H 10200 1500 60  0001 C CNN
-	1    10200 1500
-	-1   0    0    -1  
-$EndComp
 Text GLabel 9800 3200 0    39   Output ~ 0
-R5_In
+R3_In
 Text GLabel 9800 3100 0    39   Input ~ 0
-T5_Out
+T3_Out
 Text GLabel 9800 1450 0    39   Output ~ 0
 R1_In
 Text GLabel 9800 1350 0    39   Input ~ 0
@@ -1198,27 +1148,27 @@ F 3 "" H 8400 5800 50  0001 C CNN
 	1    8400 5800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4450 6650 2    39   Input ~ 0
+Text GLabel 2300 6950 2    39   Input ~ 0
 switch_direction
-Text GLabel 3450 6450 0    39   Input ~ 0
+Text GLabel 1300 6750 0    39   Input ~ 0
 FL_Motor
-Text GLabel 3450 6550 0    39   Input ~ 0
+Text GLabel 1300 6850 0    39   Input ~ 0
 FR_Motor
-Text GLabel 3450 6650 0    39   Input ~ 0
+Text GLabel 1300 6950 0    39   Input ~ 0
 ML_Motor
-Text GLabel 3450 6750 0    39   Input ~ 0
+Text GLabel 1300 7050 0    39   Input ~ 0
 MR_Motor
-Text GLabel 3450 6850 0    39   Input ~ 0
+Text GLabel 1300 7150 0    39   Input ~ 0
 RL_Motor
-Text GLabel 3450 6950 0    39   Input ~ 0
+Text GLabel 1300 7250 0    39   Input ~ 0
 RR_Motor
-Text Notes 3200 6300 2    39   ~ 0
+Text Notes 1050 6600 2    39   ~ 0
 Serial 6
-Text Notes 4900 6550 2    39   ~ 0
+Text Notes 2750 6850 2    39   ~ 0
 Serial 4
-Text Notes 4900 6950 2    39   ~ 0
+Text Notes 2750 7250 2    39   ~ 0
 Serial 3
-Text Notes 3100 7050 1    39   ~ 0
+Text Notes 950  7350 1    39   ~ 0
 Motor Control Buttons
 Wire Wire Line
 	8200 2200 8200 2300
@@ -1228,10 +1178,6 @@ Wire Wire Line
 	8200 1650 8200 1900
 Text Notes 8450 7500 2    79   ~ 16
 Drive Board Rev1
-Wire Notes Line style solid
-	2750 7800 2750 5050
-Wire Notes Line style solid
-	2750 5050 5050 5050
 Wire Notes Line style solid
 	500  1850 5050 1850
 Wire Notes Line style solid
@@ -1326,55 +1272,53 @@ $EndComp
 $Comp
 L power:+5V #PWR0141
 U 1 1 5DA327C3
-P 3850 2350
-F 0 "#PWR0141" H 3850 2200 50  0001 C CNN
-F 1 "+5V" H 3865 2523 50  0000 C CNN
-F 2 "" H 3850 2350 50  0001 C CNN
-F 3 "" H 3850 2350 50  0001 C CNN
-	1    3850 2350
+P 2850 2700
+F 0 "#PWR0141" H 2850 2550 50  0001 C CNN
+F 1 "+5V" H 2865 2873 50  0000 C CNN
+F 2 "" H 2850 2700 50  0001 C CNN
+F 3 "" H 2850 2700 50  0001 C CNN
+	1    2850 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0142
 U 1 1 5DA32D14
-P 1550 5200
-F 0 "#PWR0142" H 1550 5050 50  0001 C CNN
-F 1 "+5V" H 1565 5373 50  0000 C CNN
-F 2 "" H 1550 5200 50  0001 C CNN
-F 3 "" H 1550 5200 50  0001 C CNN
-	1    1550 5200
+P 700 4350
+F 0 "#PWR0142" H 700 4200 50  0001 C CNN
+F 1 "+5V" H 715 4523 50  0000 C CNN
+F 2 "" H 700 4350 50  0001 C CNN
+F 3 "" H 700 4350 50  0001 C CNN
+	1    700  4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
 U 1 1 5DA341A4
-P 600 5650
-F 0 "C5" H 715 5696 50  0000 L CNN
-F 1 "1uF" H 715 5605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 638 5500 50  0001 C CNN
-F 3 "~" H 600 5650 50  0001 C CNN
-	1    600  5650
+P 2350 4450
+F 0 "C5" H 2465 4496 50  0000 L CNN
+F 1 "1uF" H 2465 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2388 4300 50  0001 C CNN
+F 3 "~" H 2350 4450 50  0001 C CNN
+	1    2350 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C6
 U 1 1 5DA3488F
-P 2500 5650
-F 0 "C6" H 2615 5696 50  0000 L CNN
-F 1 "1uF" H 2615 5605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 5500 50  0001 C CNN
-F 3 "~" H 2500 5650 50  0001 C CNN
-	1    2500 5650
+P 2350 4800
+F 0 "C6" H 2465 4846 50  0000 L CNN
+F 1 "1uF" H 2465 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2388 4650 50  0001 C CNN
+F 3 "~" H 2350 4800 50  0001 C CNN
+	1    2350 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 5500 2350 5500
+	2350 4650 2200 4650
 Wire Wire Line
-	2500 5800 2350 5800
+	2350 4950 2200 4950
 Wire Wire Line
-	750  5800 600  5800
-Wire Wire Line
-	600  5500 750  5500
+	2200 4300 2350 4300
 $Comp
 L Device:C C3
 U 1 1 5DA4304E
@@ -1389,33 +1333,31 @@ $EndComp
 $Comp
 L Device:C C7
 U 1 1 5DA43FB3
-P 2900 2800
-F 0 "C7" H 3015 2846 50  0000 L CNN
-F 1 "1uF" H 3015 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2938 2650 50  0001 C CNN
-F 3 "~" H 2900 2800 50  0001 C CNN
-	1    2900 2800
+P 4250 2950
+F 0 "C7" H 4365 2996 50  0000 L CNN
+F 1 "1uF" H 4365 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4288 2800 50  0001 C CNN
+F 3 "~" H 4250 2950 50  0001 C CNN
+	1    4250 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C8
 U 1 1 5DA44EFA
-P 4750 2800
-F 0 "C8" H 4865 2846 50  0000 L CNN
-F 1 "1uF" H 4865 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4788 2650 50  0001 C CNN
-F 3 "~" H 4750 2800 50  0001 C CNN
-	1    4750 2800
+P 4250 3300
+F 0 "C8" H 4365 3346 50  0000 L CNN
+F 1 "1uF" H 4365 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4288 3150 50  0001 C CNN
+F 3 "~" H 4250 3300 50  0001 C CNN
+	1    4250 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 2650 4650 2650
+	4250 3150 4150 3150
 Wire Wire Line
-	4750 2950 4650 2950
+	4250 3450 4150 3450
 Wire Wire Line
-	2900 2650 3050 2650
-Wire Wire Line
-	2900 2950 3050 2950
+	4100 2800 4250 2800
 Wire Wire Line
 	7000 3350 7150 3350
 Wire Wire Line
@@ -1502,36 +1444,36 @@ F 3 "~" H 6800 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:MAX_3232 U?
+L MRDT_ICs:MAX_3232 U2
 U 1 1 5DCA2D01
 P 1250 3900
-F 0 "U?" H 1600 5237 60  0000 C CNN
+F 0 "U2" H 1600 5237 60  0000 C CNN
 F 1 "MAX_3232" H 1600 5131 60  0000 C CNN
-F 2 "" H 1250 3300 60  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 1250 3300 60  0001 C CNN
 F 3 "" H 1250 3300 60  0001 C CNN
 	1    1250 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:MAX_3232 U?
+L MRDT_ICs:MAX_3232 U5
 U 1 1 5DCB4F05
-P 3550 3900
-F 0 "U?" H 3900 5237 60  0000 C CNN
-F 1 "MAX_3232" H 3900 5131 60  0000 C CNN
-F 2 "" H 3550 3300 60  0001 C CNN
-F 3 "" H 3550 3300 60  0001 C CNN
-	1    3550 3900
+P 3150 3950
+F 0 "U5" H 3500 5287 60  0000 C CNN
+F 1 "MAX_3232" H 3500 5181 60  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3150 3350 60  0001 C CNN
+F 3 "" H 3150 3350 60  0001 C CNN
+	1    3150 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:MAX_3232 U?
+L MRDT_ICs:MAX_3232 U1
 U 1 1 5DCCD7A5
-P 1250 6750
-F 0 "U?" H 1600 8087 60  0000 C CNN
-F 1 "MAX_3232" H 1600 7981 60  0000 C CNN
-F 2 "" H 1250 6150 60  0001 C CNN
-F 3 "" H 1250 6150 60  0001 C CNN
-	1    1250 6750
+P 1200 5450
+F 0 "U1" H 1550 6787 60  0000 C CNN
+F 1 "MAX_3232" H 1550 6681 60  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 1200 4850 60  0001 C CNN
+F 3 "" H 1200 4850 60  0001 C CNN
+	1    1200 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1539,10 +1481,10 @@ Wire Wire Line
 Wire Wire Line
 	900  2850 1050 2850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0143
 U 1 1 5DD02F12
 P 900 3100
-F 0 "#PWR?" H 900 2850 50  0001 C CNN
+F 0 "#PWR0143" H 900 2850 50  0001 C CNN
 F 1 "GND" H 905 2927 50  0000 C CNN
 F 2 "" H 900 3100 50  0001 C CNN
 F 3 "" H 900 3100 50  0001 C CNN
@@ -1578,4 +1520,65 @@ Wire Wire Line
 	2150 2750 2150 2850
 Wire Wire Line
 	2150 3050 2250 3050
+Text GLabel 10400 1450 2    39   Output ~ 0
+R1_In
+$Comp
+L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn5
+U 1 1 5DA43D44
+P 10200 1500
+F 0 "Conn5" H 9750 2050 60  0000 C CNN
+F 1 "Molex_SL_05" H 9800 2150 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 10200 1500 60  0001 C CNN
+F 3 "" H 10200 1500 60  0001 C CNN
+	1    10200 1500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10400 1350 2    39   Input ~ 0
+T1_Out
+Wire Wire Line
+	4050 3400 4150 3400
+Wire Wire Line
+	4150 3400 4150 3450
+Wire Wire Line
+	4150 3150 4150 3200
+Wire Wire Line
+	4150 3200 4050 3200
+Wire Wire Line
+	2850 2700 2850 2900
+Wire Wire Line
+	4050 3100 4250 3100
+Wire Wire Line
+	4100 2800 4100 2900
+Wire Wire Line
+	4100 2900 4050 2900
+Wire Wire Line
+	2950 2900 2850 2900
+Wire Wire Line
+	2950 3100 2850 3100
+Wire Wire Line
+	2850 3100 2850 3200
+Wire Wire Line
+	2200 4950 2200 4900
+Wire Wire Line
+	2200 4900 2100 4900
+Wire Wire Line
+	2100 4700 2200 4700
+Wire Wire Line
+	2200 4700 2200 4650
+Wire Wire Line
+	2100 4600 2350 4600
+Wire Wire Line
+	2200 4300 2200 4400
+Wire Wire Line
+	2200 4400 2100 4400
+Wire Wire Line
+	700  4400 700  4350
+Wire Wire Line
+	700  4600 700  4650
+Wire Wire Line
+	700  4600 1000 4600
+Wire Wire Line
+	700  4400 1000 4400
+Wire Notes Line style solid
+	5050 5700 500  5700
 $EndSCHEMATC
