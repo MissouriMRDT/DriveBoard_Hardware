@@ -25,7 +25,7 @@ F 3 "" H 5230 4310 60  0001 C CNN
 	3    5230 4310
 	1    0    0    1   
 $EndComp
-Text GLabel 4980 5260 0    50   Output ~ 0
+Text GLabel 6060 4360 2    50   Output ~ 0
 Dout_NeoPixel
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
@@ -255,8 +255,6 @@ Wire Wire Line
 	8800 6000 8750 6000
 Wire Wire Line
 	9800 6000 10250 6000
-Wire Wire Line
-	5030 5260 4980 5260
 $Comp
 L power:+5VA #PWR0152
 U 1 1 5C7B3BE6
@@ -901,19 +899,19 @@ Text Notes 4680 6820 2    39   ~ 0
 Serial 4
 Text Notes 2980 6570 2    39   ~ 0
 Serial 6
-Text GLabel 5330 7120 0    39   Input ~ 0
+Text GLabel 6430 7220 2    39   Input ~ 0
 RR_Motor
-Text GLabel 5330 7020 0    39   Input ~ 0
+Text GLabel 6430 7320 2    39   Input ~ 0
 RL_Motor
-Text GLabel 5330 6920 0    39   Input ~ 0
+Text GLabel 5330 7320 0    39   Input ~ 0
 MR_Motor
-Text GLabel 5330 6820 0    39   Input ~ 0
+Text GLabel 5330 7220 0    39   Input ~ 0
 ML_Motor
-Text GLabel 5330 6720 0    39   Input ~ 0
+Text GLabel 5330 6820 0    39   Input ~ 0
 FR_Motor
-Text GLabel 5330 6620 0    39   Input ~ 0
+Text GLabel 5330 6720 0    39   Input ~ 0
 FL_Motor
-Text GLabel 4230 6920 2    39   Input ~ 0
+Text GLabel 6430 7420 2    39   Input ~ 0
 switch_direction
 $Comp
 L power:GND #PWR0138
@@ -2185,23 +2183,23 @@ Wire Wire Line
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
 U 1 1 5DE8D46B
-P 3230 5320
-F 0 "U4" H 3110 6470 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 2610 5260 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3230 5320 60  0001 C CNN
-F 3 "" H 3230 5320 60  0001 C CNN
-	1    3230 5320
+P 3450 5320
+F 0 "U4" H 3330 6470 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2830 5260 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3450 5320 60  0001 C CNN
+F 3 "" H 3450 5320 60  0001 C CNN
+	1    3450 5320
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
 U 2 1 5DE90FB1
-P 3880 5320
-F 0 "U4" H 4040 6560 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 3650 6440 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3880 5320 60  0001 C CNN
-F 3 "" H 3880 5320 60  0001 C CNN
-	2    3880 5320
+P 3980 5320
+F 0 "U4" H 4140 6560 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 3750 6440 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3980 5320 60  0001 C CNN
+F 3 "" H 3980 5320 60  0001 C CNN
+	2    3980 5320
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2226,7 +2224,7 @@ F 3 "" H 6230 7470 60  0001 C CNN
 	8    6230 7470
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6430 6820 2    50   Output ~ 0
+Text GLabel 3250 5070 0    50   Output ~ 0
 Headlight_OnOff_PWM
 Wire Notes Line style solid
 	6970 470  6970 6540
@@ -2236,21 +2234,17 @@ Wire Wire Line
 	6260 5260 6260 5300
 Wire Wire Line
 	6260 5260 6060 5260
-Wire Wire Line
-	4500 4470 4500 4490
 $Comp
 L power:GND #PWR0146
 U 1 1 5E44A8A8
-P 4500 4490
-F 0 "#PWR0146" H 4500 4240 50  0001 C CNN
-F 1 "GND" H 4505 4317 50  0000 C CNN
-F 2 "" H 4500 4490 50  0001 C CNN
-F 3 "" H 4500 4490 50  0001 C CNN
-	1    4500 4490
+P 4600 4470
+F 0 "#PWR0146" H 4600 4220 50  0001 C CNN
+F 1 "GND" H 4605 4297 50  0000 C CNN
+F 2 "" H 4600 4470 50  0001 C CNN
+F 3 "" H 4600 4470 50  0001 C CNN
+	1    4600 4470
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4080 4470 4500 4470
 $Comp
 L power:GND #PWR0150
 U 1 1 5E4D6DF7
@@ -2338,4 +2332,6 @@ F 3 "" H 3950 1550 50  0001 C CNN
 	1    3950 1550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4180 4470 4600 4470
 $EndSCHEMATC
