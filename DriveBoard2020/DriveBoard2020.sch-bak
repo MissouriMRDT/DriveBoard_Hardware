@@ -903,17 +903,17 @@ Text Notes 4680 6820 2    39   ~ 0
 Serial 4
 Text Notes 2980 6570 2    39   ~ 0
 Serial 6
-Text GLabel 3230 7220 0    39   Input ~ 0
+Text GLabel 5330 7020 0    39   Input ~ 0
 RR_Motor
-Text GLabel 3230 7120 0    39   Input ~ 0
+Text GLabel 5330 6920 0    39   Input ~ 0
 RL_Motor
-Text GLabel 3230 7020 0    39   Input ~ 0
+Text GLabel 5330 6820 0    39   Input ~ 0
 MR_Motor
-Text GLabel 3230 6920 0    39   Input ~ 0
+Text GLabel 5330 6720 0    39   Input ~ 0
 ML_Motor
-Text GLabel 3230 6820 0    39   Input ~ 0
+Text GLabel 5330 6620 0    39   Input ~ 0
 FR_Motor
-Text GLabel 3230 6720 0    39   Input ~ 0
+Text GLabel 5330 6520 0    39   Input ~ 0
 FL_Motor
 Text GLabel 4230 6920 2    39   Input ~ 0
 switch_direction
@@ -2327,35 +2327,17 @@ F 3 "" H 2850 1700 50  0001 C CNN
 	1    2850 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors-DriveBoard2020-rescue Conn12
-U 1 1 5E736A58
-P 3100 1600
-F 0 "Conn12" H 3308 1987 60  0000 C CNN
-F 1 "AndersonPP" H 3308 1881 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2950 1050 60  0001 C CNN
-F 3 "" H 2950 1050 60  0001 C CNN
-	1    3100 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3500 1500 3950 1500
-Wire Wire Line
-	4350 1500 4350 1550
-Wire Wire Line
-	3950 1450 3950 1500
-Connection ~ 3950 1500
-Wire Wire Line
-	3950 1500 4350 1500
+	3950 1450 3950 1550
 $Comp
 L power:GND #PWR0139
-U 1 1 5E759126
-P 4350 1550
-F 0 "#PWR0139" H 4350 1300 50  0001 C CNN
-F 1 "GND" H 4355 1377 50  0000 C CNN
-F 2 "" H 4350 1550 50  0001 C CNN
-F 3 "" H 4350 1550 50  0001 C CNN
-	1    4350 1550
+U 1 1 5E77D4FB
+P 3950 1550
+F 0 "#PWR0139" H 3950 1300 50  0001 C CNN
+F 1 "GND" H 3955 1377 50  0000 C CNN
+F 2 "" H 3950 1550 50  0001 C CNN
+F 3 "" H 3950 1550 50  0001 C CNN
+	1    3950 1550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
