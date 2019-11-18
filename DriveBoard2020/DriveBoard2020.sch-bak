@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U10
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 3 1 5BCE44EF
 P 5230 4310
-F 0 "U10" H 5280 5460 60  0000 L CNN
+F 0 "U4" H 5280 5460 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 5830 5010 60  0001 L CNN
-F 2 "" H 5230 4310 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 5230 4310 60  0001 C CNN
 F 3 "" H 5230 4310 60  0001 C CNN
 	3    5230 4310
 	1    0    0    1   
@@ -28,12 +28,12 @@ $EndComp
 Text GLabel 4980 5260 0    50   Output ~ 0
 Dout_NeoPixel
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U10
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 4 1 5BCE45EC
 P 5860 4310
-F 0 "U10" H 5910 5460 60  0000 L CNN
+F 0 "U4" H 5910 5460 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 6260 4910 60  0001 L CNN
-F 2 "" H 5860 4310 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 5860 4310 60  0001 C CNN
 F 3 "" H 5860 4310 60  0001 C CNN
 	4    5860 4310
 	-1   0    0    1   
@@ -55,8 +55,6 @@ Wire Wire Line
 	9700 6150 9700 6200
 Wire Wire Line
 	9700 5750 9700 5800
-Text Notes 4980 5160 2    50   ~ 0
-SPI MOSI(3)
 Text Label 9800 5900 0    50   ~ 0
 Headlight_V1+
 Wire Wire Line
@@ -903,17 +901,17 @@ Text Notes 4680 6820 2    39   ~ 0
 Serial 4
 Text Notes 2980 6570 2    39   ~ 0
 Serial 6
-Text GLabel 5330 7020 0    39   Input ~ 0
+Text GLabel 5330 7120 0    39   Input ~ 0
 RR_Motor
-Text GLabel 5330 6920 0    39   Input ~ 0
+Text GLabel 5330 7020 0    39   Input ~ 0
 RL_Motor
-Text GLabel 5330 6820 0    39   Input ~ 0
+Text GLabel 5330 6920 0    39   Input ~ 0
 MR_Motor
-Text GLabel 5330 6720 0    39   Input ~ 0
+Text GLabel 5330 6820 0    39   Input ~ 0
 ML_Motor
-Text GLabel 5330 6620 0    39   Input ~ 0
+Text GLabel 5330 6720 0    39   Input ~ 0
 FR_Motor
-Text GLabel 5330 6520 0    39   Input ~ 0
+Text GLabel 5330 6620 0    39   Input ~ 0
 FL_Motor
 Text GLabel 4230 6920 2    39   Input ~ 0
 switch_direction
@@ -2185,45 +2183,45 @@ $EndComp
 Wire Wire Line
 	9800 5900 10250 5900
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U9
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 1 1 5DE8D46B
 P 3230 5320
-F 0 "U9" H 3110 6470 60  0000 L CNN
+F 0 "U4" H 3110 6470 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 2610 5260 60  0000 L CNN
-F 2 "" H 3230 5320 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3230 5320 60  0001 C CNN
 F 3 "" H 3230 5320 60  0001 C CNN
 	1    3230 5320
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U9
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 2 1 5DE90FB1
 P 3880 5320
-F 0 "U9" H 3911 6597 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 3911 6491 60  0000 C CNN
-F 2 "" H 3880 5320 60  0001 C CNN
+F 0 "U4" H 4040 6560 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 3650 6440 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3880 5320 60  0001 C CNN
 F 3 "" H 3880 5320 60  0001 C CNN
 	2    3880 5320
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U9
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 7 1 5DEDC9C8
 P 5530 7470
-F 0 "U9" H 5835 8068 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 4830 7270 60  0000 L CNN
-F 2 "" H 5530 7470 60  0001 C CNN
+F 0 "U4" H 5835 8068 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4870 7320 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 5530 7470 60  0001 C CNN
 F 3 "" H 5530 7470 60  0001 C CNN
 	7    5530 7470
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U9
+L MRDT_Shields:TM4C129E_Launchpad U4
 U 8 1 5DEDFAF8
 P 6230 7470
-F 0 "U9" H 6261 8747 60  0000 C CNN
+F 0 "U4" H 6261 8747 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 6261 8641 60  0000 C CNN
-F 2 "" H 6230 7470 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 6230 7470 60  0001 C CNN
 F 3 "" H 6230 7470 60  0001 C CNN
 	8    6230 7470
 	-1   0    0    -1  
