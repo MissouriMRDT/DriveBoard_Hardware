@@ -390,18 +390,14 @@ Text GLabel 10400 1750 2    50   Output ~ 0
 NeoPixel_White
 Text GLabel 10350 2350 2    50   Output ~ 0
 NeoPixel_Pattern
-Text GLabel 6110 5160 2    50   Input ~ 0
+Text GLabel 4200 5250 2    50   Input ~ 0
 Headlight_Power
 Wire Wire Line
 	6110 5160 6060 5160
-Text GLabel 4980 4860 0    50   Input ~ 0
+Text GLabel 3250 5250 0    50   Input ~ 0
 NeoPixel_White
-Text GLabel 4980 4760 0    50   Input ~ 0
+Text GLabel 4200 5150 2    50   Input ~ 0
 NeoPixel_Pattern
-Wire Wire Line
-	4980 4860 5030 4860
-Wire Wire Line
-	4980 4760 5030 4760
 $Comp
 L Switch:SW_Push SW7
 U 1 1 5C7AB1BB
@@ -618,17 +614,6 @@ F 3 "~" H -2000 2940 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW6
-U 1 1 5DA5C839
-P -2000 5190
-F 0 "SW6" H -2000 5475 50  0000 C CNN
-F 1 "SW_Push" H -2000 5384 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H -2000 5390 50  0001 C CNN
-F 3 "~" H -2000 5390 50  0001 C CNN
-	1    -2000 5190
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW5
 U 1 1 5DA5C536
 P -2000 4790
@@ -640,17 +625,6 @@ F 3 "~" H -2000 4990 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW4
-U 1 1 5DA5BE4A
-P -2000 4440
-F 0 "SW4" H -2000 4725 50  0000 C CNN
-F 1 "SW_Push" H -2000 4634 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H -2000 4640 50  0001 C CNN
-F 3 "~" H -2000 4640 50  0001 C CNN
-	1    -2000 4440
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW3
 U 1 1 5DA5B9FD
 P -2000 4040
@@ -659,17 +633,6 @@ F 1 "SW_Push" H -2000 4234 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H -2000 4240 50  0001 C CNN
 F 3 "~" H -2000 4240 50  0001 C CNN
 	1    -2000 4040
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW2
-U 1 1 5DA5B695
-P -2000 3690
-F 0 "SW2" H -2000 3975 50  0000 C CNN
-F 1 "SW_Push" H -2000 3884 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H -2000 3890 50  0001 C CNN
-F 3 "~" H -2000 3890 50  0001 C CNN
-	1    -2000 3690
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -841,39 +804,20 @@ Wire Wire Line
 	-370 880  -370 1030
 Wire Wire Line
 	-370 1880 -370 1980
-Text Notes 2880 7320 1    39   ~ 0
-Motor Control Buttons
 Text Notes 4680 7220 2    39   ~ 0
 Serial 3
 Text Notes 4680 6820 2    39   ~ 0
 Serial 4
 Text Notes 2980 6570 2    39   ~ 0
 Serial 6
-Text GLabel 6430 7220 2    39   Input ~ 0
-RR_Motor
-Text GLabel 6430 7320 2    39   Input ~ 0
-RL_Motor
-Text GLabel 5330 7320 0    39   Input ~ 0
-MR_Motor
-Text GLabel 5330 7220 0    39   Input ~ 0
-ML_Motor
-Text GLabel 5330 6820 0    39   Input ~ 0
-FR_Motor
-Text GLabel 5330 6720 0    39   Input ~ 0
-FL_Motor
-Text GLabel 6430 7420 2    39   Input ~ 0
+Text GLabel 5350 7200 0    39   Input ~ 0
+Rear_Motor
+Text GLabel 5350 6900 0    39   Input ~ 0
+Middle_Motor
+Text GLabel 5350 6600 0    39   Input ~ 0
+Front_Motor
+Text GLabel 6400 7400 2    39   Input ~ 0
 switch_direction
-$Comp
-L power:GND #PWR0138
-U 1 1 5DB52A73
-P -400 5390
-F 0 "#PWR0138" H -400 5140 50  0001 C CNN
-F 1 "GND" H -395 5217 50  0000 C CNN
-F 2 "" H -400 5390 50  0001 C CNN
-F 3 "" H -400 5390 50  0001 C CNN
-	1    -400 5390
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0137
 U 1 1 5DB522DE
@@ -886,17 +830,6 @@ F 3 "" H -400 4990 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0136
-U 1 1 5DB51C67
-P -400 4590
-F 0 "#PWR0136" H -400 4340 50  0001 C CNN
-F 1 "GND" H -395 4417 50  0000 C CNN
-F 2 "" H -400 4590 50  0001 C CNN
-F 3 "" H -400 4590 50  0001 C CNN
-	1    -400 4590
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0135
 U 1 1 5DB514BF
 P -400 4240
@@ -905,17 +838,6 @@ F 1 "GND" H -395 4067 50  0000 C CNN
 F 2 "" H -400 4240 50  0001 C CNN
 F 3 "" H -400 4240 50  0001 C CNN
 	1    -400 4240
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 5DB50DFA
-P -400 3890
-F 0 "#PWR0134" H -400 3640 50  0001 C CNN
-F 1 "GND" H -395 3717 50  0000 C CNN
-F 2 "" H -400 3890 50  0001 C CNN
-F 3 "" H -400 3890 50  0001 C CNN
-	1    -400 3890
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -945,46 +867,9 @@ Wire Wire Line
 Wire Wire Line
 	-500 3540 -400 3540
 Wire Wire Line
-	-500 3890 -400 3890
-Wire Wire Line
 	-500 4240 -400 4240
 Wire Wire Line
-	-500 4590 -400 4590
-Wire Wire Line
-	-400 5390 -500 5390
-Wire Wire Line
 	-500 4990 -400 4990
-$Comp
-L Device:LED D14
-U 1 1 5DB38360
-P -650 5390
-F 0 "D14" H -450 5340 50  0000 C CNN
-F 1 "LED" H -600 5290 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H -650 5390 50  0001 C CNN
-F 3 "~" H -650 5390 50  0001 C CNN
-	1    -650 5390
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-1100 5390 -800 5390
-$Comp
-L Device:R R14
-U 1 1 5DB353D4
-P -1250 5390
-F 0 "R14" V -1300 5240 50  0000 C CNN
-F 1 "500" V -1250 5390 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1320 5390 50  0001 C CNN
-F 3 "~" H -1250 5390 50  0001 C CNN
-	1    -1250 5390
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-1650 5190 -1550 5190
-Connection ~ -1650 5190
-Wire Wire Line
-	-1650 5390 -1400 5390
-Wire Wire Line
-	-1650 5190 -1650 5390
 $Comp
 L Device:LED D13
 U 1 1 5DB31B65
@@ -1017,37 +902,6 @@ Wire Wire Line
 Wire Wire Line
 	-1650 4790 -1650 4990
 $Comp
-L Device:LED D12
-U 1 1 5DB2BE6F
-P -650 4590
-F 0 "D12" H -450 4540 50  0000 C CNN
-F 1 "LED" H -600 4490 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H -650 4590 50  0001 C CNN
-F 3 "~" H -650 4590 50  0001 C CNN
-	1    -650 4590
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-1100 4590 -800 4590
-$Comp
-L Device:R R12
-U 1 1 5DB29413
-P -1250 4590
-F 0 "R12" V -1300 4440 50  0000 C CNN
-F 1 "500" V -1250 4590 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1320 4590 50  0001 C CNN
-F 3 "~" H -1250 4590 50  0001 C CNN
-	1    -1250 4590
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-1650 4440 -1550 4440
-Connection ~ -1650 4440
-Wire Wire Line
-	-1650 4590 -1400 4590
-Wire Wire Line
-	-1650 4440 -1650 4590
-$Comp
 L Device:LED D11
 U 1 1 5DB26770
 P -650 4240
@@ -1078,37 +932,6 @@ Wire Wire Line
 	-1650 4240 -1400 4240
 Wire Wire Line
 	-1650 4040 -1650 4240
-$Comp
-L Device:LED D10
-U 1 1 5DB21877
-P -650 3890
-F 0 "D10" H -450 3840 50  0000 C CNN
-F 1 "LED" H -600 3790 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H -650 3890 50  0001 C CNN
-F 3 "~" H -650 3890 50  0001 C CNN
-	1    -650 3890
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-1100 3890 -800 3890
-$Comp
-L Device:R R10
-U 1 1 5DB1F255
-P -1250 3890
-F 0 "R10" V -1300 3740 50  0000 C CNN
-F 1 "500" V -1250 3890 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -1320 3890 50  0001 C CNN
-F 3 "~" H -1250 3890 50  0001 C CNN
-	1    -1250 3890
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-1650 3690 -1550 3690
-Connection ~ -1650 3690
-Wire Wire Line
-	-1650 3890 -1400 3890
-Wire Wire Line
-	-1650 3690 -1650 3890
 $Comp
 L Device:LED D9
 U 1 1 5DB1AFB8
@@ -1171,25 +994,8 @@ Wire Wire Line
 	-1650 3140 -1400 3140
 Wire Wire Line
 	-1650 2940 -1650 3140
-Text GLabel -1550 5190 2    39   Output ~ 0
-RR_Motor
-Wire Wire Line
-	-1800 5190 -1650 5190
-Wire Wire Line
-	-2650 5190 -2200 5190
-$Comp
-L power:+3.3V #PWR0131
-U 1 1 5DB0B486
-P -2650 5190
-F 0 "#PWR0131" H -2650 5040 50  0001 C CNN
-F 1 "+3.3V" H -2635 5363 50  0000 C CNN
-F 2 "" H -2650 5190 50  0001 C CNN
-F 3 "" H -2650 5190 50  0001 C CNN
-	1    -2650 5190
-	1    0    0    -1  
-$EndComp
 Text GLabel -1550 4790 2    39   Output ~ 0
-RL_Motor
+Rear_Motor
 Wire Wire Line
 	-1800 4790 -1650 4790
 Wire Wire Line
@@ -1205,25 +1011,8 @@ F 3 "" H -2650 4790 50  0001 C CNN
 	1    -2650 4790
 	1    0    0    -1  
 $EndComp
-Text GLabel -1550 4440 2    39   Output ~ 0
-MR_Motor
-Wire Wire Line
-	-1800 4440 -1650 4440
-Wire Wire Line
-	-2650 4440 -2200 4440
-$Comp
-L power:+3.3V #PWR0129
-U 1 1 5DB07B90
-P -2650 4440
-F 0 "#PWR0129" H -2650 4290 50  0001 C CNN
-F 1 "+3.3V" H -2635 4613 50  0000 C CNN
-F 2 "" H -2650 4440 50  0001 C CNN
-F 3 "" H -2650 4440 50  0001 C CNN
-	1    -2650 4440
-	1    0    0    -1  
-$EndComp
 Text GLabel -1550 4040 2    39   Output ~ 0
-ML_Motor
+Middle_Motor
 Wire Wire Line
 	-1800 4040 -1650 4040
 Wire Wire Line
@@ -1239,25 +1028,8 @@ F 3 "" H -2650 4040 50  0001 C CNN
 	1    -2650 4040
 	1    0    0    -1  
 $EndComp
-Text GLabel -1550 3690 2    39   Output ~ 0
-FR_Motor
-Wire Wire Line
-	-1800 3690 -1650 3690
-Wire Wire Line
-	-2650 3690 -2200 3690
-$Comp
-L power:+3.3V #PWR0127
-U 1 1 5DB041B2
-P -2650 3690
-F 0 "#PWR0127" H -2650 3540 50  0001 C CNN
-F 1 "+3.3V" H -2635 3863 50  0000 C CNN
-F 2 "" H -2650 3690 50  0001 C CNN
-F 3 "" H -2650 3690 50  0001 C CNN
-	1    -2650 3690
-	1    0    0    -1  
-$EndComp
 Text GLabel -1550 3340 2    39   Output ~ 0
-FL_Motor
+Front_Motor
 $Comp
 L power:+3.3V #PWR0126
 U 1 1 5DAFEC33
@@ -2133,48 +1905,48 @@ Wire Wire Line
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
 U 1 1 5DE8D46B
-P 3450 5320
-F 0 "U4" H 3330 6470 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 2830 5260 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3450 5320 60  0001 C CNN
-F 3 "" H 3450 5320 60  0001 C CNN
-	1    3450 5320
+P 3450 5300
+F 0 "U4" H 3330 6450 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2830 5240 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3450 5300 60  0001 C CNN
+F 3 "" H 3450 5300 60  0001 C CNN
+	1    3450 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
 U 2 1 5DE90FB1
-P 3980 5320
-F 0 "U4" H 4140 6560 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 3750 6440 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3980 5320 60  0001 C CNN
-F 3 "" H 3980 5320 60  0001 C CNN
-	2    3980 5320
+P 4000 5300
+F 0 "U4" H 4160 6540 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 3770 6420 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 4000 5300 60  0001 C CNN
+F 3 "" H 4000 5300 60  0001 C CNN
+	2    4000 5300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
 U 7 1 5DEDC9C8
-P 5530 7470
-F 0 "U4" H 5835 8068 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 4870 7320 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 5530 7470 60  0001 C CNN
-F 3 "" H 5530 7470 60  0001 C CNN
-	7    5530 7470
+P 5550 7450
+F 0 "U4" H 5855 8048 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4890 7300 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 5550 7450 60  0001 C CNN
+F 3 "" H 5550 7450 60  0001 C CNN
+	7    5550 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
 U 8 1 5DEDFAF8
-P 6230 7470
-F 0 "U4" H 6261 8747 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 6261 8641 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 6230 7470 60  0001 C CNN
-F 3 "" H 6230 7470 60  0001 C CNN
-	8    6230 7470
+P 6200 7450
+F 0 "U4" H 6231 8727 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 6231 8621 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 6200 7450 60  0001 C CNN
+F 3 "" H 6200 7450 60  0001 C CNN
+	8    6200 7450
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3250 5070 0    50   Output ~ 0
+Text GLabel 3250 5050 0    50   Output ~ 0
 Headlight_OnOff_PWM
 Wire Notes Line style solid
 	6970 470  6970 6540
@@ -2187,27 +1959,25 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0146
 U 1 1 5E44A8A8
-P 4600 4470
-F 0 "#PWR0146" H 4600 4220 50  0001 C CNN
-F 1 "GND" H 4605 4297 50  0000 C CNN
-F 2 "" H 4600 4470 50  0001 C CNN
-F 3 "" H 4600 4470 50  0001 C CNN
-	1    4600 4470
+P 4600 4450
+F 0 "#PWR0146" H 4600 4200 50  0001 C CNN
+F 1 "GND" H 4605 4277 50  0000 C CNN
+F 2 "" H 4600 4450 50  0001 C CNN
+F 3 "" H 4600 4450 50  0001 C CNN
+	1    4600 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0150
 U 1 1 5E4D6DF7
-P 6740 6520
-F 0 "#PWR0150" H 6740 6270 50  0001 C CNN
-F 1 "GND" H 6745 6347 50  0000 C CNN
-F 2 "" H 6740 6520 50  0001 C CNN
-F 3 "" H 6740 6520 50  0001 C CNN
-	1    6740 6520
+P 6750 6550
+F 0 "#PWR0150" H 6750 6300 50  0001 C CNN
+F 1 "GND" H 6755 6377 50  0000 C CNN
+F 2 "" H 6750 6550 50  0001 C CNN
+F 3 "" H 6750 6550 50  0001 C CNN
+	1    6750 6550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6430 6520 6740 6520
 $Comp
 L power:GNDA #PWR0151
 U 1 1 5E572CB7
@@ -2283,19 +2053,6 @@ F 3 "" H 3950 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4180 4470 4600 4470
-$Comp
-L power:+5VL #PWR0154
-U 1 1 5C7BB2F1
-P 9750 4050
-F 0 "#PWR0154" H 9750 3900 50  0001 C CNN
-F 1 "+5VL" H 9765 4223 50  0000 C CNN
-F 2 "" H 9750 4050 50  0001 C CNN
-F 3 "" H 9750 4050 50  0001 C CNN
-	1    9750 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	9750 4750 9750 4800
 Wire Wire Line
 	9750 4100 9750 4050
@@ -2334,4 +2091,21 @@ F 3 "~" H 9750 4250 50  0001 C CNN
 	1    9750 4250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4200 4450 4600 4450
+$Comp
+L power:+5V #PWR0154
+U 1 1 5DDF0A85
+P 9750 4050
+F 0 "#PWR0154" H 9750 3900 50  0001 C CNN
+F 1 "+5V" H 9765 4223 50  0000 C CNN
+F 2 "" H 9750 4050 50  0001 C CNN
+F 3 "" H 9750 4050 50  0001 C CNN
+	1    9750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 6500 6750 6500
+Wire Wire Line
+	6750 6500 6750 6550
 $EndSCHEMATC
