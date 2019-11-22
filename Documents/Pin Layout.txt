@@ -1,0 +1,39 @@
+TM4C129E
+
+X9:A1------------------------------------
+
+Headlight_OnOff_PWM: PC7-Tx5
+NeoPixel_white     : PB3
+
+X9:B1------------------------------------
+
+NeoPixel_Pattern   :PM4
+Headlight_Power    :PM5
+
+
+X7:A2------------------------------------
+
+Rx6 : PP0
+Tx6 : PP1
+
+X7:B2------------------------------------
+
+Rx4 : PK0
+Tx4 : PK1
+Rx3 : PA4
+Tx3 : PA5
+
+X9:D1------------------------------------
+
+Dout_NeoPixel :PP2
+
+X7:C2------------------------------------
+
+Front_Motor : PK2
+Middle_Motor: PM1
+Rear_Motor  : PK6
+
+X7:D2------------------------------------
+
+switch_direction: PM6
+
