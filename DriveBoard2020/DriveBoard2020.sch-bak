@@ -281,13 +281,11 @@ Text GLabel 15250 1650 2    50   Output ~ 0
 NeoPixel_White
 Text GLabel 15300 2340 2    50   Output ~ 0
 NeoPixel_Pattern
-Text GLabel 9270 5250 2    50   Input ~ 0
+Text GLabel 9300 5250 2    50   Input ~ 0
 Headlight_Power
 Wire Wire Line
 	11180 5160 11130 5160
-Text GLabel 8320 5250 0    50   Input ~ 0
-NeoPixel_White
-Text GLabel 9270 5150 2    50   Input ~ 0
+Text GLabel 9300 5150 2    50   Input ~ 0
 NeoPixel_Pattern
 $Comp
 L Switch:SW_Push SW7
@@ -336,7 +334,7 @@ Wire Wire Line
 Wire Wire Line
 	15020 4050 15020 4100
 Text GLabel 11090 1400 2    39   Input ~ 0
-T1_Out
+FR_Out
 $Comp
 L DriveBoard2020-rescue:Molex_SL_05-MRDT_Connectors-DriveBoard2020-rescue Conn5
 U 1 1 5DA43D44
@@ -349,7 +347,7 @@ F 3 "" H 10890 1550 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 11090 1500 2    39   Output ~ 0
-R1_In
+FR_In
 Wire Wire Line
 	3250 3350 3250 3400
 $Comp
@@ -512,7 +510,7 @@ Text GLabel 10170 6900 0    39   Input ~ 0
 Middle_Motor
 Text GLabel 10170 6600 0    39   Input ~ 0
 Front_Motor
-Text GLabel 11220 7400 2    39   Input ~ 0
+Text GLabel 11250 7400 2    39   Input ~ 0
 switch_direction
 $Comp
 L power:GND #PWR0137
@@ -1096,9 +1094,9 @@ F 3 "" H 10090 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10490 1400 0    39   Input ~ 0
-T1_Out
+FL_Out
 Text GLabel 10490 1500 0    39   Output ~ 0
-R1_In
+FL_In
 Text GLabel 10490 3150 0    39   Input ~ 0
 T3_Out
 Text GLabel 10490 3250 0    39   Output ~ 0
@@ -1126,9 +1124,9 @@ F 3 "" H 10890 2400 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 10490 2350 0    39   Output ~ 0
-R2_In
+ML_In
 Text GLabel 10490 2250 0    39   Input ~ 0
-T2_Out
+ML_Out
 $Comp
 L power:GND #PWR0114
 U 1 1 5DA267BE
@@ -1218,9 +1216,9 @@ Middle
 Text Notes 9790 3250 2    79   ~ 0
 Rear
 Text GLabel 11090 2250 2    39   Input ~ 0
-T2_Out
+MR_Out
 Text GLabel 11090 2350 2    39   Output ~ 0
-R2_In
+MR_In
 Text GLabel 11090 3150 2    39   Input ~ 0
 T3_Out
 Text GLabel 11090 3250 2    39   Output ~ 0
@@ -1239,21 +1237,21 @@ Text GLabel 3400 7450 0    50   Output ~ 0
 Rx3
 Text GLabel 3400 7550 0    50   Input ~ 0
 Tx3
-Text GLabel 4650 5700 2    50   Input ~ 0
-R2_In
-Text GLabel 4650 5800 2    50   Output ~ 0
-T2_Out
-Text GLabel 4550 3800 2    51   Input ~ 0
-R1_In
-Text GLabel 4550 3900 2    51   Output ~ 0
-T1_Out
-Text GLabel 3400 5700 0    50   Output ~ 0
+Text GLabel 4650 5950 2    50   Input ~ 0
+MR_In
+Text GLabel 4650 6050 2    50   Output ~ 0
+MR_Out
+Text GLabel 4550 4050 2    51   Input ~ 0
+FR_In
+Text GLabel 4550 4150 2    51   Output ~ 0
+FR_Out
+Text GLabel 3400 5950 0    50   Output ~ 0
 Rx4
-Text GLabel 3400 5800 0    51   Input ~ 0
+Text GLabel 3400 6050 0    51   Input ~ 0
 Tx4
-Text GLabel 3350 3800 0    50   Output ~ 0
+Text GLabel 3350 4050 0    50   Output ~ 0
 Rx6
-Text GLabel 3350 3900 0    51   Input ~ 0
+Text GLabel 3350 4150 0    51   Input ~ 0
 Tx6
 $Comp
 L power:GND #PWR0106
@@ -1451,24 +1449,13 @@ Wire Wire Line
 	14620 5900 15070 5900
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
-U 1 1 5DE8D46B
-P 8520 5300
-F 0 "U4" H 8400 6450 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 7900 5240 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 8520 5300 60  0001 C CNN
-F 3 "" H 8520 5300 60  0001 C CNN
-	1    8520 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U4
 U 2 1 5DE90FB1
-P 9070 5300
-F 0 "U4" H 9230 6540 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 8840 6420 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 9070 5300 60  0001 C CNN
-F 3 "" H 9070 5300 60  0001 C CNN
-	2    9070 5300
+P 9050 5300
+F 0 "U4" H 9210 6540 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 8820 6420 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 9050 5300 60  0001 C CNN
+F 3 "" H 9050 5300 60  0001 C CNN
+	2    9050 5300
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1485,16 +1472,14 @@ $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U4
 U 8 1 5DEDFAF8
-P 11020 7450
-F 0 "U4" H 11051 8727 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 11051 8621 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 11020 7450 60  0001 C CNN
-F 3 "" H 11020 7450 60  0001 C CNN
-	8    11020 7450
+P 11000 7450
+F 0 "U4" H 11031 8727 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 11031 8621 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 11000 7450 60  0001 C CNN
+F 3 "" H 11000 7450 60  0001 C CNN
+	8    11000 7450
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8320 5050 0    50   Output ~ 0
-Headlight_OnOff_PWM
 Wire Wire Line
 	11330 5260 11330 5300
 Wire Wire Line
@@ -1502,23 +1487,23 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0146
 U 1 1 5E44A8A8
-P 9670 4450
-F 0 "#PWR0146" H 9670 4200 50  0001 C CNN
-F 1 "GND" H 9675 4277 50  0000 C CNN
-F 2 "" H 9670 4450 50  0001 C CNN
-F 3 "" H 9670 4450 50  0001 C CNN
-	1    9670 4450
+P 9550 4500
+F 0 "#PWR0146" H 9550 4250 50  0001 C CNN
+F 1 "GND" H 9555 4327 50  0000 C CNN
+F 2 "" H 9550 4500 50  0001 C CNN
+F 3 "" H 9550 4500 50  0001 C CNN
+	1    9550 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0150
 U 1 1 5E4D6DF7
-P 11570 6550
-F 0 "#PWR0150" H 11570 6300 50  0001 C CNN
-F 1 "GND" H 11575 6377 50  0000 C CNN
-F 2 "" H 11570 6550 50  0001 C CNN
-F 3 "" H 11570 6550 50  0001 C CNN
-	1    11570 6550
+P 11650 6550
+F 0 "#PWR0150" H 11650 6300 50  0001 C CNN
+F 1 "GND" H 11655 6377 50  0000 C CNN
+F 2 "" H 11650 6550 50  0001 C CNN
+F 3 "" H 11650 6550 50  0001 C CNN
+	1    11650 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1593,8 +1578,6 @@ F 3 "~" H 14570 4250 50  0001 C CNN
 	1    14570 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9270 4450 9670 4450
 $Comp
 L power:+5V #PWR0154
 U 1 1 5DDF0A85
@@ -1606,10 +1589,6 @@ F 3 "" H 14570 4050 50  0001 C CNN
 	1    14570 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11220 6500 11570 6500
-Wire Wire Line
-	11570 6500 11570 6550
 Wire Notes Line
 	11790 9960 11810 9960
 $Comp
@@ -1814,18 +1793,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5E239C6D
-P 3350 7050
-F 0 "#PWR?" H 3350 6800 50  0001 C CNN
-F 1 "GND" H 3355 6877 50  0000 C CNN
-F 2 "" H 3350 7050 50  0001 C CNN
-F 3 "" H 3350 7050 50  0001 C CNN
-	1    3350 7050
+P 3150 7050
+F 0 "#PWR?" H 3150 6800 50  0001 C CNN
+F 1 "GND" H 3155 6877 50  0000 C CNN
+F 2 "" H 3150 7050 50  0001 C CNN
+F 3 "" H 3150 7050 50  0001 C CNN
+	1    3150 7050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 7000 3350 7000
-Wire Wire Line
-	3350 7000 3350 7050
 $Comp
 L Device:C_Small C?
 U 1 1 5E25387B
@@ -1988,4 +1963,105 @@ F 3 "" H 15650 1800 50  0001 C CNN
 	1    15650 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U4
+U 1 1 5DE8D46B
+P 8300 5300
+F 0 "U4" H 8180 6450 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 7680 5240 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 8300 5300 60  0001 C CNN
+F 3 "" H 8300 5300 60  0001 C CNN
+	1    8300 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 5250 0    50   Input ~ 0
+NeoPixel_White
+Text GLabel 7200 3950 0    50   Output ~ 0
+Headlight_OnOff_PWM
+Wire Wire Line
+	8050 5050 8100 5050
+Wire Wire Line
+	8050 5250 8100 5250
+Wire Wire Line
+	8100 4550 8050 4550
+Wire Wire Line
+	8100 4650 8050 4650
+Text GLabel 8050 4550 0    50   Input ~ 0
+Rx7
+Text GLabel 8050 4650 0    50   Output ~ 0
+Tx7
+Wire Wire Line
+	8100 4750 8050 4750
+Text Notes 6400 3850 0    50   ~ 0
+Must go to serial
+Text GLabel 8050 4750 0    50   Input ~ 0
+Rx5
+Text GLabel 8050 5050 0    50   Output ~ 0
+Tx5
+Wire Wire Line
+	9250 4450 9550 4450
+Wire Wire Line
+	9550 4450 9550 4500
+Wire Wire Line
+	9250 5050 9300 5050
+Wire Wire Line
+	9250 5150 9300 5150
+Wire Wire Line
+	9250 5250 9300 5250
+Text GLabel 9300 5050 2    50   Input ~ 0
+Rx2
+Wire Wire Line
+	11200 7400 11250 7400
+Wire Wire Line
+	11650 6500 11650 6550
+Wire Wire Line
+	11200 6500 11650 6500
+Wire Wire Line
+	11200 6800 11250 6800
+Text GLabel 11250 6800 2    50   Output ~ 0
+Tx2
+Text GLabel 3400 7700 0    50   Output ~ 0
+Rx2
+Text GLabel 3400 7800 0    50   Input ~ 0
+Tx2
+Wire Wire Line
+	3400 7700 3450 7700
+Wire Wire Line
+	3400 7800 3450 7800
+Wire Wire Line
+	3450 5950 3400 5950
+Wire Wire Line
+	3450 6050 3400 6050
+Wire Wire Line
+	4550 5950 4650 5950
+Wire Wire Line
+	4550 6050 4650 6050
+Text GLabel 3400 5700 0    50   Output ~ 0
+Rx5
+Text GLabel 3400 5800 0    51   Input ~ 0
+Tx5
+Wire Wire Line
+	3400 4050 3350 4050
+Wire Wire Line
+	3400 4150 3350 4150
+Wire Wire Line
+	4500 4050 4550 4050
+Wire Wire Line
+	4500 4150 4550 4150
+Text GLabel 3350 3800 0    50   Output ~ 0
+Rx7
+Text GLabel 3350 3900 0    51   Input ~ 0
+Tx7
+Text GLabel 4550 3800 2    51   Input ~ 0
+FL_In
+Text GLabel 4550 3900 2    51   Output ~ 0
+FL_Out
+Text GLabel 4650 5700 2    50   Input ~ 0
+ML_In
+Text GLabel 4650 5800 2    50   Output ~ 0
+ML_Out
+Wire Wire Line
+	3150 7050 3150 7000
+Wire Wire Line
+	3150 7000 3450 7000
 $EndSCHEMATC
