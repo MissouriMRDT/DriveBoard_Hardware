@@ -1232,12 +1232,12 @@ $EndComp
 $Comp
 L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors-DriveBoard2020-rescue Conn1
 U 2 1 5D9F5218
-P 5400 1300
-F 0 "Conn1" H 5608 1687 60  0000 C CNN
-F 1 "AndersonPP" H 5608 1581 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5250 750 60  0001 C CNN
-F 3 "" H 5250 750 60  0001 C CNN
-	2    5400 1300
+P 5700 1300
+F 0 "Conn1" H 5908 1687 60  0000 C CNN
+F 1 "AndersonPP" H 5908 1581 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5550 750 60  0001 C CNN
+F 3 "" H 5550 750 60  0001 C CNN
+	2    5700 1300
 	1    0    0    -1  
 $EndComp
 Text Notes 6660 7570 2    98   ~ 20
@@ -1279,12 +1279,12 @@ $EndComp
 $Comp
 L Device:C C2
 U 1 1 5D994283
-P 6450 1350
-F 0 "C2" H 6565 1396 50  0000 L CNN
-F 1 "10uF" H 6565 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6488 1200 50  0001 C CNN
-F 3 "~" H 6450 1350 50  0001 C CNN
-	1    6450 1350
+P 7500 1350
+F 0 "C2" H 7615 1396 50  0000 L CNN
+F 1 "10uF" H 7615 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7538 1200 50  0001 C CNN
+F 3 "~" H 7500 1350 50  0001 C CNN
+	1    7500 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1301,12 +1301,12 @@ $EndComp
 $Comp
 L Device:C C1
 U 1 1 5D990CA8
-P 6050 1350
-F 0 "C1" H 6165 1396 50  0000 L CNN
-F 1 "10uF" H 6165 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6088 1200 50  0001 C CNN
-F 3 "~" H 6050 1350 50  0001 C CNN
-	1    6050 1350
+P 6300 1350
+F 0 "C1" H 6415 1396 50  0000 L CNN
+F 1 "10uF" H 6415 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6338 1200 50  0001 C CNN
+F 3 "~" H 6300 1350 50  0001 C CNN
+	1    6300 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1323,12 +1323,12 @@ $EndComp
 $Comp
 L DriveBoard2020-rescue:AndersonPP-MRDT_Connectors-DriveBoard2020-rescue Conn1
 U 1 1 5D9156E9
-P 5400 1600
-F 0 "Conn1" H 5150 1900 60  0000 C CNN
-F 1 "AndersonPP" H 5100 1800 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5250 1050 60  0001 C CNN
-F 3 "" H 5250 1050 60  0001 C CNN
-	1    5400 1600
+P 5700 1600
+F 0 "Conn1" H 5450 1900 60  0000 C CNN
+F 1 "AndersonPP" H 5400 1800 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5550 1050 60  0001 C CNN
+F 3 "" H 5550 1050 60  0001 C CNN
+	1    5700 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1431,12 +1431,12 @@ $EndComp
 $Comp
 L power:GND #PWR0139
 U 1 1 5E77D4FB
-P 8600 1600
-F 0 "#PWR0139" H 8600 1350 50  0001 C CNN
-F 1 "GND" H 8605 1427 50  0000 C CNN
-F 2 "" H 8600 1600 50  0001 C CNN
-F 3 "" H 8600 1600 50  0001 C CNN
-	1    8600 1600
+P 8600 1700
+F 0 "#PWR0139" H 8600 1450 50  0001 C CNN
+F 1 "GND" H 8605 1527 50  0000 C CNN
+F 2 "" H 8600 1700 50  0001 C CNN
+F 3 "" H 8600 1700 50  0001 C CNN
+	1    8600 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1730,11 +1730,11 @@ Wire Wire Line
 Wire Wire Line
 	9100 1150 9100 1250
 Wire Wire Line
-	9100 1250 9000 1250
+	9100 1250 9050 1250
 Wire Wire Line
 	8050 1150 8050 1250
 Wire Wire Line
-	8050 1250 8200 1250
+	8050 1250 8150 1250
 Wire Wire Line
 	8600 1550 8600 1600
 $Comp
@@ -1773,31 +1773,15 @@ Wire Wire Line
 	5800 2200 6000 2200
 Connection ~ 6000 2200
 Wire Wire Line
-	5800 1200 6050 1200
-Connection ~ 6050 1200
-Wire Wire Line
-	6050 1200 6450 1200
-Wire Wire Line
-	5800 1500 6050 1500
-Connection ~ 6050 1500
-Wire Wire Line
-	6050 1500 6450 1500
-Wire Wire Line
-	6450 1500 7050 1500
-Connection ~ 6450 1500
-Wire Wire Line
 	7050 1500 7050 1600
 Connection ~ 7050 1500
 Wire Wire Line
 	6650 1200 6550 1200
-Connection ~ 6450 1200
 Wire Wire Line
 	6550 1100 6550 1200
 Connection ~ 6550 1200
 Wire Wire Line
-	6550 1200 6450 1200
-Wire Wire Line
-	7450 1200 7550 1200
+	7450 1200 7500 1200
 Wire Wire Line
 	7550 1200 7550 1100
 $Comp
@@ -2137,4 +2121,58 @@ F 3 "" H 11300 4450 50  0001 C CNN
 	1    11300 4450
 	1    0    0    -1  
 $EndComp
+Connection ~ 7500 1200
+Wire Wire Line
+	7500 1200 7550 1200
+Wire Wire Line
+	7050 1500 7500 1500
+Wire Wire Line
+	6300 1200 6550 1200
+Wire Wire Line
+	6300 1500 7050 1500
+Wire Wire Line
+	6100 1200 6300 1200
+Connection ~ 6300 1200
+Wire Wire Line
+	6100 1500 6300 1500
+Connection ~ 6300 1500
+$Comp
+L Device:C C?
+U 1 1 5E218078
+P 8150 1450
+F 0 "C?" H 8265 1496 50  0000 L CNN
+F 1 "10uF" H 8265 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8188 1300 50  0001 C CNN
+F 3 "~" H 8150 1450 50  0001 C CNN
+	1    8150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2189BA
+P 9050 1450
+F 0 "C?" H 9165 1496 50  0000 L CNN
+F 1 "10uF" H 9165 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9088 1300 50  0001 C CNN
+F 3 "~" H 9050 1450 50  0001 C CNN
+	1    9050 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1250 8150 1300
+Connection ~ 8150 1250
+Wire Wire Line
+	8150 1250 8200 1250
+Wire Wire Line
+	8150 1600 8600 1600
+Connection ~ 8600 1600
+Wire Wire Line
+	8600 1600 9050 1600
+Wire Wire Line
+	8600 1600 8600 1700
+Wire Wire Line
+	9050 1300 9050 1250
+Connection ~ 9050 1250
+Wire Wire Line
+	9050 1250 9000 1250
 $EndSCHEMATC
