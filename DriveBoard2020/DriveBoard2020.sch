@@ -51,17 +51,6 @@ $EndComp
 Text Notes 14495 3300 0    98   ~ 20
 Indicators
 $Comp
-L Device:R R20
-U 1 1 5C07EEA5
-P 15020 4250
-F 0 "R20" H 15090 4296 50  0000 L CNN
-F 1 "500" V 15020 4175 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14950 4250 50  0001 C CNN
-F 3 "~" H 15020 4250 50  0001 C CNN
-	1    15020 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R21
 U 1 1 5C07EF77
 P 15545 4250
@@ -70,17 +59,6 @@ F 1 "500" V 15545 4175 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 15475 4250 50  0001 C CNN
 F 3 "~" H 15545 4250 50  0001 C CNN
 	1    15545 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0147
-U 1 1 5C07F089
-P 15020 4800
-F 0 "#PWR0147" H 15020 4550 50  0001 C CNN
-F 1 "GND" H 15025 4627 50  0000 C CNN
-F 2 "" H 15020 4800 50  0001 C CNN
-F 3 "" H 15020 4800 50  0001 C CNN
-	1    15020 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -95,17 +73,6 @@ F 3 "" H 15545 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D17
-U 1 1 5C07F262
-P 15020 4600
-F 0 "D17" V 15058 4483 50  0000 R CNN
-F 1 "Org_LED" V 14967 4483 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15020 4600 50  0001 C CNN
-F 3 "~" H 15020 4600 50  0001 C CNN
-	1    15020 4600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED D18
 U 1 1 5C07F2D6
 P 15545 4600
@@ -117,19 +84,13 @@ F 3 "~" H 15545 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	15020 4400 15020 4450
-Wire Wire Line
 	15545 4400 15545 4450
 Wire Wire Line
 	15545 4750 15545 4800
-Text GLabel 15020 4050 1    50   Input ~ 0
-Dout_NeoPixel
 Text GLabel 15545 4050 1    50   Input ~ 0
 Headlight_OnOff_PWM
 Wire Wire Line
 	15545 4100 15545 4050
-Wire Wire Line
-	15020 4750 15020 4800
 $Comp
 L power:+12VA #PWR0149
 U 1 1 5C0C9370
@@ -243,8 +204,6 @@ Wire Wire Line
 Connection ~ 14950 2340
 Wire Wire Line
 	14950 2340 15300 2340
-Wire Wire Line
-	15020 4050 15020 4100
 Text GLabel 8550 1650 2    39   Input ~ 0
 FR_Out
 $Comp
@@ -303,7 +262,7 @@ U 1 1 5DA66B86
 P 3900 8850
 F 0 "SW0" H 3900 9085 50  0000 C CNN
 F 1 "SW_SPST" H 3900 8994 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled" H 3900 8850 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" H 3900 8850 50  0001 C CNN
 F 3 "~" H 3900 8850 50  0001 C CNN
 	1    3900 8850
 	1    0    0    -1  
@@ -1333,12 +1292,12 @@ F 3 "" H 3550 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn8
+L MRDT_Connectors:AndersonPP Conn1
 U 3 1 5E2EC70E
 P 2350 2200
-F 0 "Conn8" H 2558 2587 60  0000 C CNN
+F 0 "Conn1" H 2558 2587 60  0000 C CNN
 F 1 "AndersonPP" H 2558 2481 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2200 1650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2200 1650 60  0001 C CNN
 F 3 "" H 2200 1650 60  0001 C CNN
 	3    2350 2200
 	1    0    0    -1  
