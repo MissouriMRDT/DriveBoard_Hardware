@@ -1,4 +1,4 @@
-16533166557539062
+16541028223167535
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44512,6 +44512,41 @@ single digit 7 segemnt red/green LED
 0
 10
 10
+DriveBoard_Hardware
+Eric_Welch_Sig_22mmx9.4mm
+
+
+0
+0
+0
+DriveBoard_Hardware
+Jacob_Troy_Sig_22mmx16.5mm
+
+
+0
+0
+0
+DriveBoard_Hardware
+MOLEX_SL_05_Horizontal_NoMountingHole
+
+
+0
+5
+5
+DriveBoard_Hardware
+z_sig_Jack_Schott_15.2mmx27mm
+
+
+0
+0
+0
+DriveBoard_Hardware
+z_sig_Jared_Sinkey_15.5mmx34.4mm
+
+
+0
+0
+0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
