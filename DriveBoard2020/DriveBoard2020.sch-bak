@@ -361,11 +361,11 @@ Text Notes 5400 7070 2    39   ~ 0
 Serial 4
 Text Notes 3600 6800 2    39   ~ 0
 Serial 6
-Text GLabel 6000 7350 0    39   Input ~ 0
+Text GLabel 7100 5400 0    39   Input ~ 0
 RR_Motor
-Text GLabel 6000 7050 0    39   Input ~ 0
+Text GLabel 7100 5100 0    39   Input ~ 0
 MR_Motor
-Text GLabel 6000 6750 0    39   Input ~ 0
+Text GLabel 7100 4800 0    39   Input ~ 0
 FR_Motor
 Text GLabel 7100 7550 2    39   Input ~ 0
 switch_direction
@@ -1724,11 +1724,11 @@ Wire Wire Line
 Wire Wire Line
 	5200 6650 5200 6700
 Wire Wire Line
-	6050 7350 6000 7350
+	7150 5400 7100 5400
 Wire Wire Line
-	6000 7050 6050 7050
+	7100 5100 7150 5100
 Wire Wire Line
-	6050 6750 6000 6750
+	7150 4800 7100 4800
 $Comp
 L Device:C_Small C3
 U 1 1 5E0005D4
@@ -2740,18 +2740,18 @@ Text GLabel 14800 7600 0    50   Input ~ 0
 MISO2
 Text Notes 14200 7150 0    98   ~ 20
 SPI Pin Forwarding
-Text GLabel 6000 6850 0    39   Input ~ 0
+Text GLabel 7100 4900 0    39   Input ~ 0
 FL_Motor
-Text GLabel 6000 7150 0    39   Input ~ 0
+Text GLabel 7100 5200 0    39   Input ~ 0
 ML_Motor
-Text GLabel 6000 7450 0    39   Input ~ 0
+Text GLabel 7100 5500 0    39   Input ~ 0
 RL_Motor
 Wire Wire Line
-	6000 6850 6050 6850
+	7100 4900 7150 4900
 Wire Wire Line
-	6000 7450 6050 7450
+	7100 5500 7150 5500
 Wire Wire Line
-	6000 7150 6050 7150
+	7100 5200 7150 5200
 $Comp
 L MRDT_Connectors:Molex_SL_05 Conn12
 U 1 1 5E4E8266
