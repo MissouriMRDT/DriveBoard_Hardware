@@ -1,39 +1,39 @@
-TM4C129E
 
-X9:A1------------------------------------
+TIVA
 
-Headlight_OnOff_PWM: PC7-Tx5
-NeoPixel_white     : PB3
+SERIALS
+Rx7----------PC4
+Tx7----------PC5
+RX6----------PP0
+TX6----------PP1
+RX5----------PC6
+TX5----------PC7
+RX4----------PK0
+TX4----------PK1
+RX3----------PA4
+TX3----------PA5
+RX2----------PA6
+TX2----------PA7
 
-X9:B1------------------------------------
+DRIVE BUTTONS/SWITCHES
 
-NeoPixel_Pattern   :PM4
-Headlight_Power    :PM5
+FR_MOTOR--------------PF3
+FL_MOTOR--------------PG0
+MR_MOTOR--------------PL5
+ML_MOTOR--------------PL0
+RR_MOTOR--------------PL2
+RL_MOTOR--------------PL3
+Switch_Direction------PM6
 
+SPI FORWARDING
+CLK2--------PD3
+CS2---------PD2
+MISO2-------PD1
+MOSI2-------PD0
 
-X7:A2------------------------------------
-
-Rx6 : PP0
-Tx6 : PP1
-
-X7:B2------------------------------------
-
-Rx4 : PK0
-Tx4 : PK1
-Rx3 : PA4
-Tx3 : PA5
-
-X9:D1------------------------------------
-
-Dout_NeoPixel :PP2
-
-X7:C2------------------------------------
-
-Front_Motor : PK2
-Middle_Motor: PM1
-Rear_Motor  : PK6
-
-X7:D2------------------------------------
-
-switch_direction: PM6
-
+LIGHTING
+Headlight_OnOff_PWM------PF1
+Headlight_Power----------PM5
+NeoPixel_White-----------PB3
+NeoPixel_Pattern---------PM4
+Dout_NeoPixel------------PF2

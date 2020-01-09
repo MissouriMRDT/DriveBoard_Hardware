@@ -1442,8 +1442,6 @@ F 3 "" H 10450 3650 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 3600 10700 3600
-Wire Wire Line
 	10900 2700 10900 2750
 Wire Wire Line
 	10650 2700 10900 2700
@@ -2856,4 +2854,5 @@ Text Notes 8500 3300 0    50   ~ 0
 Serial 2
 Text Notes 10450 5100 0    50   ~ 0
 Serial 2
+NoConn ~ 10650 3600
 $EndSCHEMATC
