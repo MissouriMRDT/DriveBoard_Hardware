@@ -1,0 +1,5 @@
+Using MCP2515 required SPI interface
+
+*Requires transceiver
+-MCP2551 (usually paired with MCP2515, but requires 5v line)
+-SN65HVD232 (3.3V line, matches 1Mb/s speed of MCP2515)
