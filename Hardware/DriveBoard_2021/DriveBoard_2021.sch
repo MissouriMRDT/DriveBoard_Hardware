@@ -1823,28 +1823,6 @@ F 3 "~" H 1700 6000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 5F831E4A
-P 3150 7000
-F 0 "J1" H 3150 6800 50  0000 C CNN
-F 1 "Screw_Block_01x02" V 3300 7100 50  0000 C CNN
-F 2 "" H 3150 7000 50  0001 C CNN
-F 3 "~" H 3150 7000 50  0001 C CNN
-	1    3150 7000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 5F83F102
-P 3150 7350
-F 0 "J2" H 3150 7150 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 2050 7050 50  0001 C CNN
-F 2 "" H 3150 7350 50  0001 C CNN
-F 3 "~" H 3150 7350 50  0001 C CNN
-	1    3150 7350
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+12VA #PWR?
 U 1 1 5F84828D
 P 3600 6850
@@ -2136,4 +2114,37 @@ NoConn ~ 7000 5250
 NoConn ~ 7000 5350
 NoConn ~ 7000 5450
 NoConn ~ 7000 5550
+$Comp
+L Interface_CAN_LIN:MCP2551-I-SN U?
+U 1 1 5FABA995
+P 8300 5700
+F 0 "U?" H 8300 6281 50  0000 C CNN
+F 1 "MCP2551-I-SN" H 8300 6190 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8300 5200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 8300 5700 50  0001 C CNN
+	1    8300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5FACBAC8
+P 2650 7050
+F 0 "Conn?" H 2858 7437 60  0000 C CNN
+F 1 "AndersonPP" H 2858 7331 60  0000 C CNN
+F 2 "" H 2500 6500 60  0001 C CNN
+F 3 "" H 2500 6500 60  0001 C CNN
+	3    2650 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5FACBACE
+P 2650 7500
+F 0 "Conn?" H 2858 7887 60  0000 C CNN
+F 1 "AndersonPP" H 2858 7781 60  0000 C CNN
+F 2 "" H 2500 6950 60  0001 C CNN
+F 3 "" H 2500 6950 60  0001 C CNN
+	1    2650 7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
