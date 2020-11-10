@@ -1,4 +1,11 @@
--9206838959119846730
+16518223503915658
+3362_Trimmer_Pot
+3362P-1-103LF
+
+
+0
+3
+3
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2295,6 +2302,13 @@ Gauge Massstab 100mm SilkScreenTop Type 2
 0
 0
 0
+Capacitor_SMD
+CAPPC3528X210N
+
+
+0
+2
+2
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -48404,6 +48418,13 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 0
 2
 2
+JOYSTICK
+JOYSTICK
+
+
+0
+14
+14
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -50050,13 +50071,6 @@ Allegro, Hallsensor, Through hole, Package CB-PFF,
 5
 5
 MRDT_Sensors
-Adafruit_LSM9DS1
-
-
-0
-14
-14
-MRDT_Sensors
 FGPMMOPA6H
 
 
@@ -50106,20 +50120,6 @@ MQ_135_Breakout
 4
 4
 MRDT_Sensors
-Razor_9DOF_Sparkfun
-
-
-0
-12
-12
-MRDT_Sensors
-TCD-1304
-
-
-0
-22
-22
-MRDT_Sensors
 TMP36
 
 
@@ -50133,13 +50133,6 @@ ESP_8266_Breakout_Small
 0
 16
 16
-MRDT_Shields
-ESP_8266_NODEMCU
-
-
-0
-30
-30
 MRDT_Shields
 Full_Booster_Mount
 
@@ -50245,27 +50238,6 @@ RASPBERRY_PI_HEADERS
 0
 40
 40
-MRDT_Shields
-RaspberryPi_THT_BOTTOM
-
-
-0
-40
-40
-MRDT_Shields
-Standard_Mount_Full
-
-
-0
-0
-0
-MRDT_Shields
-Standard_Mount_Half
-
-
-0
-0
-0
 MRDT_Shields
 TM4C123G_Booster
 
@@ -50533,6 +50505,13 @@ z_sig_Jacob_Troy_Sig_22mmx16.5mm
 0
 0
 MRDT_Silkscreens
+z_sig_Jared_Allen
+
+
+0
+0
+0
+MRDT_Silkscreens
 z_sig_John_Bueke
 
 
@@ -50597,41 +50576,6 @@ zz_Atlas_Logo_Short_Title_110mmX37.4mm
 0
 MRDT_Silkscreens
 zz_Atlas_Logo_Short_Title_140mmX47.6mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-zz_Valkyrie_Logo_Full_40mmx40mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-zz_Valkyrie_Logo_Full_50mmx50mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-zz_Valkyrie_Logo_Full_60mmx60mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-zz_Valkyrie_Logo_Full_70mmx70mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-zz_Valkyrie_Logo_Full_100mmx100mm
 
 
 0

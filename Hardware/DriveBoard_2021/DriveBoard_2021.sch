@@ -108,7 +108,7 @@ U 1 1 5F626395
 P 700 3800
 F 0 "Conn1" H 908 4187 60  0000 C CNN
 F 1 "AndersonPP" H 908 4081 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 550 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 550 3250 60  0001 C CNN
 F 3 "" H 550 3250 60  0001 C CNN
 	1    700  3800
 	1    0    0    -1  
@@ -1735,17 +1735,6 @@ F 3 "" H 9600 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn2
-U 3 1 5F8BFD78
-P 9750 1200
-F 0 "Conn2" H 9550 1350 60  0000 C CNN
-F 1 "AndersonPP" H 9450 1250 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 650 60  0001 C CNN
-F 3 "" H 9600 650 60  0001 C CNN
-	3    9750 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 1 1 5F8DB853
 P 9750 2000
@@ -2540,7 +2529,7 @@ U 3 1 5F623BE1
 P 700 3350
 F 0 "Conn1" H 908 3737 60  0000 C CNN
 F 1 "AndersonPP" H 908 3631 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 550 2800 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 550 2800 60  0001 C CNN
 F 3 "" H 550 2800 60  0001 C CNN
 	3    700  3350
 	1    0    0    -1  
@@ -2599,7 +2588,7 @@ U 2 1 5FAFD7B9
 P 550 1100
 F 0 "Conn1" H 750 1450 60  0000 C CNN
 F 1 "AndersonPP" H 850 1350 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 400 550 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 400 550 60  0001 C CNN
 F 3 "" H 400 550 60  0001 C CNN
 	2    550  1100
 	1    0    0    -1  
@@ -2682,6 +2671,17 @@ F 1 "+12V" H 1765 4473 50  0000 C CNN
 F 2 "" H 1750 4300 50  0001 C CNN
 F 3 "" H 1750 4300 50  0001 C CNN
 	1    1750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn2
+U 3 1 5F8BFD78
+P 9750 1200
+F 0 "Conn2" H 9550 1350 60  0000 C CNN
+F 1 "AndersonPP" H 9450 1250 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 650 60  0001 C CNN
+F 3 "" H 9600 650 60  0001 C CNN
+	3    9750 1200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
