@@ -1723,39 +1723,6 @@ Text Notes 7200 2900 0    50   ~ 0
 Serial 2\nTx\n
 Text Notes 7900 600  0    50   ~ 10
 Motor Molex Connections
-$Comp
-L MRDT_Connectors:AndersonPP Conn2
-U 1 1 5F8B4265
-P 9750 1450
-F 0 "Conn2" H 9550 1600 60  0000 C CNN
-F 1 "AndersonPP" H 9450 1500 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 900 60  0001 C CNN
-F 3 "" H 9600 900 60  0001 C CNN
-	1    9750 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn3
-U 1 1 5F8DB853
-P 9750 2000
-F 0 "Conn3" H 9550 2150 60  0000 C CNN
-F 1 "AndersonPP" H 9450 2050 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 1450 60  0001 C CNN
-F 3 "" H 9600 1450 60  0001 C CNN
-	1    9750 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn3
-U 3 1 5F8DB859
-P 9750 1750
-F 0 "Conn3" H 9550 1900 60  0000 C CNN
-F 1 "AndersonPP" H 9450 1800 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 1200 60  0001 C CNN
-F 3 "" H 9600 1200 60  0001 C CNN
-	3    9750 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10300 1100 10150 1100
 Wire Wire Line
@@ -2674,14 +2641,47 @@ F 3 "" H 1750 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn2
-U 3 1 5F8BFD78
+L MRDT_Connectors:AndersonPP_GND_VA Conn2
+U 3 1 5FC54952
 P 9750 1200
-F 0 "Conn2" H 9550 1350 60  0000 C CNN
-F 1 "AndersonPP" H 9450 1250 60  0000 C CNN
+F 0 "Conn2" H 9550 1400 60  0000 C CNN
+F 1 "AndersonPP" H 9450 1300 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 650 60  0001 C CNN
 F 3 "" H 9600 650 60  0001 C CNN
 	3    9750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP_GND_VA Conn2
+U 1 1 5FC56CA6
+P 9750 1450
+F 0 "Conn2" H 9550 1600 60  0000 C CNN
+F 1 "AndersonPP" H 9450 1500 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 900 60  0001 C CNN
+F 3 "" H 9600 900 60  0001 C CNN
+	1    9750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP_GND_VA Conn3
+U 3 1 5FC757F7
+P 9750 1750
+F 0 "Conn3" H 9550 1950 60  0000 C CNN
+F 1 "AndersonPP" H 9450 1850 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 1200 60  0001 C CNN
+F 3 "" H 9600 1200 60  0001 C CNN
+	3    9750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP_GND_VA Conn3
+U 1 1 5FC757FD
+P 9750 2000
+F 0 "Conn3" H 9550 2150 60  0000 C CNN
+F 1 "AndersonPP" H 9450 2050 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9600 1450 60  0001 C CNN
+F 3 "" H 9600 1450 60  0001 C CNN
+	1    9750 2000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
