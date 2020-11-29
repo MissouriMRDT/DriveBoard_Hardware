@@ -4036,6 +4036,11 @@
     (pad 2 smd rect (at -3.6 1.5) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask)
       (net 43 FL_DRIVE))
     (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305A.wrl
+      (offset (xyz 0 -0 -0.2032))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4103,6 +4108,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Button_Switch_SMD:SW_SPST_TL3305A (layer F.Cu) (tedit 5ABC3A97) (tstamp 5FBB25D9)
@@ -4162,6 +4172,11 @@
     (pad 2 smd rect (at -3.6 1.5) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask)
       (net 45 BL_DRIVE))
     (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305A.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4229,6 +4244,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Button_Switch_SMD:SW_SPST_TL3305A (layer F.Cu) (tedit 5ABC3A97) (tstamp 5FBB262D)
@@ -4292,6 +4312,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Button_Switch_SMD:SW_SPST_TL3305A (layer F.Cu) (tedit 5ABC3A97) (tstamp 5FBB2657)
@@ -4351,6 +4376,11 @@
     (pad 1 smd rect (at 3.6 -1.5) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
     (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_TL3305A.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5526,7 +5556,7 @@
   (segment (start 153.325102 106.843102) (end 153.325102 106.081102) (width 2.54) (layer F.Cu) (net 106))
   (segment (start 143.256 107.95) (end 143.256 109.982) (width 0.381) (layer F.Cu) (net 107))
 
-  (zone (net 3) (net_name +3V3) (layer F.Cu) (tstamp 5FBC8ED2) (hatch edge 0.508)
+  (zone (net 3) (net_name +3V3) (layer F.Cu) (tstamp 5FBCB115) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -6674,7 +6704,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5FBC8ECF) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5FBCB112) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
