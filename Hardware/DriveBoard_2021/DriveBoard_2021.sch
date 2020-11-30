@@ -2057,7 +2057,6 @@ Text Notes 7400 4050 0    50   ~ 10
 ODrive Data Connectors
 NoConn ~ 3900 1500
 NoConn ~ 3900 1100
-NoConn ~ 3900 1000
 NoConn ~ 3900 1600
 NoConn ~ 3900 1800
 NoConn ~ 3900 1900
@@ -2507,4 +2506,19 @@ F 3 "" H 1600 2050 60  0001 C CNN
 	1    1800 2150
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC8BAC9
+P 3850 950
+F 0 "#PWR?" H 3850 800 50  0001 C CNN
+F 1 "+3.3V" H 3700 1000 50  0000 C CNN
+F 2 "" H 3850 950 50  0001 C CNN
+F 3 "" H 3850 950 50  0001 C CNN
+	1    3850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 950  3850 1000
+Wire Wire Line
+	3850 1000 3900 1000
 $EndSCHEMATC
