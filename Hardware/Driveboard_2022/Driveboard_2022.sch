@@ -385,72 +385,6 @@ Wire Wire Line
 	7100 1050 7250 1050
 NoConn ~ 5050 1050
 NoConn ~ 5050 2550
-$Comp
-L MRDT_Connectors:Molex_SL_03 Conn2
-U 1 1 614D2718
-P 10000 1200
-F 0 "Conn2" H 10128 1408 60  0000 L CNN
-F 1 "Molex_SL_03" H 10128 1302 60  0000 L CNN
-F 2 "" H 10000 1200 60  0001 C CNN
-F 3 "" H 10000 1200 60  0001 C CNN
-	1    10000 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_03 Conn3
-U 1 1 614D38EC
-P 10000 1550
-F 0 "Conn3" H 10128 1758 60  0000 L CNN
-F 1 "Molex_SL_03" H 10128 1652 60  0000 L CNN
-F 2 "" H 10000 1550 60  0001 C CNN
-F 3 "" H 10000 1550 60  0001 C CNN
-	1    10000 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_03 Conn4
-U 1 1 614D3D09
-P 10000 1900
-F 0 "Conn4" H 10128 2108 60  0000 L CNN
-F 1 "Molex_SL_03" H 10128 2002 60  0000 L CNN
-F 2 "" H 10000 1900 60  0001 C CNN
-F 3 "" H 10000 1900 60  0001 C CNN
-	1    10000 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_03 Conn5
-U 1 1 614D41F2
-P 10000 2250
-F 0 "Conn5" H 10128 2458 60  0000 L CNN
-F 1 "Molex_SL_03" H 10128 2352 60  0000 L CNN
-F 2 "" H 10000 2250 60  0001 C CNN
-F 3 "" H 10000 2250 60  0001 C CNN
-	1    10000 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_03 Conn6
-U 1 1 614D475B
-P 10000 2600
-F 0 "Conn6" H 10128 2808 60  0000 L CNN
-F 1 "Molex_SL_03" H 10128 2702 60  0000 L CNN
-F 2 "" H 10000 2600 60  0001 C CNN
-F 3 "" H 10000 2600 60  0001 C CNN
-	1    10000 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_03 Conn7
-U 1 1 614D4EE0
-P 10000 2950
-F 0 "Conn7" H 10128 3158 60  0000 L CNN
-F 1 "Molex_SL_03" H 10128 3052 60  0000 L CNN
-F 2 "" H 10000 2950 60  0001 C CNN
-F 3 "" H 10000 2950 60  0001 C CNN
-	1    10000 2950
-	1    0    0    -1  
-$EndComp
 Text GLabel 9700 950  0    50   Input ~ 0
 FLTX
 Text GLabel 9700 1150 0    50   Output ~ 0
@@ -2410,6 +2344,72 @@ F 1 "+12V" H 1315 1223 50  0000 C CNN
 F 2 "" H 1300 1050 50  0001 C CNN
 F 3 "" H 1300 1050 50  0001 C CNN
 	1    1300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_S_03 Conn?
+U 1 1 61984A08
+P 10000 1200
+F 0 "Conn?" H 10128 1408 60  0000 L CNN
+F 1 "Molex_uF_S_03" H 10128 1302 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10000 1200 60  0001 C CNN
+F 3 "" H 10000 1200 60  0001 C CNN
+	1    10000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_S_03 Conn?
+U 1 1 619BB189
+P 10000 1550
+F 0 "Conn?" H 10128 1758 60  0000 L CNN
+F 1 "Molex_uF_S_03" H 10128 1652 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10000 1550 60  0001 C CNN
+F 3 "" H 10000 1550 60  0001 C CNN
+	1    10000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_S_03 Conn?
+U 1 1 619CC8AC
+P 10000 1900
+F 0 "Conn?" H 10128 2108 60  0000 L CNN
+F 1 "Molex_uF_S_03" H 10128 2002 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10000 1900 60  0001 C CNN
+F 3 "" H 10000 1900 60  0001 C CNN
+	1    10000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_S_03 Conn?
+U 1 1 619DE023
+P 10000 2250
+F 0 "Conn?" H 10128 2458 60  0000 L CNN
+F 1 "Molex_uF_S_03" H 10128 2352 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10000 2250 60  0001 C CNN
+F 3 "" H 10000 2250 60  0001 C CNN
+	1    10000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_S_03 Conn?
+U 1 1 619EF87F
+P 10000 2600
+F 0 "Conn?" H 10128 2808 60  0000 L CNN
+F 1 "Molex_uF_S_03" H 10128 2702 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10000 2600 60  0001 C CNN
+F 3 "" H 10000 2600 60  0001 C CNN
+	1    10000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_S_03 Conn?
+U 1 1 61A01123
+P 10000 2950
+F 0 "Conn?" H 10128 3158 60  0000 L CNN
+F 1 "Molex_uF_S_03" H 10128 3052 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10000 2950 60  0001 C CNN
+F 3 "" H 10000 2950 60  0001 C CNN
+	1    10000 2950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

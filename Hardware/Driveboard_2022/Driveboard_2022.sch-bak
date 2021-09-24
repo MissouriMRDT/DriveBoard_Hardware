@@ -39,17 +39,6 @@ F 3 "" H 600 800 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 1250 1300 1250
-$Comp
-L power:+12V #PWR07
-U 1 1 614B0581
-P 1300 1050
-F 0 "#PWR07" H 1300 900 50  0001 C CNN
-F 1 "+12V" H 1315 1223 50  0000 C CNN
-F 2 "" H 1300 1050 50  0001 C CNN
-F 3 "" H 1300 1050 50  0001 C CNN
-	1    1300 1050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 1050 1300 1250
 Connection ~ 1300 1250
@@ -144,17 +133,6 @@ F 1 "1k" V 1000 4300 50  0000 L CNN
 F 2 "" V 930 4350 50  0001 C CNN
 F 3 "~" H 1000 4350 50  0001 C CNN
 	1    1000 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR05
-U 1 1 614BCCA6
-P 1000 4050
-F 0 "#PWR05" H 1000 3900 50  0001 C CNN
-F 1 "+12V" H 1015 4223 50  0000 C CNN
-F 2 "" H 1000 4050 50  0001 C CNN
-F 3 "" H 1000 4050 50  0001 C CNN
-	1    1000 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2200,8 +2178,6 @@ Wire Wire Line
 	2550 3450 2550 3600
 Wire Wire Line
 	2550 3000 2550 3150
-Wire Wire Line
-	2550 2550 2550 2700
 $Comp
 L power:GND #PWR019
 U 1 1 6162CF8E
@@ -2241,8 +2217,6 @@ Wire Wire Line
 	2200 3450 2200 3600
 Wire Wire Line
 	2200 3000 2200 3150
-Wire Wire Line
-	2200 2550 2200 2700
 $Comp
 L power:GND #PWR014
 U 1 1 6162CFA4
@@ -2282,8 +2256,6 @@ Wire Wire Line
 	1800 3450 1800 3600
 Wire Wire Line
 	1800 3000 1800 3150
-Wire Wire Line
-	1800 2550 1800 2700
 $Comp
 L power:GND #PWR012
 U 1 1 6162CFBA
@@ -2323,8 +2295,6 @@ Wire Wire Line
 	1400 3450 1400 3600
 Wire Wire Line
 	1400 3000 1400 3150
-Wire Wire Line
-	1400 2550 1400 2700
 $Comp
 L power:GND #PWR08
 U 1 1 6162CFD0
@@ -2362,10 +2332,6 @@ Text GLabel 1000 2550 1    50   Input ~ 0
 FL_FLT
 Wire Wire Line
 	1000 3450 1000 3600
-Wire Wire Line
-	1000 3000 1000 3150
-Wire Wire Line
-	1000 2550 1000 2700
 $Comp
 L power:GND #PWR04
 U 1 1 6162CFE6
@@ -2375,17 +2341,6 @@ F 1 "GND" H 1005 3427 50  0000 C CNN
 F 2 "" H 1000 3600 50  0001 C CNN
 F 3 "" H 1000 3600 50  0001 C CNN
 	1    1000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 6162CFEC
-P 1000 2850
-F 0 "R3" H 1070 2896 50  0000 L CNN
-F 1 "330" V 1000 2800 50  0000 L CNN
-F 2 "" V 930 2850 50  0001 C CNN
-F 3 "~" H 1000 2850 50  0001 C CNN
-	1    1000 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2400,16 +2355,61 @@ Wire Wire Line
 	4100 3350 4000 3350
 Wire Wire Line
 	4100 3450 4000 3450
-Text GLabel 3700 3350 2    50   Output ~ 0
+Text GLabel 4000 3350 0    50   Output ~ 0
 BL_FLT
-Text GLabel 3700 3250 2    50   Output ~ 0
+Text GLabel 4000 3250 0    50   Output ~ 0
 MR_FLT
-Text GLabel 3700 3150 2    50   Output ~ 0
+Text GLabel 4000 3150 0    50   Output ~ 0
 ML_FLT
-Text GLabel 3700 3050 2    50   Output ~ 0
+Text GLabel 4000 3050 0    50   Output ~ 0
 FR_FLT
-Text GLabel 3700 2950 2    50   Output ~ 0
+Text GLabel 4000 2950 0    50   Output ~ 0
 FL_FLT
-Text GLabel 3700 3450 0    50   Output ~ 0
+Text GLabel 4000 3450 0    50   Output ~ 0
 BR_FLT
+Wire Wire Line
+	1400 2550 1400 2700
+Wire Wire Line
+	1800 2550 1800 2700
+Wire Wire Line
+	2200 2550 2200 2700
+Wire Wire Line
+	2550 2550 2550 2700
+Wire Wire Line
+	1000 3000 1000 3150
+Wire Wire Line
+	1000 2550 1000 2700
+$Comp
+L Device:R R3
+U 1 1 618C2972
+P 1000 2850
+F 0 "R3" H 1070 2896 50  0000 L CNN
+F 1 "330" V 1000 2800 50  0000 L CNN
+F 2 "" V 930 2850 50  0001 C CNN
+F 3 "~" H 1000 2850 50  0001 C CNN
+	1    1000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0102
+U 1 1 618EB897
+P 1000 4050
+F 0 "#PWR0102" H 1000 3900 50  0001 C CNN
+F 1 "+12V" H 1015 4223 50  0000 C CNN
+F 2 "" H 1000 4050 50  0001 C CNN
+F 3 "" H 1000 4050 50  0001 C CNN
+	1    1000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0101
+U 1 1 618F1463
+P 1300 1050
+F 0 "#PWR0101" H 1300 900 50  0001 C CNN
+F 1 "+12V" H 1315 1223 50  0000 C CNN
+F 2 "" H 1300 1050 50  0001 C CNN
+F 3 "" H 1300 1050 50  0001 C CNN
+	1    1300 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
