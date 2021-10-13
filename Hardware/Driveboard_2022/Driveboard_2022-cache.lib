@@ -59,11 +59,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MRDT_Connectors_AndersonPP
+# Driveboard_2022-rescue_AndersonPP-MRDT_Connectors
 #
-DEF MRDT_Connectors_AndersonPP Conn 0 0 N Y 5 L N
+DEF Driveboard_2022-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "MRDT_Connectors_AndersonPP" 100 250 60 H V C CNN
+F1 "Driveboard_2022-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -79,41 +79,11 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# MRDT_Connectors_Molex_uF_S_03
+# Driveboard_2022-rescue_MAX_3232-MRDT_ICs
 #
-DEF MRDT_Connectors_Molex_uF_S_03 Conn 0 40 Y Y 1 F N
-F0 "Conn" 150 -50 60 H V C CNN
-F1 "MRDT_Connectors_Molex_uF_S_03" 50 350 60 H V C CNN
-F2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 0 300 100 0 0 1 0 N
-X ~ 1 -200 250 200 R 50 50 1 1 I
-X ~ 2 -200 150 200 R 50 50 1 1 I
-X ~ 3 -200 50 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# MRDT_Devices_OKI
-#
-DEF MRDT_Devices_OKI U 0 40 Y Y 1 F N
-F0 "U" 50 -50 60 H I C CNN
-F1 "MRDT_Devices_OKI" 200 250 60 H V C CNN
-F2 "" -200 -100 60 H I C CNN
-F3 "" -200 -100 60 H I C CNN
-DRAW
-S 0 0 400 200 0 1 0 N
-X Vi 1 -200 100 200 R 50 50 1 1 W
-X GND 2 200 -200 200 U 50 50 1 1 W
-X Vo 3 600 100 200 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# MRDT_ICs_MAX_3232
-#
-DEF MRDT_ICs_MAX_3232 U 0 40 Y Y 1 F N
+DEF Driveboard_2022-rescue_MAX_3232-MRDT_ICs U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H V C CNN
-F1 "MRDT_ICs_MAX_3232" 350 1200 60 H V C CNN
+F1 "Driveboard_2022-rescue_MAX_3232-MRDT_ICs" 350 1200 60 H V C CNN
 F2 "" 0 -600 60 H I C CNN
 F3 "" 0 -600 60 H I C CNN
 DRAW
@@ -134,6 +104,36 @@ X V- 6 -200 550 200 R 50 50 1 1 P
 X Tx2_OUT 7 900 50 200 L 50 50 1 1 P
 X Rx2_IN 8 900 150 200 L 50 50 1 1 P
 X Rx2OUT 9 -200 150 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Driveboard_2022-rescue_OKI-MRDT_Devices
+#
+DEF Driveboard_2022-rescue_OKI-MRDT_Devices U 0 40 Y Y 1 F N
+F0 "U" 50 -50 60 H I C CNN
+F1 "Driveboard_2022-rescue_OKI-MRDT_Devices" 200 250 60 H V C CNN
+F2 "" -200 -100 60 H I C CNN
+F3 "" -200 -100 60 H I C CNN
+DRAW
+S 0 0 400 200 0 1 0 N
+X Vi 1 -200 100 200 R 50 50 1 1 W
+X GND 2 200 -200 200 U 50 50 1 1 W
+X Vo 3 600 100 200 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_Molex_uF_S_03
+#
+DEF MRDT_Connectors_Molex_uF_S_03 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors_Molex_uF_S_03" 50 350 60 H V C CNN
+F2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 300 100 0 0 1 0 N
+X ~ 1 -200 250 200 R 50 50 1 1 I
+X ~ 2 -200 150 200 R 50 50 1 1 I
+X ~ 3 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
