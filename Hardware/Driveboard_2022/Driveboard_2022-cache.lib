@@ -59,11 +59,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Driveboard_2022-rescue_AndersonPP-MRDT_Connectors
+# Driveboard_2022-rescue_AndersonPP-MRDT_Connectors-Driveboard_2022-rescue
 #
-DEF Driveboard_2022-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
+DEF Driveboard_2022-rescue_AndersonPP-MRDT_Connectors-Driveboard_2022-rescue Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "Driveboard_2022-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "Driveboard_2022-rescue_AndersonPP-MRDT_Connectors-Driveboard_2022-rescue" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -79,11 +79,11 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# Driveboard_2022-rescue_MAX_3232-MRDT_ICs
+# Driveboard_2022-rescue_MAX_3232-MRDT_ICs-Driveboard_2022-rescue
 #
-DEF Driveboard_2022-rescue_MAX_3232-MRDT_ICs U 0 40 Y Y 1 F N
+DEF Driveboard_2022-rescue_MAX_3232-MRDT_ICs-Driveboard_2022-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H V C CNN
-F1 "Driveboard_2022-rescue_MAX_3232-MRDT_ICs" 350 1200 60 H V C CNN
+F1 "Driveboard_2022-rescue_MAX_3232-MRDT_ICs-Driveboard_2022-rescue" 350 1200 60 H V C CNN
 F2 "" 0 -600 60 H I C CNN
 F3 "" 0 -600 60 H I C CNN
 DRAW
@@ -107,11 +107,11 @@ X Rx2OUT 9 -200 150 200 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Driveboard_2022-rescue_OKI-MRDT_Devices
+# Driveboard_2022-rescue_OKI-MRDT_Devices-Driveboard_2022-rescue
 #
-DEF Driveboard_2022-rescue_OKI-MRDT_Devices U 0 40 Y Y 1 F N
+DEF Driveboard_2022-rescue_OKI-MRDT_Devices-Driveboard_2022-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H I C CNN
-F1 "Driveboard_2022-rescue_OKI-MRDT_Devices" 200 250 60 H V C CNN
+F1 "Driveboard_2022-rescue_OKI-MRDT_Devices-Driveboard_2022-rescue" 200 250 60 H V C CNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
 DRAW
@@ -234,6 +234,23 @@ X D2_9 PQ1 -200 150 200 R 50 50 8 1 I
 X D2_6 PQ2 -200 450 200 R 50 50 8 1 I
 X D2_7 PQ3 -200 350 200 R 50 50 8 1 I
 X D2_5 Rese' -200 550 200 R 50 50 8 1 I
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #

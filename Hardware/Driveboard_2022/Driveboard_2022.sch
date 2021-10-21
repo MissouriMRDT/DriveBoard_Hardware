@@ -25,7 +25,7 @@ F 3 "" H 1100 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:AndersonPP-MRDT_Connectors Conn13
+L Driveboard_2022-rescue:AndersonPP-MRDT_Connectors-Driveboard_2022-rescue Conn13
 U 2 1 614AE409
 P 10400 1000
 F 0 "Conn13" H 10150 1050 60  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "~" H 650 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:OKI-MRDT_Devices U5
+L Driveboard_2022-rescue:OKI-MRDT_Devices-Driveboard_2022-rescue U5
 U 1 1 614A9918
 P 900 1150
 F 0 "U5" H 950 1100 60  0001 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 1550 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:AndersonPP-MRDT_Connectors Conn13
+L Driveboard_2022-rescue:AndersonPP-MRDT_Connectors-Driveboard_2022-rescue Conn13
 U 1 1 614B9C60
 P 10400 1300
 F 0 "Conn13" H 10150 1350 60  0000 C CNN
@@ -1615,7 +1615,7 @@ F 3 "" H 2900 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs U2
+L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue U2
 U 1 1 617D8921
 P 1450 3450
 F 0 "U2" H 1800 4787 60  0000 C CNN
@@ -1749,7 +1749,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2900 2900 2900
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs U3
+L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue U3
 U 1 1 61A97194
 P 1450 4900
 F 0 "U3" H 1800 6237 60  0000 C CNN
@@ -1883,7 +1883,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4350 2900 4350
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs U4
+L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue U4
 U 1 1 61AC0352
 P 1450 6350
 F 0 "U4" H 1800 7687 60  0000 C CNN
@@ -2062,7 +2062,7 @@ F 3 "~" H 2000 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:OKI-MRDT_Devices U6
+L Driveboard_2022-rescue:OKI-MRDT_Devices-Driveboard_2022-rescue U6
 U 1 1 61EEB36B
 P 2250 1150
 F 0 "U6" H 2300 1100 60  0001 C CNN
@@ -2523,68 +2523,68 @@ Wire Wire Line
 Wire Wire Line
 	9600 5950 9600 6100
 $Comp
-L Switch:SW_SPST SW3
-U 1 1 616C949B
-P 4250 5200
-F 0 "SW3" H 4250 5435 50  0000 C CNN
-F 1 "SW_SPST" H 4250 5344 50  0000 C CNN
-F 2 "" H 4250 5200 50  0001 C CNN
-F 3 "~" H 4250 5200 50  0001 C CNN
-	1    4250 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPST SW2
-U 1 1 616EF582
-P 4250 4700
-F 0 "SW2" H 4250 4935 50  0000 C CNN
-F 1 "SW_SPST" H 4250 4844 50  0000 C CNN
-F 2 "" H 4250 4700 50  0001 C CNN
-F 3 "~" H 4250 4700 50  0001 C CNN
-	1    4250 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPST SW1
-U 1 1 61715659
+L Switch:SW_Push SW1
+U 1 1 61746F56
 P 4250 4200
-F 0 "SW1" H 4250 4435 50  0000 C CNN
-F 1 "SW_SPST" H 4250 4344 50  0000 C CNN
-F 2 "" H 4250 4200 50  0001 C CNN
-F 3 "~" H 4250 4200 50  0001 C CNN
+F 0 "SW1" H 4250 4485 50  0000 C CNN
+F 1 "SW_Push" H 4250 4394 50  0000 C CNN
+F 2 "" H 4250 4400 50  0001 C CNN
+F 3 "~" H 4250 4400 50  0001 C CNN
 	1    4250 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW5
-U 1 1 6173B76C
+L Switch:SW_Push SW2
+U 1 1 617B9ED6
+P 4250 4700
+F 0 "SW2" H 4250 4985 50  0000 C CNN
+F 1 "SW_Push" H 4250 4894 50  0000 C CNN
+F 2 "" H 4250 4900 50  0001 C CNN
+F 3 "~" H 4250 4900 50  0001 C CNN
+	1    4250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 617E000A
+P 4250 5200
+F 0 "SW3" H 4250 5485 50  0000 C CNN
+F 1 "SW_Push" H 4250 5394 50  0000 C CNN
+F 2 "" H 4250 5400 50  0001 C CNN
+F 3 "~" H 4250 5400 50  0001 C CNN
+	1    4250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 618062D7
 P 6000 4200
-F 0 "SW5" H 6000 4435 50  0000 C CNN
-F 1 "SW_SPST" H 6000 4344 50  0000 C CNN
-F 2 "" H 6000 4200 50  0001 C CNN
-F 3 "~" H 6000 4200 50  0001 C CNN
+F 0 "SW5" H 6000 4485 50  0000 C CNN
+F 1 "SW_Push" H 6000 4394 50  0000 C CNN
+F 2 "" H 6000 4400 50  0001 C CNN
+F 3 "~" H 6000 4400 50  0001 C CNN
 	1    6000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW6
-U 1 1 617618B1
+L Switch:SW_Push SW6
+U 1 1 6182C518
 P 6000 4700
-F 0 "SW6" H 6000 4935 50  0000 C CNN
-F 1 "SW_SPST" H 6000 4844 50  0000 C CNN
-F 2 "" H 6000 4700 50  0001 C CNN
-F 3 "~" H 6000 4700 50  0001 C CNN
+F 0 "SW6" H 6000 4985 50  0000 C CNN
+F 1 "SW_Push" H 6000 4894 50  0000 C CNN
+F 2 "" H 6000 4900 50  0001 C CNN
+F 3 "~" H 6000 4900 50  0001 C CNN
 	1    6000 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW7
-U 1 1 617878FC
+L Switch:SW_Push SW7
+U 1 1 6185281C
 P 6000 5200
-F 0 "SW7" H 6000 5435 50  0000 C CNN
-F 1 "SW_SPST" H 6000 5344 50  0000 C CNN
-F 2 "" H 6000 5200 50  0001 C CNN
-F 3 "~" H 6000 5200 50  0001 C CNN
+F 0 "SW7" H 6000 5485 50  0000 C CNN
+F 1 "SW_Push" H 6000 5394 50  0000 C CNN
+F 2 "" H 6000 5400 50  0001 C CNN
+F 3 "~" H 6000 5400 50  0001 C CNN
 	1    6000 5200
 	1    0    0    -1  
 $EndComp
