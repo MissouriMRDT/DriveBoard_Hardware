@@ -211,99 +211,76 @@ $EndComp
 Wire Wire Line
 	7100 1150 7250 1150
 NoConn ~ 5050 1150
-Text GLabel 9950 1850 0    50   Input ~ 0
-FLTX
-Text GLabel 9950 2050 0    50   Output ~ 0
-FLRX
-Text GLabel 9950 2200 0    50   Input ~ 0
-FRTX
-Text GLabel 9950 2400 0    50   Output ~ 0
-FRRX
-Text GLabel 9950 2550 0    50   Input ~ 0
-MLTX
-Text GLabel 9950 2750 0    50   Output ~ 0
+Text GLabel 9950 3350 0    50   Output ~ 0
 MLRX
-Text GLabel 9950 2900 0    50   Input ~ 0
+Text GLabel 9950 3800 0    50   Input ~ 0
 MRTX
-Text GLabel 9950 3100 0    50   Output ~ 0
+Text GLabel 9950 4000 0    50   Output ~ 0
 MRRX
-Text GLabel 9950 3250 0    50   Input ~ 0
+Text GLabel 9950 4450 0    50   Input ~ 0
 BLTX
-Text GLabel 9950 3450 0    50   Output ~ 0
+Text GLabel 9950 4650 0    50   Output ~ 0
 BLRX
 Wire Wire Line
 	9950 1850 10050 1850
 Wire Wire Line
 	9950 2050 10050 2050
 Wire Wire Line
-	9950 2200 10050 2200
+	9950 2500 10050 2500
 Wire Wire Line
-	9950 2400 10050 2400
+	9950 2700 10050 2700
 Wire Wire Line
-	9950 2550 10050 2550
+	9950 3150 10050 3150
 Wire Wire Line
-	9950 2750 10050 2750
+	9950 3350 10050 3350
 Wire Wire Line
-	9950 2900 10050 2900
+	9950 3800 10050 3800
 Wire Wire Line
-	9950 3100 10050 3100
+	9950 4000 10050 4000
 Wire Wire Line
-	9950 3250 10050 3250
+	9950 4450 10050 4450
 Wire Wire Line
-	9950 3450 10050 3450
+	9950 4650 10050 4650
 Wire Wire Line
-	9950 3600 10050 3600
+	9950 5100 10050 5100
 $Comp
 L power:GND #PWR038
 U 1 1 614E141C
-P 9600 3800
-F 0 "#PWR038" H 9600 3550 50  0001 C CNN
-F 1 "GND" H 9605 3627 50  0000 C CNN
-F 2 "" H 9600 3800 50  0001 C CNN
-F 3 "" H 9600 3800 50  0001 C CNN
-	1    9600 3800
+P 9600 5650
+F 0 "#PWR038" H 9600 5400 50  0001 C CNN
+F 1 "GND" H 9605 5477 50  0000 C CNN
+F 2 "" H 9600 5650 50  0001 C CNN
+F 3 "" H 9600 5650 50  0001 C CNN
+	1    9600 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9600 1950 10050 1950
 Wire Wire Line
-	10050 2300 9600 2300
-Connection ~ 9600 2300
+	10050 2600 9600 2600
+Connection ~ 9600 2600
 Wire Wire Line
-	9600 2300 9600 1950
+	10050 3250 9600 3250
 Wire Wire Line
-	10050 2650 9600 2650
-Connection ~ 9600 2650
+	10050 3900 9600 3900
 Wire Wire Line
-	9600 2650 9600 2300
+	10050 4550 9600 4550
 Wire Wire Line
-	10050 3000 9600 3000
-Connection ~ 9600 3000
-Wire Wire Line
-	9600 3000 9600 2650
-Wire Wire Line
-	10050 3350 9600 3350
-Connection ~ 9600 3350
-Wire Wire Line
-	9600 3350 9600 3000
-Wire Wire Line
-	10050 3700 9600 3700
-Wire Wire Line
-	9600 3700 9600 3350
+	10050 5200 9600 5200
 Text GLabel 4000 1350 0    50   Input ~ 0
-RX7
+FLRX_V
 Wire Wire Line
 	4000 1350 4100 1350
 Text GLabel 4000 1450 0    50   Output ~ 0
-TX7
+FLTX_V
 Wire Wire Line
 	4000 1450 4100 1450
 Text GLabel 4000 1550 0    50   Input ~ 0
-RX5
+MLRX_V
 Wire Wire Line
 	4000 1550 4100 1550
 Text GLabel 4000 1850 0    50   Output ~ 0
-TX5
+MLTX_V
 Wire Wire Line
 	4000 1850 4100 1850
 Text GLabel 5150 1850 2    50   Input ~ 0
@@ -311,7 +288,7 @@ RX2
 Wire Wire Line
 	5150 1850 5050 1850
 Text GLabel 7200 2850 2    50   Output ~ 0
-TX2
+MRTX_V
 Wire Wire Line
 	7200 2850 7100 2850
 Text GLabel 6050 2550 0    50   Input ~ 0
@@ -387,72 +364,6 @@ F 1 "+12V" H 665 1173 50  0000 C CNN
 F 2 "" H 650 1000 50  0001 C CNN
 F 3 "" H 650 1000 50  0001 C CNN
 	1    650  1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_uF_S_03 Conn7
-U 1 1 61984A08
-P 10250 2100
-F 0 "Conn7" H 10378 2308 60  0000 L CNN
-F 1 "Molex_uF_S_03" H 10378 2202 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10250 2100 60  0001 C CNN
-F 3 "" H 10250 2100 60  0001 C CNN
-	1    10250 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_uF_S_03 Conn8
-U 1 1 619BB189
-P 10250 2450
-F 0 "Conn8" H 10378 2658 60  0000 L CNN
-F 1 "Molex_uF_S_03" H 10378 2552 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10250 2450 60  0001 C CNN
-F 3 "" H 10250 2450 60  0001 C CNN
-	1    10250 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_uF_S_03 Conn9
-U 1 1 619CC8AC
-P 10250 2800
-F 0 "Conn9" H 10378 3008 60  0000 L CNN
-F 1 "Molex_uF_S_03" H 10378 2902 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10250 2800 60  0001 C CNN
-F 3 "" H 10250 2800 60  0001 C CNN
-	1    10250 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_uF_S_03 Conn10
-U 1 1 619DE023
-P 10250 3150
-F 0 "Conn10" H 10378 3358 60  0000 L CNN
-F 1 "Molex_uF_S_03" H 10378 3252 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10250 3150 60  0001 C CNN
-F 3 "" H 10250 3150 60  0001 C CNN
-	1    10250 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_uF_S_03 Conn11
-U 1 1 619EF87F
-P 10250 3500
-F 0 "Conn11" H 10378 3708 60  0000 L CNN
-F 1 "Molex_uF_S_03" H 10378 3602 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10250 3500 60  0001 C CNN
-F 3 "" H 10250 3500 60  0001 C CNN
-	1    10250 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_uF_S_03 Conn12
-U 1 1 61A01123
-P 10250 3850
-F 0 "Conn12" H 10378 4058 60  0000 L CNN
-F 1 "Molex_uF_S_03" H 10378 3952 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_uF_S_03_Horizontal" H 10250 3850 60  0001 C CNN
-F 3 "" H 10250 3850 60  0001 C CNN
-	1    10250 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1136,7 +1047,7 @@ F 3 "~" H 8950 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 8200 4150 0    50   Input ~ 0
-TX4
+MRTX_V
 Wire Wire Line
 	9100 4150 9250 4150
 Wire Wire Line
@@ -1155,7 +1066,7 @@ F 3 "~" H 8500 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8200 2950 0    50   Input ~ 0
-TX7
+FLTX_V
 $Comp
 L Device:R R20
 U 1 1 61565F4B
@@ -1191,9 +1102,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 4550 9250 4550
 Text GLabel 8200 3350 0    50   Input ~ 0
-TX6
+FRTX_V
 Text GLabel 8200 4550 0    50   Input ~ 0
-TX3
+MLTX_V
 $Comp
 L Device:R R19
 U 1 1 6156A887
@@ -1229,9 +1140,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 4350 9250 4350
 Text GLabel 8200 3150 0    50   Input ~ 0
-RX6
+FRRX_V
 Text GLabel 8200 4350 0    50   Input ~ 0
-RX3
+MLRX_V
 $Comp
 L Device:R R17
 U 1 1 6156FB26
@@ -1267,9 +1178,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 3950 9250 3950
 Text GLabel 8200 2750 0    50   Input ~ 0
-RX7
+FLRX_V
 Text GLabel 8200 3950 0    50   Input ~ 0
-RX4
+MRRX_V
 $Comp
 L Device:LED LED20
 U 1 1 6158F4AA
@@ -1381,9 +1292,9 @@ F 3 "~" H 8950 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 8200 4750 0    50   Input ~ 0
-RX2
+MRRX_V
 Text GLabel 8200 3550 0    50   Input ~ 0
-RX5
+MLRX_V
 Wire Wire Line
 	9100 4750 9250 4750
 Wire Wire Line
@@ -1419,9 +1330,9 @@ F 3 "~" H 8500 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8200 4950 0    50   Input ~ 0
-TX2
+MRTX_V
 Text GLabel 8200 3750 0    50   Input ~ 0
-TX5
+MLTX_V
 Wire Wire Line
 	9100 4950 9250 4950
 Wire Wire Line
@@ -1708,24 +1619,20 @@ Wire Wire Line
 	650  2650 650  2600
 Wire Wire Line
 	650  2600 1250 2600
-Text GLabel 2450 3050 2    50   Input ~ 0
-FLRX
 Wire Wire Line
 	2450 3050 2350 3050
-Text GLabel 2450 3150 2    50   Output ~ 0
-FLTX
 Text GLabel 2450 3300 2    50   Input ~ 0
 FRRX
 Text GLabel 2450 3400 2    50   Output ~ 0
 FRTX
 Text GLabel 1150 3050 0    50   Output ~ 0
-RX7
+FLRX_V
 Text GLabel 1150 3150 0    50   Input ~ 0
-TX7
+FLTX_V
 Text GLabel 1150 3300 0    50   Output ~ 0
-RX6
+FRRX_V
 Text GLabel 1150 3400 0    50   Input ~ 0
-TX6
+FRTX_V
 Wire Wire Line
 	2450 3150 2350 3150
 Wire Wire Line
@@ -1853,13 +1760,13 @@ MRRX
 Text GLabel 2450 4850 2    50   Output ~ 0
 MRTX
 Text GLabel 1150 4500 0    50   Output ~ 0
-RX5
+MLRX_V
 Text GLabel 1150 4600 0    50   Input ~ 0
-TX5
+MLTX_V
 Text GLabel 1150 4750 0    50   Output ~ 0
-RX4
+MRRX_V
 Text GLabel 1150 4850 0    50   Input ~ 0
-TX4
+MRTX_V
 Wire Wire Line
 	2450 4600 2350 4600
 Wire Wire Line
@@ -1983,13 +1890,13 @@ Wire Wire Line
 Text GLabel 2450 6050 2    50   Output ~ 0
 BLTX
 Text GLabel 1150 5950 0    50   Output ~ 0
-RX3
+MLRX_V
 Text GLabel 1150 6050 0    50   Input ~ 0
-TX3
+MLTX_V
 Text GLabel 1150 6200 0    50   Output ~ 0
-RX2
+MRRX_V
 Text GLabel 1150 6300 0    50   Input ~ 0
-TX2
+MRTX_V
 Wire Wire Line
 	2450 6050 2350 6050
 Wire Wire Line
@@ -2157,25 +2064,25 @@ Wire Wire Line
 Wire Wire Line
 	5150 3350 5050 3350
 Text GLabel 5150 3450 2    50   Output ~ 0
-TX3
+MLTX_V
 Text GLabel 5150 3350 2    50   Input ~ 0
-RX3
+MLRX_V
 Wire Wire Line
 	5150 3050 5050 3050
 Text GLabel 5150 3050 2    50   Output ~ 0
-TX4
+MRTX_V
 Wire Wire Line
 	5150 2950 5050 2950
 Text GLabel 5150 2950 2    50   Input ~ 0
-RX4
+MRRX_V
 Wire Wire Line
 	4000 2850 4100 2850
 Text GLabel 4000 2850 0    50   Output ~ 0
-TX6
+FRTX_V
 Wire Wire Line
 	4000 2750 4100 2750
 Text GLabel 4000 2750 0    50   Input ~ 0
-RX6
+FRRX_V
 NoConn ~ 5050 2550
 Wire Wire Line
 	5050 2650 5200 2650
@@ -2282,9 +2189,6 @@ Wire Notes Line
 Text Notes 5300 700  0    118  ~ 24
 TIVA
 Wire Wire Line
-	9600 3800 9600 3700
-Connection ~ 9600 3700
-Wire Wire Line
 	8200 1100 8200 1150
 Wire Wire Line
 	9100 1150 9250 1150
@@ -2340,14 +2244,14 @@ Wire Wire Line
 Connection ~ 9250 1150
 Text GLabel 2450 6300 2    50   Output ~ 0
 BRTX
-Text GLabel 9950 3600 0    50   Input ~ 0
+Text GLabel 9950 5100 0    50   Input ~ 0
 BRTX
 Text GLabel 2450 6200 2    50   Input ~ 0
 BRRX
-Text GLabel 9950 3800 0    50   Output ~ 0
+Text GLabel 9950 5300 0    50   Output ~ 0
 BRRX
 Wire Wire Line
-	10050 3800 9950 3800
+	10050 5300 9950 5300
 $Comp
 L Device:LED LED16
 U 1 1 62D33787
@@ -2434,4 +2338,154 @@ F 3 "~" H 6000 5400 50  0001 C CNN
 	1    6000 5200
 	1    0    0    -1  
 $EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn1
+U 1 1 618F453D
+P 10250 2600
+F 0 "Conn1" H 10378 3158 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 10378 3052 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 10250 2900 60  0001 C CNN
+F 3 "" H 10250 2900 60  0001 C CNN
+	1    10250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn2
+U 1 1 618F4C58
+P 10250 3250
+F 0 "Conn2" H 10378 3808 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 10378 3702 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 10250 3550 60  0001 C CNN
+F 3 "" H 10250 3550 60  0001 C CNN
+	1    10250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn3
+U 1 1 618F7559
+P 10250 3900
+F 0 "Conn3" H 10378 4458 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 10378 4352 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 10250 4200 60  0001 C CNN
+F 3 "" H 10250 4200 60  0001 C CNN
+	1    10250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn4
+U 1 1 618F755F
+P 10250 4550
+F 0 "Conn4" H 10378 5108 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 10378 5002 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 10250 4850 60  0001 C CNN
+F 3 "" H 10250 4850 60  0001 C CNN
+	1    10250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn5
+U 1 1 6191A6EE
+P 10250 5200
+F 0 "Conn5" H 10378 5758 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 10378 5652 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 10250 5500 60  0001 C CNN
+F 3 "" H 10250 5500 60  0001 C CNN
+	1    10250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn6
+U 1 1 6191A6F4
+P 10250 5850
+F 0 "Conn6" H 10378 6408 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 10378 6302 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 10250 6150 60  0001 C CNN
+F 3 "" H 10250 6150 60  0001 C CNN
+	1    10250 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1950 9600 2250
+Wire Wire Line
+	9600 2600 9600 2900
+Connection ~ 9600 3250
+Wire Wire Line
+	9600 3250 9600 3550
+Connection ~ 9600 3900
+Wire Wire Line
+	9600 3900 9600 4200
+Connection ~ 9600 4550
+Wire Wire Line
+	9600 4550 9600 4850
+Connection ~ 9600 5200
+Wire Wire Line
+	9600 5200 9600 5500
+Wire Wire Line
+	10050 2250 9600 2250
+Connection ~ 9600 2250
+Wire Wire Line
+	9600 2250 9600 2600
+Wire Wire Line
+	10050 2900 9600 2900
+Connection ~ 9600 2900
+Wire Wire Line
+	9600 2900 9600 3250
+Wire Wire Line
+	10050 3550 9600 3550
+Connection ~ 9600 3550
+Wire Wire Line
+	9600 3550 9600 3900
+Wire Wire Line
+	10050 4200 9600 4200
+Connection ~ 9600 4200
+Wire Wire Line
+	9600 4200 9600 4550
+Wire Wire Line
+	10050 4850 9600 4850
+Connection ~ 9600 4850
+Wire Wire Line
+	9600 4850 9600 5200
+Wire Wire Line
+	10050 5500 9600 5500
+Connection ~ 9600 5500
+Wire Wire Line
+	9600 5500 9600 5650
+Text GLabel 9950 3150 0    50   Input ~ 0
+MLTX
+Text GLabel 9950 2700 0    50   Output ~ 0
+FRRX
+Text GLabel 9950 2500 0    50   Input ~ 0
+FRTX
+Text GLabel 2450 3050 2    50   Input ~ 0
+FLRX
+Text GLabel 9950 2050 0    50   Output ~ 0
+FLRX
+Text GLabel 2450 3150 2    50   Output ~ 0
+FLTX
+Text GLabel 9950 1850 0    50   Input ~ 0
+FLTX
+Text GLabel 10050 2150 0    50   Input ~ 0
+FLTX_V
+Text GLabel 10050 2350 0    50   Output ~ 0
+FLRX_V
+Text GLabel 10050 2800 0    50   Input ~ 0
+FRTX_V
+Text GLabel 10050 3000 0    50   Output ~ 0
+FRRX_V
+Text GLabel 10050 3650 0    50   Output ~ 0
+MLRX_V
+Text GLabel 10050 4300 0    50   Output ~ 0
+MRRX_V
+Text GLabel 10050 4950 0    50   Output ~ 0
+BLRX_V
+Text GLabel 10050 5600 0    50   Output ~ 0
+BRRX_V
+Text GLabel 10050 3450 0    50   Input ~ 0
+MLTX_V
+Text GLabel 10050 4100 0    50   Input ~ 0
+MRTX_V
+Text GLabel 10050 4750 0    50   Input ~ 0
+BLTX_V
+Text GLabel 10050 5400 0    50   Input ~ 0
+BRTX_V
 $EndSCHEMATC
