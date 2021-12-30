@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Driveboard_2022-rescue)(type Legacy)(uri ${KIPRJMOD}/Driveboard_2022-rescue.lib)(options "")(descr ""))
 )

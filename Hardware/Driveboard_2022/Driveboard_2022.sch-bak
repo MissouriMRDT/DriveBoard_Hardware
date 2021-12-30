@@ -284,11 +284,11 @@ MLTX_V
 Wire Wire Line
 	4000 1850 4100 1850
 Text GLabel 5150 1850 2    50   Input ~ 0
-RX2
+BRRX_V
 Wire Wire Line
 	5150 1850 5050 1850
 Text GLabel 7200 2850 2    50   Output ~ 0
-MRTX_V
+BRTX_V
 Wire Wire Line
 	7200 2850 7100 2850
 Text GLabel 6050 2550 0    50   Input ~ 0
@@ -1104,7 +1104,7 @@ Wire Wire Line
 Text GLabel 8200 3350 0    50   Input ~ 0
 FRTX_V
 Text GLabel 8200 4550 0    50   Input ~ 0
-MLTX_V
+BLTX_V
 $Comp
 L Device:R R19
 U 1 1 6156A887
@@ -1142,7 +1142,7 @@ Wire Wire Line
 Text GLabel 8200 3150 0    50   Input ~ 0
 FRRX_V
 Text GLabel 8200 4350 0    50   Input ~ 0
-MLRX_V
+BLRX_V
 $Comp
 L Device:R R17
 U 1 1 6156FB26
@@ -1292,7 +1292,7 @@ F 3 "~" H 8950 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 8200 4750 0    50   Input ~ 0
-MRRX_V
+BRRX_V
 Text GLabel 8200 3550 0    50   Input ~ 0
 MLRX_V
 Wire Wire Line
@@ -1330,7 +1330,7 @@ F 3 "~" H 8500 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8200 4950 0    50   Input ~ 0
-MRTX_V
+BRTX_V
 Text GLabel 8200 3750 0    50   Input ~ 0
 MLTX_V
 Wire Wire Line
@@ -1526,7 +1526,7 @@ F 3 "" H 2900 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue-Driveboard_2022-rescue U2
+L MRDT_ICs:MAX_3232 U2
 U 1 1 617D8921
 P 1450 3450
 F 0 "U2" H 1800 4787 60  0000 C CNN
@@ -1656,7 +1656,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2900 2900 2900
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue-Driveboard_2022-rescue U3
+L MRDT_ICs:MAX_3232 U3
 U 1 1 61A97194
 P 1450 4900
 F 0 "U3" H 1800 6237 60  0000 C CNN
@@ -1790,7 +1790,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4350 2900 4350
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue-Driveboard_2022-rescue U4
+L MRDT_ICs:MAX_3232 U4
 U 1 1 61AC0352
 P 1450 6350
 F 0 "U4" H 1800 7687 60  0000 C CNN
@@ -1890,13 +1890,13 @@ Wire Wire Line
 Text GLabel 2450 6050 2    50   Output ~ 0
 BLTX
 Text GLabel 1150 5950 0    50   Output ~ 0
-MLRX_V
+BLRX_V
 Text GLabel 1150 6050 0    50   Input ~ 0
-MLTX_V
+BLTX_V
 Text GLabel 1150 6200 0    50   Output ~ 0
-MRRX_V
+BRRX_V
 Text GLabel 1150 6300 0    50   Input ~ 0
-MRTX_V
+BRTX_V
 Wire Wire Line
 	2450 6050 2350 6050
 Wire Wire Line
@@ -2064,9 +2064,9 @@ Wire Wire Line
 Wire Wire Line
 	5150 3350 5050 3350
 Text GLabel 5150 3450 2    50   Output ~ 0
-MLTX_V
+BLTX_V
 Text GLabel 5150 3350 2    50   Input ~ 0
-MLRX_V
+BLRX_V
 Wire Wire Line
 	5150 3050 5050 3050
 Text GLabel 5150 3050 2    50   Output ~ 0

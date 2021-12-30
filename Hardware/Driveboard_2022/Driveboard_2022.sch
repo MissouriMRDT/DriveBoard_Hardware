@@ -25,7 +25,7 @@ F 3 "" H 1100 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:AndersonPP-MRDT_Connectors-Driveboard_2022-rescue-Driveboard_2022-rescue Conn13
+L MRDT_Connectors:AndersonPP Conn13
 U 2 1 614AE409
 P 10400 1000
 F 0 "Conn13" H 10150 1050 60  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 1550 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:AndersonPP-MRDT_Connectors-Driveboard_2022-rescue-Driveboard_2022-rescue Conn13
+L MRDT_Connectors:AndersonPP Conn13
 U 1 1 614B9C60
 P 10400 1300
 F 0 "Conn13" H 10150 1350 60  0000 C CNN
@@ -1526,7 +1526,7 @@ F 3 "" H 2900 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue-Driveboard_2022-rescue U2
+L MRDT_ICs:MAX_3232 U2
 U 1 1 617D8921
 P 1450 3450
 F 0 "U2" H 1800 4787 60  0000 C CNN
@@ -1656,7 +1656,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2900 2900 2900
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue-Driveboard_2022-rescue U3
+L MRDT_ICs:MAX_3232 U3
 U 1 1 61A97194
 P 1450 4900
 F 0 "U3" H 1800 6237 60  0000 C CNN
@@ -1790,7 +1790,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4350 2900 4350
 $Comp
-L Driveboard_2022-rescue:MAX_3232-MRDT_ICs-Driveboard_2022-rescue-Driveboard_2022-rescue U4
+L MRDT_ICs:MAX_3232 U4
 U 1 1 61AC0352
 P 1450 6350
 F 0 "U4" H 1800 7687 60  0000 C CNN
