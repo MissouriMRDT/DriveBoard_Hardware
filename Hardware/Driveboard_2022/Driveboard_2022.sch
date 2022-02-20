@@ -792,8 +792,6 @@ Wire Wire Line
 Text Notes 9700 700  0    118  ~ 24
 CONNECTORS
 Wire Notes Line
-	3250 500  3250 6450
-Wire Notes Line
 	500  6450 500  500 
 Wire Notes Line
 	500  1800 3250 1800
@@ -1512,8 +1510,6 @@ Text Notes 1500 2000 0    118  ~ 24
 TEENSY
 Wire Notes Line
 	3250 2000 500  2000
-Wire Notes Line
-	3250 6450 500  6450
 $Comp
 L power:GND #PWR020
 U 1 1 6151DD77
@@ -1542,4 +1538,124 @@ F 3 "" H 2950 6050 50  0001 C CNN
 $EndComp
 NoConn ~ 1100 5450
 NoConn ~ 1100 5550
+$Comp
+L Connector:6P6C J1
+U 1 1 62137B17
+P 4000 5400
+F 0 "J1" V 4103 5070 50  0000 R CNN
+F 1 "6P6C" V 4012 5070 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical" V 4000 5425 50  0001 C CNN
+F 3 "~" V 4000 5425 50  0001 C CNN
+	1    4000 5400
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 62152008
+P 3500 3850
+F 0 "#PWR02" H 3500 3600 50  0001 C CNN
+F 1 "GND" H 3505 3677 50  0000 C CNN
+F 2 "" H 3500 3850 50  0001 C CNN
+F 3 "" H 3500 3850 50  0001 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3850 3500 3750
+Wire Wire Line
+	3500 3750 3600 3750
+Wire Wire Line
+	4200 4250 4200 4200
+Wire Wire Line
+	4200 4200 3900 4200
+Wire Wire Line
+	3900 4200 3900 4150
+Connection ~ 4200 4200
+Wire Wire Line
+	4200 4200 4200 4150
+Wire Wire Line
+	4200 4550 4200 4750
+Wire Wire Line
+	4500 4150 4500 4750
+Wire Wire Line
+	4500 4750 4200 4750
+Wire Wire Line
+	4500 3350 4500 3300
+Wire Wire Line
+	4500 3300 4700 3300
+Wire Wire Line
+	4400 3350 4400 3250
+Wire Wire Line
+	4400 3250 4800 3250
+NoConn ~ 3800 3350
+NoConn ~ 3900 3350
+Wire Wire Line
+	3800 4150 3800 5000
+Wire Wire Line
+	4000 5000 4000 4750
+Wire Wire Line
+	4000 4750 4200 4750
+Connection ~ 4200 4750
+Wire Wire Line
+	4300 5000 4300 4950
+Wire Wire Line
+	4300 4950 4400 4950
+Wire Wire Line
+	4400 4950 4400 4650
+Wire Wire Line
+	4400 4650 4100 4650
+Wire Wire Line
+	4100 4650 4100 4150
+Wire Wire Line
+	4200 4850 4300 4850
+Wire Wire Line
+	4300 4850 4300 4150
+Wire Wire Line
+	4200 4850 4200 5000
+Wire Wire Line
+	4100 5000 4100 4800
+Wire Wire Line
+	4100 4800 4800 4800
+Wire Wire Line
+	4800 3250 4800 4800
+Wire Wire Line
+	4700 4750 4500 4750
+Wire Wire Line
+	4700 3300 4700 4750
+Connection ~ 4500 4750
+Wire Wire Line
+	3900 5000 3900 4650
+Wire Wire Line
+	3900 4650 4000 4650
+Wire Wire Line
+	4000 4650 4000 4150
+NoConn ~ 4400 4150
+$Comp
+L Connector:RJ45_LED_Shielded J2
+U 1 1 62134E16
+P 4100 3750
+F 0 "J2" V 4054 4280 50  0000 L CNN
+F 1 "RJ45_LED_Shielded" V 4145 4280 50  0000 L CNN
+F 2 "MRDT_Connectors:RJ45_Teensy" V 4100 3775 50  0001 C CNN
+F 3 "~" V 4100 3775 50  0001 C CNN
+	1    4100 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 621516A0
+P 4200 4400
+F 0 "C2" H 4315 4446 50  0000 L CNN
+F 1 "0.1uF" H 4315 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4238 4250 50  0001 C CNN
+F 3 "~" H 4200 4400 50  0001 C CNN
+	1    4200 4400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3250 2900 3250 500 
+Wire Notes Line
+	5500 6450 5500 2900
+Wire Notes Line
+	500  6450 5500 6450
 $EndSCHEMATC

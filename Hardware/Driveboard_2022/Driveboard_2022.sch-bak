@@ -158,10 +158,10 @@ Text GLabel 2800 5750 2    50   Output ~ 0
 BRTX
 Wire Wire Line
 	2800 5750 2700 5750
-Text GLabel 1000 5450 0    50   Input ~ 0
+Text GLabel 1000 3850 0    50   Input ~ 0
 BL_DRIVE
 Wire Wire Line
-	1000 5450 1100 5450
+	1000 3850 1100 3850
 Text GLabel 1000 5850 0    50   Input ~ 0
 DIR_SWITCH
 Wire Wire Line
@@ -1444,8 +1444,8 @@ Wire Wire Line
 Text GLabel 2800 3950 2    50   Input ~ 0
 FL_DRIVE
 Wire Wire Line
-	1000 5550 1100 5550
-Text GLabel 1000 5550 0    50   Input ~ 0
+	1000 3950 1100 3950
+Text GLabel 1000 3950 0    50   Input ~ 0
 BR_DRIVE
 Wire Wire Line
 	2800 4650 2700 4650
@@ -1504,8 +1504,6 @@ NoConn ~ 1100 4350
 NoConn ~ 1100 4250
 NoConn ~ 1100 4150
 NoConn ~ 1100 4050
-NoConn ~ 1100 3950
-NoConn ~ 1100 3850
 NoConn ~ 1100 3250
 NoConn ~ 1100 3150
 NoConn ~ 1100 2950
@@ -1540,6 +1538,122 @@ F 1 "GND" H 2955 5877 50  0000 C CNN
 F 2 "" H 2950 6050 50  0001 C CNN
 F 3 "" H 2950 6050 50  0001 C CNN
 	1    2950 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1100 5450
+NoConn ~ 1100 5550
+$Comp
+L Connector:6P6C J1
+U 1 1 62137B17
+P 3950 5150
+F 0 "J1" V 4053 4820 50  0000 R CNN
+F 1 "6P6C" V 3962 4820 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical" V 3950 5175 50  0001 C CNN
+F 3 "~" V 3950 5175 50  0001 C CNN
+	1    3950 5150
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 62152008
+P 3450 3600
+F 0 "#PWR02" H 3450 3350 50  0001 C CNN
+F 1 "GND" H 3455 3427 50  0000 C CNN
+F 2 "" H 3450 3600 50  0001 C CNN
+F 3 "" H 3450 3600 50  0001 C CNN
+	1    3450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3600 3450 3500
+Wire Wire Line
+	3450 3500 3550 3500
+Wire Wire Line
+	4150 4000 4150 3950
+Wire Wire Line
+	4150 3950 3850 3950
+Wire Wire Line
+	3850 3950 3850 3900
+Connection ~ 4150 3950
+Wire Wire Line
+	4150 3950 4150 3900
+Wire Wire Line
+	4150 4300 4150 4500
+Wire Wire Line
+	4450 3900 4450 4500
+Wire Wire Line
+	4450 4500 4150 4500
+Wire Wire Line
+	4450 3100 4450 3050
+Wire Wire Line
+	4450 3050 4650 3050
+Wire Wire Line
+	4350 3100 4350 3000
+Wire Wire Line
+	4350 3000 4750 3000
+NoConn ~ 3750 3100
+NoConn ~ 3850 3100
+Wire Wire Line
+	3750 3900 3750 4750
+Wire Wire Line
+	3950 4750 3950 4500
+Wire Wire Line
+	3950 4500 4150 4500
+Connection ~ 4150 4500
+Wire Wire Line
+	4250 4750 4250 4700
+Wire Wire Line
+	4250 4700 4350 4700
+Wire Wire Line
+	4350 4700 4350 4400
+Wire Wire Line
+	4350 4400 4050 4400
+Wire Wire Line
+	4050 4400 4050 3900
+Wire Wire Line
+	4150 4600 4250 4600
+Wire Wire Line
+	4250 4600 4250 3900
+Wire Wire Line
+	4150 4600 4150 4750
+Wire Wire Line
+	4050 4750 4050 4550
+Wire Wire Line
+	4050 4550 4750 4550
+Wire Wire Line
+	4750 3000 4750 4550
+Wire Wire Line
+	4650 4500 4450 4500
+Wire Wire Line
+	4650 3050 4650 4500
+Connection ~ 4450 4500
+Wire Wire Line
+	3850 4750 3850 4400
+Wire Wire Line
+	3850 4400 3950 4400
+Wire Wire Line
+	3950 4400 3950 3900
+NoConn ~ 4350 3900
+$Comp
+L Connector:RJ45_LED_Shielded J2
+U 1 1 62134E16
+P 4050 3500
+F 0 "J2" V 4004 4030 50  0000 L CNN
+F 1 "RJ45_LED_Shielded" V 4095 4030 50  0000 L CNN
+F 2 "MRDT_Connectors:RJ45_Teensy" V 4050 3525 50  0001 C CNN
+F 3 "~" V 4050 3525 50  0001 C CNN
+	1    4050 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 621516A0
+P 4150 4150
+F 0 "C2" H 4265 4196 50  0000 L CNN
+F 1 "0.1uF" H 4265 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4188 4000 50  0001 C CNN
+F 3 "~" H 4150 4150 50  0001 C CNN
+	1    4150 4150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
