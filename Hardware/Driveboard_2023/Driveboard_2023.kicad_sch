@@ -4366,7 +4366,7 @@
     (pin "2" (uuid 96a77884-a027-477c-ae53-b2c6f470487e))
   )
 
-  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 25.4 38.1 0) (unit 5)
+  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 25.4 38.1 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b01ac07b-2202-49d2-b5da-686cdae6ec6c)
     (property "Reference" "Conn1" (id 0) (at 27.94 28.9359 0)
@@ -4381,11 +4381,11 @@
     (property "Datasheet" "" (id 3) (at 21.59 52.07 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 50b6b0b4-2d47-4766-aaa9-c4cefb35e4d0))
+    (pin "1" (uuid 50b6b0b4-2d47-4766-aaa9-c4cefb35e4d1))
     (pin "2" (uuid efea513f-7c19-4c1b-999a-05aab6456d64))
     (pin "3" (uuid 5759a41b-8b76-4b4f-a89c-31d53c1ff70b))
     (pin "4" (uuid 9d1c1737-f5d5-4a37-8684-31304b5787d5))
-    (pin "1" (uuid 50b6b0b4-2d47-4766-aaa9-c4cefb35e4d0))
+    (pin "1" (uuid 50b6b0b4-2d47-4766-aaa9-c4cefb35e4d1))
   )
 
   (symbol (lib_id "Diode:CDBU40-HF") (at 259.08 100.33 180) (unit 1)
@@ -4774,11 +4774,11 @@
     (property "Datasheet" "" (id 3) (at 21.59 64.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid c69f226f-25b6-4ca9-9c7a-6e898a0f052e))
+    (pin "1" (uuid c69f226f-25b6-4ca9-9c7a-6e898a0f052f))
     (pin "2" (uuid 1e964739-d808-499e-a270-1427e6b6ebd7))
     (pin "3" (uuid 245caa95-6628-4e48-8597-f262c489e439))
     (pin "4" (uuid 41a6bafe-0654-4814-988e-24704ab17f93))
-    (pin "1" (uuid c69f226f-25b6-4ca9-9c7a-6e898a0f052e))
+    (pin "1" (uuid c69f226f-25b6-4ca9-9c7a-6e898a0f052f))
   )
 
   (symbol (lib_id "Device:R") (at 205.74 88.9 90) (unit 1)
@@ -4889,7 +4889,7 @@
       (reference "Conn1") (unit 1) (value "AndersonPP") (footprint "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side")
     )
     (path "/b01ac07b-2202-49d2-b5da-686cdae6ec6c"
-      (reference "Conn1") (unit 5) (value "AndersonPP") (footprint "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side")
+      (reference "Conn1") (unit 2) (value "AndersonPP") (footprint "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side")
     )
     (path "/2efca18a-387a-49fe-a849-7362a7250e39"
       (reference "Conn2") (unit 1) (value "Molex_SL_03") (footprint "MRDT_Connectors:MOLEX_SL_03_Horizontal")
