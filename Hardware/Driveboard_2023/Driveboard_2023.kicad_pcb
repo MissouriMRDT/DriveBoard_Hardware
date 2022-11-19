@@ -2152,7 +2152,7 @@
 
   (footprint "signature noah" (layer "F.Cu")
     (tedit 0) (tstamp 85e6310e-319c-4537-a042-360ad4819eaa)
-    (at 234.95 120.65)
+    (at 232.998169 119.642586)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -9076,7 +9076,7 @@
 
   (footprint "Signatures:z_sig_Jorge_Noriega_30.0mmx13.2.0mm" (layer "F.Cu")
     (tedit 0) (tstamp ac9e8e57-4c27-4fb4-b666-1ba42b64867c)
-    (at 156.237137 122.795345)
+    (at 159.539137 123.176345)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -12615,7 +12615,7 @@
 
   (footprint "Signatures:Himanth_Bobba" (layer "F.Cu")
     (tedit 0) (tstamp ad82eeb5-76ce-42bb-afa6-8240f51a3d4c)
-    (at 196.215 122.555)
+    (at 198.475207 122.386262)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0.033386 2.54) (layer "Dwgs.User")
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -14464,7 +14464,7 @@
 
   (footprint "MRDT_Silkscreens:0_MRDT_Logo_60mm" (layer "B.Cu")
     (tedit 5AA4CB3E) (tstamp 1a46da62-ad8e-45aa-adab-b8333ad06b00)
-    (at 214.884 90.932 -90)
+    (at 219.329 79.502 -90)
     (tags "Logo, MRDT")
     (attr through_hole)
     (fp_text reference "G***" (at -10.3378 -32.8168 90) (layer "Dwgs.User") hide
@@ -15785,7 +15785,7 @@
   (gr_text "ML" (at 229.45275 90.91475 90) (layer "F.SilkS") (tstamp 567f9228-2ab9-469a-978d-e24703d4d85e)
     (effects (font (size 3.048 3.048) (thickness 0.15)))
   )
-  (gr_text "Drive Board, Rev 1\nMars Rover Drive Team\nMissouri S&T, 2023\nJorge Noriega, Noah Choi, Himanth Bobba" (at 196.088 110.744) (layer "F.SilkS") (tstamp 5c3c1b9f-cce1-4e5b-b2b4-ca02cc832e69)
+  (gr_text "Drive Board, Rev 1\nMars Rover Design Team\nMissouri S&T, 2023\nJorge Noriega, Himanth Bobba, Noah Choi" (at 196.088 110.744) (layer "F.SilkS") (tstamp 5c3c1b9f-cce1-4e5b-b2b4-ca02cc832e69)
     (effects (font (size 2 2) (thickness 0.15)))
   )
   (gr_text "BR" (at 246.38 39.116) (layer "F.SilkS") (tstamp 6180e643-a454-4dc0-9b8d-113f78ef595b)
