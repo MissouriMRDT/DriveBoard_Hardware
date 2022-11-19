@@ -1,4 +1,4 @@
-20755643281284856
+20662954192261225
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57666,27 +57666,6 @@ Yellow 5381 Series LED
 2
 2
 MRDT_Actives
-ABM3B-8.000MHZ-10-1-U-T
-5 mm x 3.2 mm
-
-0
-4
-4
-MRDT_Actives
-DO-214AC
-<b>SURFACE MOUNT GENERAL RECTIFIER</b> JEDEC DO-214AC molded platic body<p>Method 2026<br>Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
-
-0
-2
-2
-MRDT_Actives
-IRFZ44ESTRLPBF
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
-0
-4
-3
-MRDT_Actives
 IRLS3034_TO-263-7_P
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
 D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
@@ -57707,13 +57686,6 @@ NX5032GA_Crystal
 0
 2
 2
-MRDT_Actives
-PMN280ENEAX
-
-
-0
-6
-6
 MRDT_Actives
 Q36SR12020NRFA
 
@@ -57757,28 +57729,7 @@ Anderson_2_Horizontal_Side_by_Side
 2
 2
 MRDT_Connectors
-Anderson_2_Horizontal_Side_by_Side_PV
-
-
-0
-2
-2
-MRDT_Connectors
 Anderson_2_Horizontal_Stacked
-
-
-0
-2
-2
-MRDT_Connectors
-Anderson_2_Horizontal_Stacked_PV
-
-
-0
-2
-2
-MRDT_Connectors
-Anderson_2_Vertical_Side_by_Side_PV
 
 
 0
@@ -57826,13 +57777,6 @@ JTAG_ARM_Connector_10_Pin
 0
 10
 10
-MRDT_Connectors
-MOLEX_47346-0001
-
-
-0
-11
-6
 MRDT_Connectors
 MOLEX_SL_02_Horizontal
 
@@ -57946,146 +57890,6 @@ MOLEX_SL_10_Vertical
 10
 10
 MRDT_Connectors
-MOLEX_uF_D_02_Horizontal
-
-
-0
-3
-2
-MRDT_Connectors
-MOLEX_uF_D_04_Horizontal
-
-
-0
-5
-4
-MRDT_Connectors
-MOLEX_uF_D_06_Horizontal
-
-
-0
-7
-6
-MRDT_Connectors
-MOLEX_uF_D_08_Horizontal
-
-
-0
-10
-8
-MRDT_Connectors
-MOLEX_uF_D_10_Horizontal
-
-
-0
-12
-10
-MRDT_Connectors
-MOLEX_uF_S_02_Horizontal
-
-
-0
-3
-2
-MRDT_Connectors
-MOLEX_uF_S_02_Vertical
-
-
-0
-2
-2
-MRDT_Connectors
-MOLEX_uF_S_03_Horizontal
-
-
-0
-4
-3
-MRDT_Connectors
-MOLEX_uF_S_03_Vertical
-
-
-0
-3
-3
-MRDT_Connectors
-MOLEX_uF_S_04_Horizontal
-
-
-0
-6
-4
-MRDT_Connectors
-MOLEX_uF_S_04_Vertical
-
-
-0
-4
-4
-MRDT_Connectors
-MOLEX_uF_S_05_Horizontal
-
-
-0
-7
-5
-MRDT_Connectors
-MOLEX_uF_S_05_Vertical
-
-
-0
-5
-5
-MRDT_Connectors
-MOLEX_uF_S_06_Horizontal
-
-
-0
-8
-6
-MRDT_Connectors
-MOLEX_uF_S_06_Vertical
-
-
-0
-6
-6
-MRDT_Connectors
-MOLEX_uF_S_07_Horizontal
-
-
-0
-9
-7
-MRDT_Connectors
-MOLEX_uF_S_07_Vertical
-
-
-0
-7
-7
-MRDT_Connectors
-MOLEX_uF_S_08_Vertical
-
-
-0
-8
-8
-MRDT_Connectors
-MOLEX_uF_S_09_Vertical
-
-
-0
-9
-9
-MRDT_Connectors
-RJ45_Teensy
-
-
-0
-16
-15
-MRDT_Connectors
 RP-SMA_Jack_Tru-Hole_Right-Angle
 
 
@@ -58106,76 +57910,6 @@ Solder Pad
 0
 1
 1
-MRDT_Connectors
-Square_Anderson_1_H
-
-
-0
-1
-1
-MRDT_Connectors
-Square_Anderson_2_H_Side_By_Side
-
-
-0
-2
-2
-MRDT_Connectors
-Square_Anderson_2_H_Side_By_Side_PV
-
-
-0
-2
-2
-MRDT_Connectors
-Square_Anderson_2_H_Stacked
-
-
-0
-2
-2
-MRDT_Connectors
-Square_Anderson_2_H_Stacked_PV
-
-
-0
-2
-2
-MRDT_Connectors
-Square_Anderson_2_V_Side_By_Side
-
-
-0
-2
-2
-MRDT_Connectors
-Square_Anderson_2_V_Side_By_Side_PV
-
-
-0
-2
-2
-MRDT_Connectors
-Square_Anderson_3_H_Side_By_Side
-
-
-0
-3
-3
-MRDT_Connectors
-Square_Anderson_3_V_Side_By_Side
-
-
-0
-3
-3
-MRDT_Connectors
-USB-UX60R-MB-5ST
-
-
-0
-9
-5
 MRDT_Devices
 ABS25
 
@@ -58232,13 +57966,6 @@ Q36SR12020NRFA
 0
 8
 8
-MRDT_Devices
-TSR_1-2433
-
-
-0
-3
-3
 MRDT_Drill_Holes
 4_40_Hole
 
@@ -58296,29 +58023,8 @@ Via_P1.27mm_5x5
 25
 1
 MRDT_ICs
-BMX160
-
-
-0
-14
-14
-MRDT_ICs
-BNO055
-
-
-0
-28
-28
-MRDT_ICs
 DRV8301
 
-
-0
-57
-57
-MRDT_ICs
-DRV8302DCA
-TSSOP-56-PP
 
 0
 57
@@ -58338,12 +58044,12 @@ HRP5
 6
 5
 MRDT_ICs
-ICM_20948
+LGA28R50P4X10_380X520X100
 
 
 0
-24
-24
+28
+28
 MRDT_ICs
 MAX4314ESD+
 
@@ -58373,6 +58079,20 @@ NUP4201MR6
 6
 6
 MRDT_ICs
+PQFN50P250X300X100-14N
+
+
+0
+14
+14
+MRDT_ICs
+QFN40P300X300X105-24N
+
+
+0
+24
+24
+MRDT_ICs
 SOIC_10NB
 
 
@@ -58386,20 +58106,6 @@ SOIC 1.27
 0
 16
 16
-MRDT_ICs
-STM32F405RGT6
-LQFP-64
-
-0
-64
-64
-MRDT_ICs
-TB67H400AFNG,EL
-HTSSOP-48_6.1x12.5mm_P0.5mm
-HTSSOP SO
-0
-49
-49
 MRDT_ICs
 USEQGSEAN8L180
 
@@ -58428,13 +58134,6 @@ ETQ-P4M470YFN_Inductor
 0
 2
 2
-MRDT_Passives
-WSLP2726
-
-
-0
-4
-4
 MRDT_Sensors
 ACS759ECB_PFF_Leadform_5pins
 Allegro, Hallsensor, Through hole, Package CB-PFF,
@@ -58716,13 +58415,6 @@ TM4C129E_Launchpad_FULL_THT_TOP
 80
 77
 MRDT_Shields
-TM4C129E_Launchpad_FULL_Vertical
-
-
-0
-80
-77
-MRDT_Shields
 TM4C129E_Launchpad_X7_SMD_BOTTOM
 
 
@@ -58778,20 +58470,6 @@ TM4C129E_Launchpad_X9_THT_TOP
 0
 40
 39
-MRDT_Shields
-Teensy_4_1
-
-
-0
-65
-65
-MRDT_Shields
-Teensy_4_1_Vertical
-
-
-0
-65
-65
 MRDT_Silkscreens
 0-README
 
@@ -58863,13 +58541,6 @@ MRDT_Silkscreens
 0
 0
 MRDT_Silkscreens
-2_100_silkscreen
-
-
-0
-0
-0
-MRDT_Silkscreens
 2_Dahlbot_2.0
 
 
@@ -58905,28 +58576,7 @@ MRDT_Silkscreens
 0
 0
 MRDT_Silkscreens
-2_fire_silkscreen
-
-
-0
-0
-0
-MRDT_Silkscreens
 z_sig_Aaron_Colvin_Sig_4mmx14.1mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-z_sig_Alex_Wortmann_PT1
-
-
-0
-0
-0
-MRDT_Silkscreens
-z_sig_Alex_Wortmann_PT2
 
 
 0
@@ -58983,13 +58633,6 @@ z_sig_Austin_Christman_22mmx8.3mm
 0
 MRDT_Silkscreens
 z_sig_Austin_Hill_Sig_22mmx9.3mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-z_sig_Brady_Davis_36mmx9mm
 
 
 0
@@ -59060,13 +58703,6 @@ z_sig_John_Bueke
 0
 MRDT_Silkscreens
 z_sig_Kamran_Winschel_17.1mmx3.9mm
-
-
-0
-0
-0
-MRDT_Silkscreens
-z_sig_MaxRyan_25x6.6mm
 
 
 0
@@ -80877,34 +80513,6 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
-Signatures
-z_sig_Jorge_Noriega_30.0mmx13.2.0mm
-
-
-0
-0
-0
-Signatures
-z_sig_Jorge_Noriega_34.3mmx15.1mm
-
-
-0
-0
-0
-Signatures
-z_sig_Jorge_Noriega_50.0mmx22.0mm
-
-
-0
-0
-0
-Signatures
-z_sig_Jorge_Noriega_260.2mmx114.7mm
-
-
-0
-0
-0
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
