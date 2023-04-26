@@ -1,4 +1,4 @@
-20748995860576294
+20764133390869993
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58786,6 +58786,20 @@ Teensy_4_1
 65
 65
 MRDT_Shields
+Teensy_4_1_Bare
+
+
+0
+48
+48
+MRDT_Shields
+Teensy_4_1_Ethernet
+
+
+0
+54
+54
+MRDT_Shields
 Teensy_4_1_Vertical
 
 
@@ -58905,7 +58919,28 @@ MRDT_Silkscreens
 0
 0
 MRDT_Silkscreens
+2_WifiPower
+
+
+0
+0
+0
+MRDT_Silkscreens
 2_fire_silkscreen
+
+
+0
+0
+0
+MRDT_Silkscreens
+Sean_Duda_Signature_41.0mmx30.7mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+yagi
 
 
 0
@@ -59010,7 +59045,28 @@ z_sig_Eric_Welch_Sig_22mmx9.4mm
 0
 0
 MRDT_Silkscreens
+z_sig_Ethan_Medrow_6.3mmx13
+
+
+0
+0
+0
+MRDT_Silkscreens
 z_sig_Evan_Hite_Sig_15mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Grant_Brinker_25mmx6
+
+
+0
+0
+0
+MRDT_Silkscreens
+z_sig_Grant_Brinker_30mmx7.3
 
 
 0
@@ -59137,6 +59193,13 @@ zz_Atlas_Logo_Short_Title_110mmX37.4mm
 0
 MRDT_Silkscreens
 zz_Atlas_Logo_Short_Title_140mmX47.6mm
+
+
+0
+0
+0
+MRDT_Silkscreens
+zz_Helios_Logo_Full_2.26inx3in
 
 
 0
