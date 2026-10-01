@@ -661,13 +661,29 @@
         "uuid": "8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
       }
     ],
-    "used_designators": "Conn1",
+    "used_designators": "H1-4,Conn1,U1",
     "variants": []
   },
   "sheets": [
     [
       "8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5",
       "Root"
+    ],
+    [
+      "9839bdc0-559a-4b8f-ac66-7a610fed7993",
+      "Power"
+    ],
+    [
+      "9e805e22-3f7b-4b2d-8676-d99a5f90d130",
+      "Test Buttons"
+    ],
+    [
+      "fba8db40-8c28-4e87-b66a-36ca209cf980",
+      "Connectors"
+    ],
+    [
+      "c5e2a0c2-02ae-4b1a-b25e-01e45a1a9dec",
+      "Motor Controllers"
     ]
   ],
   "text_variables": {},
