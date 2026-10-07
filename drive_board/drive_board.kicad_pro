@@ -517,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -662,7 +662,7 @@
         "uuid": "8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
       }
     ],
-    "used_designators": "#PWR1-9,#PWR16-17,#PWR20-31,#PWR39,C1,Conn1-3,D1-5,D7,D9-11,D20,H1-4,J1-2,MOSFET1,R1-5,R11,R15,R18,R30,S1,SW2-4,SW6-8,U1",
+    "used_designators": "#PWR1-10,#PWR16-17,#PWR20-31,#PWR39,D1-5,D7,D9-11,D20,C1,Conn1-3,H1-4,J1-5,MOSFET1,R1-5,R11,R15,R18,R30,S1,SW2-4,SW6-8,U1",
     "variants": []
   },
   "sheets": [
@@ -677,14 +677,6 @@
     [
       "9e805e22-3f7b-4b2d-8676-d99a5f90d130",
       "Test Buttons"
-    ],
-    [
-      "fba8db40-8c28-4e87-b66a-36ca209cf980",
-      "Connectors"
-    ],
-    [
-      "c5e2a0c2-02ae-4b1a-b25e-01e45a1a9dec",
-      "Motor Controllers"
     ]
   ],
   "text_variables": {},

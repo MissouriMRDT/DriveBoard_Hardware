@@ -1106,10 +1106,10 @@
 	)
 	(text "D-Pad"
 		(exclude_from_sim no)
-		(at 76.454 23.114 0)
+		(at 76.962 27.686 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "96447b11-9d8a-4df8-bfce-e3c99bef9c1c")
