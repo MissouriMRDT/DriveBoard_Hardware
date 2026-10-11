@@ -6075,7 +6075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15bdccf7-4347-4db2-9097-06bc65124697")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 263.398 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6137,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6232,7 +6232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d824030-6a9e-4566-9cb7-8906239bc84e")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 235.458 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6294,7 +6294,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6623,7 +6623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31370ed1-51cc-457b-96b9-8b539baddee9")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 263.398 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6685,7 +6685,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6702,7 +6702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31ad3eff-9b42-4dbc-9b04-a19c7ec36036")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 235.458 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,7 +6764,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6782,7 +6782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49f2ddeb-e54f-43b1-aa2f-f91be089d8a3")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 140.5733 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +6864,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6958,7 +6958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ac03462-5324-40a7-9421-b58c6fe242ec")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 263.144 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7020,7 +7020,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63312b6c-2974-47a3-b487-c3593d723308")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 263.398 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,7 +7175,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7192,7 +7192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63f7c6b1-a0cd-43de-ad17-4fe22fdc6f19")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 235.458 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,7 +7254,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7636,7 +7636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "771c355e-0b82-45d9-b249-934e56dead6a")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 262.382 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7706,7 +7706,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8186,7 +8186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbf83d66-1bec-42d4-87f5-f0e6afc4e8a4")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 26.67 150.114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,7 +8283,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8300,7 +8300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0ee62b5-351a-4842-95cb-97b213b809bb")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 235.204 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,7 +8362,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
