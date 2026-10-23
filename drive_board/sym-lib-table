@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "dipswitch1x8") (type "KiCad") (uri "${KIPRJMOD}/../lib/Symbols/dipswitch1x8.kicad_sym") (options "") (descr ""))
+	(lib (name "ps4") (type "KiCad") (uri "C:/Users/emili/Documents/GitHub/DriveBoard_Hardware/lib/Symbols/com-09032.kicad_sym") (options "") (descr ""))
+)
