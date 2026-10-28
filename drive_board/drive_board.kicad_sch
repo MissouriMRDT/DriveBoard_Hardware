@@ -10731,7 +10731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Wuerth_74980111211_Horizontal"
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 56.515 157.48 90)
 			(hide yes)
 			(show_name no)

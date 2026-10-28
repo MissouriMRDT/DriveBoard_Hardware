@@ -3696,7 +3696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_MegaFit_02_Horizontal"
+		(property "Footprint" "megafit:CONN_SD-768290002_02_MOL"
 			(at 100.33 39.37 0)
 			(hide yes)
 			(show_name no)
