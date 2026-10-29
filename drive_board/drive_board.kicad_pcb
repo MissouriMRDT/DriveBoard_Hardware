@@ -23315,15 +23315,15 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.1")
-		(uuid "559b8351-4657-43ba-bb1c-f0a70586ef56")
+		(uuid "38b2286c-96e1-4f42-81c1-7574c8ba5fde")
 		(pts
-			(xy 127 104.14) (xy 127 25.4)
+			(xy 243.84 30.48) (xy 132.08 30.48)
 		)
-		(height -2.54)
-		(orientation 1)
+		(height -15.24)
+		(orientation 0)
 		(format
 			(prefix "")
-			(suffix "")
+			(suffix " mils")
 			(units 3)
 			(units_format 0)
 			(precision 4)
@@ -23338,14 +23338,52 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3100"
-			(at 123.31 64.77 90)
+		(gr_text "4400 mils"
+			(at 187.96 13.2842 0)
+			(layer "User.1")
+			(uuid "38b2286c-96e1-4f42-81c1-7574c8ba5fde")
+			(effects
+				(font
+					(size 1.778 1.778)
+					(thickness 0.1778)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "559b8351-4657-43ba-bb1c-f0a70586ef56")
+		(pts
+			(xy 127 104.14) (xy 127 25.4)
+		)
+		(height -2.54)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix " mils")
+			(units 1)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3100 mils"
+			(at 122.5042 64.77 90)
 			(layer "User.1")
 			(uuid "559b8351-4657-43ba-bb1c-f0a70586ef56")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.778 1.778)
+					(thickness 0.1778)
 				)
 			)
 		)
@@ -23361,7 +23399,45 @@
 		(orientation 0)
 		(format
 			(prefix "")
-			(suffix "")
+			(suffix " mils")
+			(units 1)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "4800 mils"
+			(at 187.96 20.9042 0)
+			(layer "User.1")
+			(uuid "883a7e34-87c7-4649-b2d2-7554e6a43490")
+			(effects
+				(font
+					(size 1.778 1.778)
+					(thickness 0.1778)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "c02eb362-ee08-4e5b-b598-ad6ca13bfd0c")
+		(pts
+			(xy 132.08 99.06) (xy 132.08 30.48)
+		)
+		(height -15.24)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix " mils")
 			(units 3)
 			(units_format 0)
 			(precision 4)
@@ -23376,14 +23452,14 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4800"
-			(at 187.96 21.71 0)
+		(gr_text "2700 mils"
+			(at 114.8842 64.77 90)
 			(layer "User.1")
-			(uuid "883a7e34-87c7-4649-b2d2-7554e6a43490")
+			(uuid "c02eb362-ee08-4e5b-b598-ad6ca13bfd0c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.778 1.778)
+					(thickness 0.1778)
 				)
 			)
 		)
