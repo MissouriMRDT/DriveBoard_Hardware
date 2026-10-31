@@ -96,7 +96,7 @@
 			(at 0 -2.850002 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "cd6cd11e-3c32-4cbe-adb4-c2a2818de0fe")
+			(uuid "739d422c-0706-48e5-a17a-13b8e26ae072")
 			(effects
 				(font
 					(size 1 1)
@@ -108,7 +108,7 @@
 			(at 0 -2.850002 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2c0850e0-252b-4334-bf9a-46adeb478c36")
+			(uuid "cae29bb5-f249-47fd-970e-cd110ab2cf23")
 			(effects
 				(font
 					(size 1 1)
@@ -120,7 +120,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ccb623e3-917d-4485-9e11-b694d12966ba")
+			(uuid "876a1f55-e671-4fbf-94bf-f41cdde395c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,7 +131,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05c97ff4-6dd4-4ec8-aad5-8ad192ac88d9")
+			(uuid "cc1cb0bf-e3c4-4d20-b320-1a2bc9b6a2fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20222,7 +20222,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e91ea7c7-8624-4c36-b28e-b0f6f460973b")
-		(at 224.79 54.102 180)
+		(at 233.426 54.102)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
@@ -20294,16 +20294,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.146267 0.51)
-			(end 0.146267 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "460d84b9-2ed3-48ea-84db-2f1f127ac8d4")
-		)
-		(fp_line
 			(start -0.146267 -0.51)
 			(end 0.146267 -0.51)
 			(stroke
@@ -20312,6 +20302,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "4393e5f7-fcc7-4433-ab19-0bbbf513e5c0")
+		)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "460d84b9-2ed3-48ea-84db-2f1f127ac8d4")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -20347,7 +20347,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.8625 0 180)
+			(at -0.8625 0)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20356,7 +20356,7 @@
 			(uuid "d60fa95d-4645-4646-83b7-f321b1a46b76")
 		)
 		(pad "2" smd roundrect
-			(at 0.8625 0 180)
+			(at 0.8625 0)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21081,7 +21081,7 @@
 			(at 13.208 62.786 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "bea5470e-2f6c-4c3d-8546-7a91fdf80a6a")
+			(uuid "72c53f25-d63f-4767-bc81-7dbf6dbe6f0a")
 			(effects
 				(font
 					(size 1 1)
@@ -21093,7 +21093,7 @@
 			(at 13.208 64.286 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4df36a8b-9c2f-40a0-a0ef-003f1e315d87")
+			(uuid "59f112c1-a098-4492-a202-4196e6cd6d5e")
 			(effects
 				(font
 					(size 1 1)
@@ -21106,7 +21106,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39ea5a97-28cd-451f-80b1-52de9ed4127d")
+			(uuid "2f41afb5-b435-47f3-90e9-79aff4597448")
 			(effects
 				(font
 					(size 1 1)
@@ -21119,7 +21119,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6709a5d5-9877-46d6-83db-6666b732bf75")
+			(uuid "f472eb39-aa80-4ffd-b50d-4a477ef06f6b")
 			(effects
 				(font
 					(size 1 1)
