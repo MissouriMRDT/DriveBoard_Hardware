@@ -5968,7 +5968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Joystick:XDCR_COM-09032"
+		(property "Footprint" "Joystick:Joystick"
 			(at 273.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7928,7 +7928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Joystick:XDCR_COM-09032"
+		(property "Footprint" "Joystick:Joystick"
 			(at 220.98 52.07 0)
 			(hide yes)
 			(show_name no)
