@@ -6277,7 +6277,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 11.261 -2.281 90)
+			(at -0.024 3.59 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1e1bb2d4-a11a-49ba-a11f-88dc77cfa22c")
@@ -9954,7 +9954,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at -4.999056 3.983056 0)
+			(at 0.01 3.665 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "5518d239-437c-4714-bbdc-b7d642cb6509")
@@ -40390,7 +40390,7 @@
 		(target_delay_min 0)
 		(target_length 16.351758)
 		(target_length_max 16.451758)
-		(target_length_min 16.251758)
+		(target_length_min 16.251757)
 		(target_skew 0)
 		(target_skew_max 0.1)
 		(target_skew_min -0.1)
