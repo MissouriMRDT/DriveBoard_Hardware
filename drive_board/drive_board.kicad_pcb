@@ -22388,7 +22388,7 @@
 		(layer "Edge.Cuts")
 		(uuid "7cfe924f-5f97-422c-b610-ac76896e2a7b")
 	)
-	(gr_text "FL Wheel"
+	(gr_text "BL Wheel"
 		(at 186.5757 100.2411 0)
 		(layer "F.SilkS" knockout)
 		(uuid "51ac4ada-63e2-48ed-80b1-041d55b6a653")
@@ -22400,7 +22400,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FL Turn"
+	(gr_text "BL Turn"
 		(at 186.6138 95.8596 0)
 		(layer "F.SilkS" knockout)
 		(uuid "8c4d5c63-bc48-49e4-b985-dad9ff7c1f44")
@@ -22436,7 +22436,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FR Turn"
+	(gr_text "BR Turn"
 		(at 200.025 95.8596 0)
 		(layer "F.SilkS" knockout)
 		(uuid "e7330c96-27c5-45e7-8a40-b6a691e19c1c")
@@ -22460,7 +22460,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "FR Wheel"
+	(gr_text "BR Wheel"
 		(at 200.152 100.2538 0)
 		(layer "F.SilkS" knockout)
 		(uuid "84b5453b-82da-4189-84bd-997c0060347b")
