@@ -8389,7 +8389,7 @@
 		(dnp no)
 		(uuid "1d824030-6a9e-4566-9cb7-8906239bc84e")
 		(property "Reference" "J5"
-			(at 236.728 41.656 0)
+			(at 236.982 38.989 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8399,7 +8399,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 236.728 39.116 0)
+			(at 236.982 41.529 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9015,7 +9015,7 @@
 		(dnp no)
 		(uuid "31370ed1-51cc-457b-96b9-8b539baddee9")
 		(property "Reference" "J6"
-			(at 264.668 41.656 0)
+			(at 264.922 38.989 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9025,7 +9025,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 264.668 39.116 0)
+			(at 264.922 41.529 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9747,7 +9747,7 @@
 		(dnp no)
 		(uuid "5ac03462-5324-40a7-9421-b58c6fe242ec")
 		(property "Reference" "J4"
-			(at 264.414 29.21 0)
+			(at 264.541 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9757,7 +9757,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 264.414 26.67 0)
+			(at 264.541 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11453,7 +11453,7 @@
 		(dnp no)
 		(uuid "d0ee62b5-351a-4842-95cb-97b213b809bb")
 		(property "Reference" "J3"
-			(at 236.474 29.21 0)
+			(at 236.601 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11463,7 +11463,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 236.474 26.67 0)
+			(at 236.601 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
