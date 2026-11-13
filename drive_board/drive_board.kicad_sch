@@ -10162,7 +10162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254.254 58.674 90)
 			(hide yes)
 			(show_name no)
@@ -11847,7 +11847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49d2110-0259-4c74-81e0-b77488486e5d")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 165.735 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12038,7 +12038,7 @@
 		(instances
 			(project "drive_board"
 				(path "/8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
