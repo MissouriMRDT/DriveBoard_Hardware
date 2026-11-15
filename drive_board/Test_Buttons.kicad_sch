@@ -5760,7 +5760,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 76.2 53.34 270)
+		(at 76.2 53.34 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5768,7 +5769,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ba7b7d2-b64f-45d7-bc40-defc42bc697e")
 		(property "Reference" "Q12"
 			(at 76.2 59.69 90)
@@ -5791,7 +5791,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 74.295 58.42 0)
+			(at 78.105 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,7 +5804,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 72.39 58.42 0)
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6086,7 +6086,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 130.81 95.25 270)
+		(at 130.81 95.25 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6094,7 +6095,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4520d623-f7b1-4133-9794-dab25901936e")
 		(property "Reference" "Q15"
 			(at 130.81 101.6 90)
@@ -6117,7 +6117,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 128.905 100.33 0)
+			(at 132.715 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6130,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 127 100.33 0)
+			(at 134.62 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6252,7 +6252,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 130.81 53.34 270)
+		(at 130.81 53.34 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6260,7 +6261,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4a058065-589c-47f8-bab4-ceb37f177b9a")
 		(property "Reference" "Q13"
 			(at 130.81 59.69 90)
@@ -6283,7 +6283,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 128.905 58.42 0)
+			(at 132.715 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6296,7 +6296,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 127 58.42 0)
+			(at 134.62 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +6590,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 76.2 137.16 270)
+		(at 76.2 137.16 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6598,7 +6599,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "579c398b-87ad-4c55-af78-51ec2e2d655e")
 		(property "Reference" "Q16"
 			(at 76.2 143.51 90)
@@ -6621,7 +6621,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 74.295 142.24 0)
+			(at 78.105 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6634,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 72.39 142.24 0)
+			(at 80.01 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8524,7 +8524,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 130.81 137.16 270)
+		(at 130.81 137.16 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8532,7 +8533,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2cf44ec-9635-4921-baa1-c295609b1998")
 		(property "Reference" "Q17"
 			(at 130.81 143.51 90)
@@ -8555,7 +8555,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 128.905 142.24 0)
+			(at 132.715 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8568,7 +8568,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 127 142.24 0)
+			(at 134.62 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9522,7 +9522,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 76.2 180.34 270)
+		(at 76.2 180.34 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9530,7 +9531,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d415a325-1a83-445f-b5f0-53a476186f00")
 		(property "Reference" "Q18"
 			(at 76.2 186.69 90)
@@ -9553,7 +9553,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 74.295 185.42 0)
+			(at 78.105 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9566,7 +9566,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 72.39 185.42 0)
+			(at 80.01 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9765,7 +9765,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 76.2 95.25 270)
+		(at 76.2 95.25 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9773,7 +9774,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db16b2e4-840d-430d-8d89-18dcd406f76d")
 		(property "Reference" "Q14"
 			(at 76.2 101.6 90)
@@ -9796,7 +9796,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 74.295 100.33 0)
+			(at 78.105 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,7 +9809,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 72.39 100.33 0)
+			(at 80.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10303,7 +10303,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 130.81 180.34 270)
+		(at 130.81 180.34 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10311,7 +10312,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f98712bb-4666-4396-8c0e-b875e869a356")
 		(property "Reference" "Q19"
 			(at 130.81 186.69 90)
@@ -10334,7 +10334,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 128.905 185.42 0)
+			(at 132.715 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10347,7 +10347,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 127 185.42 0)
+			(at 134.62 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
