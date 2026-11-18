@@ -725,7 +725,7 @@
         "uuid": "8a12bcce-bfce-42ac-b1ed-7dac1a4a0fe5"
       }
     ],
-    "used_designators": "Conn1-3,U1,U3-6,C1-5,SW1-4,SW6-8,#PWR1-59,D1-17,D20,Q1-19,J1-15,MOSFET1,R1-34,H1-6,S1-2",
+    "used_designators": "Conn1-3,SW1-4,SW6-8,U1,U3-6,C1-5,#PWR1-59,D1-17,D20,Q1-19,J1-15,MOSFET1,R1-34,H1-6,S1-2",
     "variants": []
   },
   "sheets": [

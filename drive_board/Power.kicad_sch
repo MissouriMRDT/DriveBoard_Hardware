@@ -3021,7 +3021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMSZ5240BT1G"
+		(property "Value" "SS2040FL_R1_00001"
 			(at 71.12 51.1174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3044,7 +3044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz5221bt1-d.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panjit-international-inc/SS2040FL-R1-00001/14660034"
 			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
